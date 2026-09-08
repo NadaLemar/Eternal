@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EterPedia — 이터널시티 통합 기록보관소</title>
 <meta name="description" content="이터널시티(Eternal City) 무기, 퀘스트, 업적 등 모든 게임 정보를 한곳에 정리한 팬 제작 데이터베이스.">
-<link rel="stylesheet" href="css/style.css?v=1788850335">
+<link rel="stylesheet" href="css/style.css?v=1788850930">
 </head>
 <body>
 
@@ -24,6 +24,8 @@
       <div class="rail__brand-mark">Eter<span>Pedia</span></div>
       <div class="rail__brand-sub">이터널시티 통합 기록보관소</div>
     </div>
+
+    <div id="global-auth-slot"></div>
 
     <nav class="rail__nav">
       <a class="rail__link is-active" href="index.html">
@@ -276,7 +278,14 @@
   </main>
 </div>
 
-<script src="js/nav.js?v=1788850335"></script>
-<script src="js/home.js?v=1788850335"></script>
+<script src="js/nav.js?v=1788850930"></script>
+<script src="js/common.js?v=1788850930"></script>
+<script src="js/firebase-config.js?v=1788850930"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore-compat.js"></script>
+<script src="js/auth.js?v=1788850930"></script>
+<script src="js/globalauth.js?v=1788850930"></script>
+<script src="js/home.js?v=1788850930"></script>
 </body>
 </html>

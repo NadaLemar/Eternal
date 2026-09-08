@@ -17,44 +17,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   const charBox = document.getElementById('mp-character-box');
   const usernameEl = document.getElementById('mp-username');
 
-  // ---- 로그인/회원가입 탭 ----
-  const authTabs = document.querySelectorAll('#mp-auth-tabs .chip');
-  const loginForm = document.getElementById('mp-login-form');
-  const signupForm = document.getElementById('mp-signup-form');
-  authTabs.forEach(btn => {
-    btn.addEventListener('click', () => {
-      authTabs.forEach(b => b.classList.remove('is-active'));
-      btn.classList.add('is-active');
-      const isLogin = btn.dataset.tab === 'login';
-      loginForm.style.display = isLogin ? '' : 'none';
-      signupForm.style.display = isLogin ? 'none' : '';
-    });
+  // ---- 로그인은 전역 위젯/모달을 사용 ----
+  document.getElementById('mp-open-login').addEventListener('click', () => {
+    if (window.EterAuthModal) window.EterAuthModal.open();
   });
-
-  loginForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const f = e.target;
-    const errEl = document.getElementById('mp-login-error');
-    errEl.textContent = '';
-    try {
-      await EterAuth.logIn(f.username.value, f.password.value);
-    } catch (err) {
-      errEl.textContent = EterAuth.friendlyError(err);
-    }
-  });
-
-  signupForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const f = e.target;
-    const errEl = document.getElementById('mp-signup-error');
-    errEl.textContent = '';
-    try {
-      await EterAuth.signUp(f.username.value, f.password.value);
-    } catch (err) {
-      errEl.textContent = EterAuth.friendlyError(err);
-    }
-  });
-
   document.getElementById('mp-logout').addEventListener('click', () => EterAuth.logOut());
 
   // ---- 데이터 카탈로그 로드 ----

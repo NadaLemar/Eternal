@@ -44,8 +44,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  // ---- Firebase 초기화 (compat SDK, 스크립트 태그로 로드됨) ----
-  firebase.initializeApp(window.ETER_FIREBASE_CONFIG);
+  // ---- Firebase (전역 스크립트에서 이미 초기화됨) ----
+  EterAuth.ensureInit();
   const db = firebase.firestore();
   const postsRef = db.collection('trade_posts');
 
@@ -58,9 +58,31 @@ document.addEventListener('DOMContentLoaded', async () => {
   const form = document.getElementById('tr-form');
   const formToggleBtn = document.getElementById('tr-form-toggle');
   const formBox = document.getElementById('tr-form-box');
+  const loginRequiredBox = document.getElementById('tr-login-required');
 
   const state = { q: '', type: '', category: '', hideDone: false };
   let allPosts = [];
+  let currentUser = null;
+  let currentUsername = null;
+
+  // ---- 로그인 상태에 따라 글쓰기 UI 전환 (전역 위젯이 쏘는 이벤트 수신) ----
+  document.getElementById('tr-open-login').addEventListener('click', () => {
+    if (window.EterAuthModal) window.EterAuthModal.open();
+  });
+
+  window.addEventListener('eterauth:change', (e) => {
+    currentUser = e.detail.user;
+    currentUsername = e.detail.username;
+    if (currentUser) {
+      loginRequiredBox.style.display = 'none';
+      formToggleBtn.style.display = '';
+    } else {
+      loginRequiredBox.style.display = '';
+      formToggleBtn.style.display = 'none';
+      formBox.style.display = 'none';
+    }
+    render(); // 소유자 판별(수정/삭제 버튼 표시)이 바뀌므로 다시 그림
+  });
 
   formToggleBtn.addEventListener('click', () => {
     formBox.style.display = formBox.style.display === 'none' ? '' : 'none';
@@ -126,6 +148,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   function postRow(p) {
     const typeLabel = p.type === 'sell' ? '판매' : '구매';
     const typeBadge = p.type === 'sell' ? 'badge--olive' : 'badge--illegal';
+    const isOwner = currentUser && p.uid === currentUser.uid;
     return `
       <div class="trade-post ${p.status === 'done' ? 'is-done' : ''}">
         <div class="trade-post__top">
@@ -138,16 +161,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         <div class="trade-post__body" id="tr-body-${p.id}">
           <div class="trade-post__desc">${EterCommon.escapeHtml(p.description || '')}</div>
           <div class="trade-post__meta" style="margin-bottom:10px;">연락 방법: ${EterCommon.escapeHtml(p.contact || '-')}</div>
+          ${isOwner ? `
           <div style="display:flex; gap:8px; margin-bottom:14px;">
             ${p.status !== 'done' ? `<button class="btn btn--ghost btn--sm" id="tr-done-${p.id}">거래완료 처리</button>` : ''}
             <button class="btn btn--danger btn--sm" id="tr-del-${p.id}">삭제</button>
-          </div>
+          </div>` : ''}
           <div class="comment-list" id="tr-comments-${p.id}"><div class="card__meta">댓글 불러오는 중...</div></div>
+          ${currentUser ? `
           <form class="comment-form" id="tr-cform-${p.id}">
-            <input type="text" name="nickname" placeholder="닉네임" maxlength="20" required style="flex:0 0 100px;">
             <input type="text" name="content" placeholder="댓글 (연락 방법 등)" maxlength="300" required>
             <button type="submit" class="btn btn--sm">등록</button>
-          </form>
+          </form>` : `<div class="card__meta">댓글을 작성하려면 로그인이 필요합니다.</div>`}
         </div>
       </div>
     `;
@@ -171,13 +195,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   async function submitComment(e, postId) {
     e.preventDefault();
+    if (!currentUser) return;
     const f = e.target;
-    const nickname = f.nickname.value.trim();
     const content = f.content.value.trim();
-    if (!nickname || !content) return;
+    if (!content) return;
     try {
       await postsRef.doc(postId).collection('comments').add({
-        nickname, content, createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+        nickname: currentUsername, uid: currentUser.uid, content,
+        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
       });
       f.reset();
     } catch (err) {
@@ -186,16 +211,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   async function markDone(p) {
-    const pw = prompt('삭제/수정 비밀번호를 입력하세요.');
-    if (pw == null) return;
-    if (pw !== p.editKey) { alert('비밀번호가 일치하지 않습니다.'); return; }
+    if (!currentUser || p.uid !== currentUser.uid) return;
     await postsRef.doc(p.id).update({ status: 'done', doneAt: firebase.firestore.FieldValue.serverTimestamp() });
   }
 
   async function deletePost(p) {
-    const pw = prompt('삭제 비밀번호를 입력하세요.');
-    if (pw == null) return;
-    if (pw !== p.editKey) { alert('비밀번호가 일치하지 않습니다.'); return; }
+    if (!currentUser || p.uid !== currentUser.uid) return;
     if (!confirm('정말 삭제하시겠어요?')) return;
     await postsRef.doc(p.id).delete();
   }
@@ -203,6 +224,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   // ---- 글쓰기 ----
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
+    if (!currentUser) {
+      alert('로그인이 필요합니다.');
+      return;
+    }
     const f = e.target;
     const data = {
       type: f.type.value,
@@ -210,14 +235,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       itemName: f.itemName.value.trim(),
       price: parseInt(f.price.value || '0', 10),
       description: f.description.value.trim(),
-      nickname: f.nickname.value.trim(),
+      nickname: currentUsername,
+      uid: currentUser.uid,
       contact: f.contact.value.trim(),
-      editKey: f.editKey.value,
       status: 'open',
       createdAt: firebase.firestore.FieldValue.serverTimestamp(),
     };
-    if (!data.itemName || !data.nickname || !data.editKey) {
-      alert('아이템명, 닉네임, 비밀번호는 필수입니다.');
+    if (!data.itemName) {
+      alert('아이템명을 입력해주세요.');
       return;
     }
     try {

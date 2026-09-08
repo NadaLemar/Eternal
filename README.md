@@ -39,8 +39,9 @@ eterpedia/
   아이템별 시세표), **아이템 등급 착용 제한 계산기**와 **명인 업그레이드 승급 확률**
   (출처: 나무위키), **무기 강화/튜닝 계산기**와 **방어구 플러스업 효과 계산기**
   (확정 공식 기반, 사용자 제공 자료), **접두사·유니크 개조 참고 정보**,
-  **아이템 상세페이지**(eterinfo.kr 스타일 강화/튜닝 실시간 계산), **마이 캐릭터**
-  (아이디+비밀번호 로그인, 부위별 장비 슬롯, 실시간 합산 요약 — Firebase Auth 설정 필요)
+  **아이템 상세페이지**(eterinfo.kr 스타일 강화/튜닝 실시간 계산), **사이트 전체
+  공통 로그인**(아이디+비밀번호, 어느 페이지에서든 동일한 로그인 상태 유지)과
+  **마이 캐릭터**(부위별 장비 슬롯, 실시간 합산 요약 — Firebase Auth 설정 필요)
 - **실제 데이터 반영됨**:
   - `weapons.json` — eterinfo.kr 아이템 통합 목록 기반 CL 무기 전체 171종 (6~12등급,
     합법/불법 포함). 그중 mgame 공식 DB로 먼저 확인했던 31종은 명중/탄착/탄환/특수
@@ -223,72 +224,96 @@ eterpedia/
 
 이 작업도 원하시면 다음 대화에서 이어서 진행해 드릴 수 있습니다.
 
-## 거래 게시판(Firebase) 설정하기
+## 로그인 시스템(사이트 전체 공통) 설정하기
 
-거래 게시판(`trade.html`)은 정적 파일만으로는 글을 저장할 수 없기 때문에, 무료
-백엔드 서비스인 **Firebase Firestore**를 사용합니다. 신용카드 등록 없이 무료
-요금제(Spark)로 충분합니다. 설정 전까지는 이 페이지에 "설정이 필요합니다"
-안내만 표시되고, 사이트의 다른 페이지는 정상적으로 동작합니다.
+로그인은 **특정 페이지 전용이 아니라 사이트 어디서나 동작하는 공통 기능**입니다.
+왼쪽 레일 맨 위에 있는 "로그인 / 회원가입" 위젯(`js/globalauth.js`)이 모든 페이지에
+공통으로 로드되고, 한 번 로그인하면 브라우저에 로그인 상태가 유지되어 다른 페이지로
+이동해도 로그인 상태가 그대로 이어집니다. 거래 게시판 글쓰기, 마이 캐릭터 저장 모두
+이 로그인 상태를 그대로 가져다 씁니다.
 
-### 1. Firebase 프로젝트 만들기
+아이디+비밀번호로 가입/로그인하며, 내부적으로는 `아이디@eterpedia.local` 형태의
+가짜 이메일을 만들어 Firebase Authentication에 등록합니다(`js/auth.js`). 실제
+이메일을 수집하지 않습니다.
+
+### 1. Firebase 프로젝트 만들기 (거래 게시판과 공용)
 
 1. https://console.firebase.google.com 접속 후 구글 계정으로 로그인
-2. "프로젝트 추가" → 프로젝트 이름 입력 (예: `eterpedia-trade`) → 생성
-3. Google Analytics는 껐다 켰다 상관없이 "사용 안 함"으로 두어도 됩니다
+2. "프로젝트 추가" → 프로젝트 이름 입력 (예: `eterpedia`) → 생성
+3. Google Analytics는 꺼도 됩니다
 
 ### 2. Firestore 데이터베이스 만들기
 
-1. 왼쪽 메뉴에서 **Firestore Database** 선택 → "데이터베이스 만들기"
-2. 위치는 `asia-northeast3`(서울) 선택 권장
-3. 보안 규칙은 일단 "테스트 모드"로 시작해도 되지만, 아래 3번 단계의 규칙으로
-   바로 바꾸는 것을 권장합니다
+1. 왼쪽 메뉴 **Firestore Database** → "데이터베이스 만들기"
+2. 위치는 `asia-northeast3`(서울) 권장
+3. 보안 규칙은 아래 3번 내용으로 바로 설정하는 것을 권장합니다
 
-### 3. 보안 규칙 설정
+### 3. 이메일/비밀번호 로그인 활성화
 
-Firestore Database → 규칙(Rules) 탭에서 아래 내용으로 교체하고 "게시":
+1. 왼쪽 메뉴 **Authentication** → "시작하기"
+2. **Sign-in method** 탭 → **이메일/비밀번호** 선택 → 사용 설정 → 저장
+
+### 4. 보안 규칙 설정 (전체)
+
+Firestore Database → 규칙(Rules) 탭에서 아래 내용 전체로 교체하고 "게시":
 
 ```
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
+
+    // 거래 게시판: 글 작성자(uid)만 수정/삭제 가능
     match /trade_posts/{postId} {
       allow read: if true;
-      allow create: if request.resource.data.keys().hasAll(
-          ['nickname','type','category','itemName','price','description','contact','editKey','status','createdAt'])
+      allow create: if request.auth != null
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.keys().hasAll(
+            ['nickname','uid','type','category','itemName','price','description','contact','status','createdAt'])
         && request.resource.data.nickname is string && request.resource.data.nickname.size() <= 20
         && request.resource.data.itemName is string && request.resource.data.itemName.size() <= 60
         && request.resource.data.description is string && request.resource.data.description.size() <= 1000
         && request.resource.data.price is number && request.resource.data.price >= 0
         && request.resource.data.type in ['sell', 'buy'];
-      allow update, delete: if true;
+      allow update, delete: if request.auth != null && resource.data.uid == request.auth.uid;
 
       match /comments/{commentId} {
         allow read: if true;
-        allow create: if request.resource.data.keys().hasAll(['nickname','content','createdAt'])
+        allow create: if request.auth != null
+          && request.resource.data.uid == request.auth.uid
+          && request.resource.data.keys().hasAll(['nickname','uid','content','createdAt'])
           && request.resource.data.nickname is string && request.resource.data.nickname.size() <= 20
           && request.resource.data.content is string && request.resource.data.content.size() <= 300;
         allow update, delete: if false;
       }
     }
+
+    // 회원 정보: 본인만 생성/수정 가능
+    match /users/{uid} {
+      allow read: if true;
+      allow create, update: if request.auth != null && request.auth.uid == uid;
+      allow delete: if false;
+    }
+
+    // 캐릭터 저장: 본인만 생성/수정/삭제 가능
+    match /characters/{uid} {
+      allow read: if true;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.keys().hasAll(['name','level','trait']);
+      allow delete: if request.auth != null && request.auth.uid == uid;
+    }
   }
 }
 ```
 
-> **참고**: 이 규칙은 로그인 없는 익명 게시판 특성상 삭제 비밀번호를 서버에서
-> 완벽히 검증하지는 못합니다(클라이언트에서만 비교). 악용된 글은 Firebase
-> 콘솔의 Firestore Database 화면에서 관리자가 직접 삭제할 수 있습니다. 스팸이
-> 문제가 되면 이후 App Check나 Cloud Functions 기반 검증 추가를 도와드릴 수
-> 있습니다.
+> **이전 버전과 달라진 점**: 예전에는 거래 게시판 글마다 "삭제 비밀번호"를 따로
+> 입력받아 클라이언트에서만 비교했습니다. 이제는 로그인 자체가 소유권 증명이라,
+> 글 작성자 본인(`uid` 일치)만 수정/삭제가 가능하도록 **서버(Firestore 규칙)에서
+> 직접 검증**합니다. 훨씬 안전합니다.
 
-### 4. 웹 앱 등록 및 설정값 복사
+### 5. 웹 앱 등록 및 설정값 붙여넣기
 
-1. 프로젝트 설정(톱니바퀴 아이콘) → 일반 탭 → "내 앱" → 웹 아이콘(`</>`) 클릭
-2. 앱 닉네임 입력 후 등록 (Firebase Hosting은 체크하지 않아도 됩니다)
-3. 화면에 나오는 `firebaseConfig` 객체를 복사
-
-### 5. 사이트에 붙여넣기
-
-`js/firebase-config.js` 파일을 열어 아래 부분을 3번에서 복사한 값으로 교체합니다.
+1. 프로젝트 설정(톱니바퀴) → 일반 탭 → "내 앱" → 웹 아이콘(`</>`) 클릭 → 앱 등록
+2. 화면에 나오는 `firebaseConfig` 값을 복사해서 `js/firebase-config.js`에 붙여넣기
 
 ```js
 window.ETER_FIREBASE_CONFIG = {
@@ -301,48 +326,10 @@ window.ETER_FIREBASE_CONFIG = {
 };
 ```
 
-저장 후 `trade.html`을 새로고침하면 "설정 필요" 안내 대신 게시판이 바로
-나타납니다.
+저장 후 아무 페이지나 열어서 왼쪽 레일 맨 위에 "로그인 / 회원가입" 버튼이
+보이는지 확인하세요. 회원가입 → 로그인 후에는 어느 페이지에서든 로그인 상태가
+유지됩니다. 거래 게시판 글쓰기와 마이 캐릭터 저장 모두 이 상태를 그대로 사용합니다.
 
-## 마이 캐릭터(로그인) 설정하기
-
-`mypage.html`은 아이디+비밀번호 로그인, 캐릭터 스탯, 장비 구성을 저장합니다.
-거래 게시판과 **같은 Firebase 프로젝트**를 그대로 사용하지만, 추가로
-**Firebase Authentication**을 한 번 더 켜야 합니다.
-
-### 1. 이메일/비밀번호 로그인 활성화
-
-1. Firebase 콘솔 → 왼쪽 메뉴 **Authentication** → "시작하기"
-2. **Sign-in method** 탭 → **이메일/비밀번호** 선택 → 사용 설정 → 저장
-
-> 화면에는 "아이디"만 입력받지만, 내부적으로는 `아이디@eterpedia.local` 형태의
-> 가짜 이메일을 만들어 Firebase Authentication에 등록합니다(`js/auth.js`).
-> 실제 이메일을 수집하지 않습니다.
-
-### 2. 보안 규칙에 캐릭터/사용자 컬렉션 추가
-
-Firestore Database → 규칙(Rules) 탭에서, 기존 `trade_posts` 규칙 블록 안에
-아래 두 블록을 **같은 `match /databases/{database}/documents { ... }` 안에** 추가합니다.
-
-```
-    match /users/{uid} {
-      allow read: if true;
-      allow create, update: if request.auth != null && request.auth.uid == uid;
-      allow delete: if false;
-    }
-
-    match /characters/{uid} {
-      allow read: if true;
-      allow create, update: if request.auth != null && request.auth.uid == uid
-        && request.resource.data.keys().hasAll(['name','level','trait']);
-      allow delete: if request.auth != null && request.auth.uid == uid;
-    }
-```
-
-(전체 규칙 예시는 이 README의 "거래 게시판(Firebase) 설정하기" 3번 항목에 있는
-블록을 참고해서, 그 안에 위 두 `match`를 나란히 추가하면 됩니다.)
-
-### 3. 확인
 
 `js/firebase-config.js`는 거래 게시판 설정 때 이미 채워두셨다면 추가 작업이
 필요 없습니다. `mypage.html`을 열어 회원가입 → 로그인 → 캐릭터 정보 입력 →

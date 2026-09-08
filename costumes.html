@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>코스튬 · 날개 — EterPedia</title>
 <meta name="description" content="이터널시티 날개의상 강화단계별 방어력/스탯/회피도 정보.">
-<link rel="stylesheet" href="css/style.css?v=1788850335">
+<link rel="stylesheet" href="css/style.css?v=1788850930">
 </head>
 <body>
 <div class="topbar">
@@ -23,6 +23,8 @@
       <div class="rail__brand-mark">Eter<span>Pedia</span></div>
       <div class="rail__brand-sub">이터널시티 통합 기록보관소</div>
     </div>
+
+    <div id="global-auth-slot"></div>
 
     <nav class="rail__nav">
       <a class="rail__link" href="index.html">
@@ -82,6 +84,14 @@
       <a class="rail__link" href="calculators.html">
         <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg>
         강화 시뮬레이터
+      </a>
+    </nav>
+
+    <div class="rail__section-label">계정</div>
+    <nav class="rail__nav">
+      <a class="rail__link" href="mypage.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+        마이 캐릭터
       </a>
     </nav>
 
@@ -154,10 +164,16 @@
   </main>
 </div>
 
-<script src="js/nav.js?v=1788850335"></script>
-<script src="js/common.js?v=1788850335"></script>
-<script src="js/costumes.js?v=1788850335"></script>
-<script src="js/itemgrid.js?v=1788850335"></script>
-<script src="js/costume-items.js?v=1788850335"></script>
+<script src="js/nav.js?v=1788850930"></script>
+<script src="js/common.js?v=1788850930"></script>
+<script src="js/firebase-config.js?v=1788850930"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore-compat.js"></script>
+<script src="js/auth.js?v=1788850930"></script>
+<script src="js/globalauth.js?v=1788850930"></script>
+<script src="js/costumes.js?v=1788850930"></script>
+<script src="js/itemgrid.js?v=1788850930"></script>
+<script src="js/costume-items.js?v=1788850930"></script>
 </body>
 </html>

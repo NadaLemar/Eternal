@@ -43,6 +43,13 @@ PAGE_HEAD = """<!DOCTYPE html>
 </div>
 
 <script src="js/nav.js"></script>
+<script src="js/common.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore-compat.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/globalauth.js"></script>
 {scripts}
 </body>
 </html>
@@ -87,7 +94,7 @@ weapons_body = """
 """
 write_page('weapons.html', '무기 정보', '이터널시티 무기 등급별·타입별 스펙과 강화 정보.',
            'weapons.html', weapons_body,
-           '<script src="js/common.js"></script>\n<script src="js/itemgrid.js"></script>\n<script src="js/weapons.js"></script>')
+           '<script src="js/itemgrid.js"></script>\n<script src="js/weapons.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 코스튬 · 날개
@@ -140,7 +147,7 @@ costumes_body = """
 """
 write_page('costumes.html', '코스튬 · 날개', '이터널시티 날개의상 강화단계별 방어력/스탯/회피도 정보.',
            'costumes.html', costumes_body,
-           '<script src="js/common.js"></script>\n<script src="js/costumes.js"></script>\n'
+           '<script src="js/costumes.js"></script>\n'
            '<script src="js/itemgrid.js"></script>\n<script src="js/costume-items.js"></script>')
 
 # ---------------------------------------------------------------------------
@@ -168,7 +175,7 @@ ring_materials_body = """
     </div>
 """
 write_page('ring-materials.html', '제작 재료', '이터널시티 리마스터 반지 제작 재료 단계별 수량표.',
-           'ring-materials.html', ring_materials_body, '<script src="js/common.js"></script>\n<script src="js/ring-materials.js"></script>')
+           'ring-materials.html', ring_materials_body, '<script src="js/ring-materials.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 거래 게시판
@@ -213,7 +220,12 @@ trade_body = """
         <span class="toolbar__count" id="tr-count"></span>
       </div>
 
-      <button class="btn" id="tr-form-toggle" style="margin-bottom:16px;">+ 새 글 작성</button>
+      <div id="tr-login-required" class="login-required" style="display:none; margin-bottom:20px;">
+        <p>글을 쓰려면 로그인이 필요합니다.</p>
+        <button class="btn" id="tr-open-login">로그인 / 회원가입</button>
+      </div>
+
+      <button class="btn" id="tr-form-toggle" style="margin-bottom:16px; display:none;">+ 새 글 작성</button>
 
       <div id="tr-form-box" style="display:none; border:1px solid var(--line); padding:18px; margin-bottom:28px;">
         <form id="tr-form">
@@ -246,16 +258,8 @@ trade_body = """
               <input type="number" name="price" min="0" required>
             </div>
             <div class="form-field">
-              <label>닉네임</label>
-              <input type="text" name="nickname" maxlength="20" required>
-            </div>
-            <div class="form-field">
               <label>연락 방법 (게임 닉네임/디스코드 등)</label>
               <input type="text" name="contact" maxlength="80" required>
-            </div>
-            <div class="form-field">
-              <label>삭제/수정 비밀번호</label>
-              <input type="password" name="editKey" maxlength="20" required>
             </div>
             <div class="form-field full">
               <label>상세 설명</label>
@@ -273,11 +277,7 @@ trade_body = """
 """
 write_page('trade.html', '거래 게시판', 'El 기준 이터널시티 아이템 판매/구매 게시판.',
            'trade.html', trade_body,
-           '<script src="js/common.js"></script>\n'
-           '<script src="js/firebase-config.js"></script>\n'
-           '<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>\n'
-           '<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore-compat.js"></script>\n'
-           '<script src="js/trade.js"></script>')
+                                                       '<script src="js/trade.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 시세
@@ -341,11 +341,7 @@ market_body = """
 """
 write_page('market.html', '시세', '거래 게시판 데이터를 집계한 이터널시티 아이템 시세.',
            'market.html', market_body,
-           '<script src="js/common.js"></script>\n'
-           '<script src="js/firebase-config.js"></script>\n'
-           '<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>\n'
-           '<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore-compat.js"></script>\n'
-           '<script src="js/market.js"></script>')
+                                                       '<script src="js/market.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 퀘스트
@@ -377,7 +373,7 @@ quests_body = """
     </div>
 """
 write_page('quests.html', '퀘스트', '이터널시티 메인/서브/일일/이벤트 퀘스트 진행 조건과 보상 정리.',
-           'quests.html', quests_body, '<script src="js/common.js"></script>\n<script src="js/quests.js"></script>')
+           'quests.html', quests_body, '<script src="js/quests.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 업적
@@ -403,7 +399,7 @@ achievements_body = """
     </div>
 """
 write_page('achievements.html', '업적 · 도전과제', '이터널시티 업적/도전과제 달성 조건과 보상 정리.',
-           'achievements.html', achievements_body, '<script src="js/common.js"></script>\n<script src="js/achievements.js"></script>')
+           'achievements.html', achievements_body, '<script src="js/achievements.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 강화 시뮬레이터 (플러스업)
@@ -638,7 +634,7 @@ calculators_body = """
 """
 write_page('calculators.html', '강화 시뮬레이터', '이터널시티 아이템 종류별 플러스업 강화 확률/기대비용/시뮬레이터.',
            'calculators.html', calculators_body,
-           '<script src="js/common.js"></script>\n<script src="js/plusup.js"></script>\n<script src="js/itemlevel.js"></script>\n<script src="js/calcengine.js"></script>\n<script src="js/weaponcalc.js"></script>\n<script src="js/armorpluscalc.js"></script>\n<script src="js/refdata.js"></script>')
+           '<script src="js/plusup.js"></script>\n<script src="js/itemlevel.js"></script>\n<script src="js/calcengine.js"></script>\n<script src="js/weaponcalc.js"></script>\n<script src="js/armorpluscalc.js"></script>\n<script src="js/refdata.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 방어구
@@ -668,7 +664,7 @@ armors_body = """
 """
 write_page('armors.html', '방어구', '이터널시티 방어구·의류·방패 부위별 전체 목록.',
            'armors.html', armors_body,
-           '<script src="js/common.js"></script>\n<script src="js/itemgrid.js"></script>\n<script src="js/armors.js"></script>')
+           '<script src="js/itemgrid.js"></script>\n<script src="js/armors.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 악세서리
@@ -698,7 +694,7 @@ accessories_body = """
 """
 write_page('accessories.html', '악세서리', '이터널시티 악세서리(반지·목걸이·귀걸이·팔찌·벨트) 전체 목록.',
            'accessories.html', accessories_body,
-           '<script src="js/common.js"></script>\n<script src="js/itemgrid.js"></script>\n<script src="js/accessories.js"></script>')
+           '<script src="js/itemgrid.js"></script>\n<script src="js/accessories.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 아이템 상세 (동적 페이지, ?cat=&id= 로 구동)
@@ -818,7 +814,7 @@ item_detail_body = """
 """
 write_page('item-detail.html', '아이템 상세', '이터널시티 아이템 상세정보 및 강화/튜닝 계산기.',
            'weapons.html', item_detail_body,
-           '<script src="js/common.js"></script>\n<script src="js/calcengine.js"></script>\n<script src="js/itemdetail.js"></script>')
+           '<script src="js/calcengine.js"></script>\n<script src="js/itemdetail.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 마이 캐릭터 (로그인 + 캐릭터/장비 저장)
@@ -839,39 +835,9 @@ mypage_body = """
     <div id="mp-app" style="display:none;">
 
       <!-- 로그인 전 -->
-      <div id="mp-auth-box" class="cat-card" style="min-height:auto; max-width:420px;">
-        <div class="chip-group" id="mp-auth-tabs" style="margin-bottom:16px;">
-          <button class="chip is-active" data-tab="login">로그인</button>
-          <button class="chip" data-tab="signup">회원가입</button>
-        </div>
-        <form id="mp-login-form">
-          <div class="form-grid" style="grid-template-columns: 1fr;">
-            <div class="form-field">
-              <label>아이디</label>
-              <input type="text" name="username" maxlength="20" required autocomplete="username">
-            </div>
-            <div class="form-field">
-              <label>비밀번호</label>
-              <input type="password" name="password" required autocomplete="current-password">
-            </div>
-          </div>
-          <button type="submit" class="btn">로그인</button>
-          <div id="mp-login-error" style="color:var(--rust); font-size:12.5px; margin-top:8px;"></div>
-        </form>
-        <form id="mp-signup-form" style="display:none;">
-          <div class="form-grid" style="grid-template-columns: 1fr;">
-            <div class="form-field">
-              <label>아이디 (영문/숫자/밑줄 4~20자)</label>
-              <input type="text" name="username" maxlength="20" required autocomplete="username">
-            </div>
-            <div class="form-field">
-              <label>비밀번호 (6자 이상)</label>
-              <input type="password" name="password" required autocomplete="new-password">
-            </div>
-          </div>
-          <button type="submit" class="btn">회원가입</button>
-          <div id="mp-signup-error" style="color:var(--rust); font-size:12.5px; margin-top:8px;"></div>
-        </form>
+      <div id="mp-auth-box" class="login-required">
+        <p>캐릭터 정보를 저장하려면 로그인이 필요합니다.</p>
+        <button class="btn" id="mp-open-login">로그인 / 회원가입</button>
       </div>
 
       <!-- 로그인 후 -->
@@ -958,13 +924,7 @@ mypage_body = """
 write_page('mypage.html', '마이 캐릭터', '내 캐릭터 스탯과 장비를 저장하고 강화 계산 결과를 확인하세요.',
            'mypage.html',
            mypage_body,
-           '<script src="js/common.js"></script>\n'
-           '<script src="js/firebase-config.js"></script>\n'
-           '<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>\n'
-           '<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth-compat.js"></script>\n'
-           '<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore-compat.js"></script>\n'
-           '<script src="js/auth.js"></script>\n'
-           '<script src="js/slots.js"></script>\n'
+                                                                             '<script src="js/slots.js"></script>\n'
            '<script src="js/calcengine.js"></script>\n'
            '<script src="js/mypage.js"></script>')
 
