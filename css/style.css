@@ -1,0 +1,716 @@
+/* ==========================================================================
+   EterPedia — 이터널시티 통합 기록보관소
+   Design language: 폐허가 된 세계의 야전 정보 단말기(terminal) 컨셉.
+   각지고 낮은 채도, 올리브/러스트 계열, 하드웨어적인 여백과 괘선.
+   ========================================================================== */
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
+
+:root {
+  /* --- Color tokens --- */
+  --void: #0b0c08;
+  --panel: #14150f;
+  --panel-raised: #1b1d14;
+  --panel-hover: #22241a;
+  --line: #33351f;
+  --line-bright: #4a4d2e;
+  --paper: #e7e1c9;
+  --paper-dim: #b9b39a;
+  --muted: #83806c;
+  --rust: #c14f21;
+  --rust-dim: #7a3416;
+  --olive: #8fa354;
+  --olive-dim: #5c6a37;
+  --amber: #d9a441;
+
+  /* --- Type --- */
+  --font-kr: 'Pretendard Variable', 'Pretendard', -apple-system, sans-serif;
+  --font-mono: 'Rajdhani', var(--font-kr);
+
+  /* --- Layout --- */
+  --rail-w: 220px;
+  --content-max: 1180px;
+  --radius: 2px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--void);
+  color: var(--paper);
+  font-family: var(--font-kr);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+
+::selection { background: var(--rust); color: var(--paper); }
+
+/* faint scanline / grain texture, used only on hero panels */
+.scanlines {
+  position: relative;
+  overflow: hidden;
+}
+.scanlines::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(231, 225, 201, 0.025) 0px,
+    rgba(231, 225, 201, 0.025) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  mix-blend-mode: overlay;
+}
+
+/* ==========================================================================
+   App shell: 좌측 레일 네비게이션 + 본문
+   ========================================================================== */
+
+.app {
+  display: grid;
+  grid-template-columns: var(--rail-w) 1fr;
+  min-height: 100vh;
+}
+
+/* ---- Rail ---- */
+.rail {
+  border-right: 1px solid var(--line);
+  background: var(--panel);
+  padding: 22px 0 16px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.rail__brand {
+  padding: 0 20px 20px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 6px;
+}
+
+.rail__brand-mark {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: var(--paper);
+}
+.rail__brand-mark span { color: var(--rust); }
+
+.rail__brand-sub {
+  margin-top: 4px;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.rail__section-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  padding: 16px 20px 6px;
+}
+
+.rail__nav { display: flex; flex-direction: column; }
+
+.rail__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 20px;
+  font-size: 14px;
+  color: var(--paper-dim);
+  border-left: 2px solid transparent;
+  transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+}
+.rail__link:hover {
+  background: var(--panel-hover);
+  color: var(--paper);
+}
+.rail__link.is-active {
+  color: var(--paper);
+  border-left-color: var(--rust);
+  background: var(--panel-hover);
+}
+.rail__link-icon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  opacity: 0.85;
+}
+.rail__link-badge {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+.rail__link.is-soon {
+  color: var(--muted);
+  cursor: default;
+}
+.rail__link.is-soon .rail__link-badge {
+  color: var(--muted);
+  border: 1px solid var(--line-bright);
+  padding: 1px 5px;
+  border-radius: var(--radius);
+}
+
+.rail__footer {
+  margin-top: auto;
+  padding: 14px 20px 4px;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+/* ---- Mobile top bar (hidden on desktop) ---- */
+.topbar {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+.topbar__brand {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 18px;
+}
+.topbar__brand span { color: var(--rust); }
+.topbar__toggle {
+  background: none;
+  border: 1px solid var(--line-bright);
+  color: var(--paper);
+  width: 36px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+/* ---- Main content ---- */
+.main {
+  min-width: 0;
+  padding: 40px 44px 80px;
+}
+
+.page-header {
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+.page-header__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--rust);
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+.page-header h1 {
+  font-size: 28px;
+  margin: 0 0 8px;
+  color: var(--paper);
+  font-weight: 700;
+}
+.page-header p {
+  margin: 0;
+  color: var(--paper-dim);
+  max-width: 640px;
+  font-size: 14px;
+}
+
+/* ==========================================================================
+   Home / Hero
+   ========================================================================== */
+
+.hero {
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--panel-raised), var(--panel));
+  padding: 48px 44px;
+  margin-bottom: 40px;
+}
+.hero__readout {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--olive);
+  letter-spacing: 0.04em;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hero__readout::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: var(--olive);
+  display: inline-block;
+  animation: blink 1.6s steps(2) infinite;
+}
+@keyframes blink { 50% { opacity: 0.15; } }
+
+.hero h1 {
+  font-size: 40px;
+  line-height: 1.25;
+  margin: 0 0 16px;
+  max-width: 14ch;
+  font-weight: 700;
+  color: var(--paper);
+}
+
+.hero p.lead {
+  font-size: 15px;
+  color: var(--paper-dim);
+  max-width: 52ch;
+  margin: 0 0 30px;
+}
+
+.hero__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+.hero__stat {
+  flex: 1 1 140px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 16px 18px;
+  min-width: 140px;
+}
+.hero__stat-num {
+  font-family: var(--font-mono);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--paper);
+}
+.hero__stat-num small { font-size: 14px; color: var(--muted); font-weight: 500; }
+.hero__stat-label {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* ---- Category grid ---- */
+.section-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0 0 16px;
+}
+.section-title h2 {
+  font-size: 17px;
+  margin: 0;
+  color: var(--paper);
+}
+.section-title .section-title__note {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  margin-bottom: 44px;
+}
+.cat-card {
+  background: var(--panel);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: background 0.12s ease;
+  min-height: 128px;
+}
+.cat-card:hover { background: var(--panel-raised); }
+.cat-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cat-card__icon {
+  width: 22px;
+  height: 22px;
+  color: var(--olive);
+}
+.cat-card__count {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+.cat-card h3 {
+  font-size: 15px;
+  margin: 0;
+  color: var(--paper);
+}
+.cat-card p {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.5;
+}
+.cat-card.is-soon { opacity: 0.55; }
+.cat-card.is-soon:hover { background: var(--panel); }
+.tag-soon {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  border: 1px solid var(--line-bright);
+  color: var(--muted);
+  padding: 1px 6px;
+  align-self: flex-start;
+}
+
+/* ---- Recent updates list ---- */
+.update-list { border-top: 1px solid var(--line); }
+.update-row {
+  display: grid;
+  grid-template-columns: 90px 90px 1fr;
+  gap: 16px;
+  padding: 13px 4px;
+  border-bottom: 1px solid var(--line);
+  font-size: 13.5px;
+  align-items: center;
+}
+.update-row time {
+  font-family: var(--font-mono);
+  color: var(--muted);
+  font-size: 12px;
+}
+.update-row .badge { justify-self: start; }
+.update-row .desc { color: var(--paper-dim); }
+.update-row .desc a { color: var(--paper); border-bottom: 1px dotted var(--line-bright); }
+.update-row .desc a:hover { color: var(--olive); }
+
+/* ==========================================================================
+   Badges / tags (등급, 타입, CL 등)
+   ========================================================================== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.02em;
+  padding: 2px 7px;
+  border: 1px solid var(--line-bright);
+  color: var(--paper-dim);
+}
+.badge--grade { color: var(--amber); border-color: var(--amber); }
+.badge--cl { color: var(--rust); border-color: var(--rust-dim); }
+.badge--illegal { color: var(--rust); background: rgba(193, 79, 33, 0.12); border-color: var(--rust-dim); }
+.badge--olive { color: var(--olive); border-color: var(--olive-dim); }
+.badge--main { color: var(--amber); border-color: var(--amber); }
+.badge--daily { color: var(--olive); border-color: var(--olive-dim); }
+.badge--event { color: var(--rust); border-color: var(--rust-dim); }
+
+/* ==========================================================================
+   Filter toolbar (무기 / 퀘스트 / 업적 공용)
+   ========================================================================== */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+.toolbar__search {
+  position: relative;
+  flex: 1 1 240px;
+}
+.toolbar__search input {
+  width: 100%;
+  background: var(--panel);
+  border: 1px solid var(--line-bright);
+  color: var(--paper);
+  padding: 9px 12px 9px 34px;
+  font-family: var(--font-kr);
+  font-size: 13.5px;
+}
+.toolbar__search input:focus {
+  outline: none;
+  border-color: var(--olive);
+}
+.toolbar__search svg {
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  color: var(--muted);
+}
+.toolbar select {
+  background: var(--panel);
+  border: 1px solid var(--line-bright);
+  color: var(--paper);
+  padding: 9px 10px;
+  font-family: var(--font-kr);
+  font-size: 13px;
+  min-width: 120px;
+}
+.toolbar select:focus { outline: none; border-color: var(--olive); }
+.toolbar__count {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+/* chip toggle group (예: CL / 일반 / 불법무기) */
+.chip-group { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 6px 11px;
+  border: 1px solid var(--line-bright);
+  color: var(--paper-dim);
+  background: transparent;
+  cursor: pointer;
+}
+.chip:hover { border-color: var(--olive); color: var(--paper); }
+.chip.is-active {
+  background: var(--olive-dim);
+  border-color: var(--olive);
+  color: var(--paper);
+}
+
+/* ==========================================================================
+   Card grids: weapons / quests / achievements
+   ========================================================================== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.card {
+  background: var(--panel);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+.card__title { font-size: 14.5px; font-weight: 600; color: var(--paper); line-height: 1.4; }
+.card__meta { font-size: 12px; color: var(--muted); margin-top: 3px; }
+
+.card__stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px 14px;
+  font-size: 12.5px;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+.card__stats dt { color: var(--muted); }
+.card__stats dd { margin: 0; color: var(--paper-dim); font-family: var(--font-mono); text-align: right; }
+.card__stats .stat-row { display: flex; justify-content: space-between; }
+
+.card__badges { display: flex; gap: 6px; flex-wrap: wrap; }
+
+.card__foot {
+  font-size: 12px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+  line-height: 1.6;
+}
+
+.empty-state {
+  grid-column: 1 / -1;
+  padding: 60px 20px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13.5px;
+  background: var(--panel);
+}
+.empty-state strong { color: var(--paper-dim); display: block; margin-bottom: 6px; font-size: 14px; }
+
+/* ==========================================================================
+   Placeholder ("준비중") pages
+   ========================================================================== */
+.placeholder {
+  border: 1px dashed var(--line-bright);
+  padding: 70px 30px;
+  text-align: center;
+  color: var(--muted);
+}
+.placeholder__mark {
+  font-family: var(--font-mono);
+  color: var(--rust);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+.placeholder h2 { color: var(--paper-dim); font-size: 18px; margin: 0 0 8px; }
+.placeholder p { max-width: 46ch; margin: 0 auto; font-size: 13.5px; }
+
+/* ==========================================================================
+   Quest / Achievement detail-ish expanded rows
+   ========================================================================== */
+.qa-row {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+.qa-row__top { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.qa-row__title { font-size: 15px; font-weight: 600; color: var(--paper); }
+.qa-row__desc { font-size: 13px; color: var(--paper-dim); max-width: 74ch; }
+.qa-row__foot { font-size: 12px; color: var(--muted); display: flex; gap: 16px; flex-wrap: wrap; font-family: var(--font-mono); }
+
+/* ==========================================================================
+   Forms (거래 게시판 등)
+   ========================================================================== */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.form-field { display: flex; flex-direction: column; gap: 5px; }
+.form-field.full { grid-column: 1 / -1; }
+.form-field label { font-size: 12px; color: var(--muted); font-family: var(--font-mono); }
+.form-field input,
+.form-field select,
+.form-field textarea {
+  background: var(--panel);
+  border: 1px solid var(--line-bright);
+  color: var(--paper);
+  padding: 9px 11px;
+  font-family: var(--font-kr);
+  font-size: 13.5px;
+  resize: vertical;
+}
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus { outline: none; border-color: var(--olive); }
+.btn {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 10px 18px;
+  border: 1px solid var(--olive);
+  background: var(--olive-dim);
+  color: var(--paper);
+  cursor: pointer;
+}
+.btn:hover { background: var(--olive); }
+.btn--ghost {
+  background: transparent;
+  border-color: var(--line-bright);
+  color: var(--paper-dim);
+}
+.btn--ghost:hover { border-color: var(--paper-dim); color: var(--paper); }
+.btn--danger { border-color: var(--rust-dim); color: var(--rust); background: transparent; }
+.btn--danger:hover { background: rgba(193,79,33,0.12); }
+.btn--sm { padding: 6px 12px; font-size: 12px; }
+
+/* 거래 게시판 리스트 */
+.trade-post {
+  border-bottom: 1px solid var(--line);
+  padding: 16px 4px;
+}
+.trade-post__top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.trade-post__title { font-size: 15px; font-weight: 600; color: var(--paper); cursor: pointer; }
+.trade-post__title:hover { color: var(--olive); }
+.trade-post__price { font-family: var(--font-mono); color: var(--amber); font-size: 13.5px; margin-left: auto; }
+.trade-post__meta { font-size: 12px; color: var(--muted); font-family: var(--font-mono); margin-top: 4px; }
+.trade-post__body { display: none; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--line); }
+.trade-post__body.is-open { display: block; }
+.trade-post__desc { font-size: 13.5px; color: var(--paper-dim); white-space: pre-wrap; margin-bottom: 12px; }
+.trade-post.is-done { opacity: 0.5; }
+.trade-post.is-done .trade-post__title::after { content: " (거래완료)"; color: var(--muted); font-weight: 400; }
+
+.comment-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; }
+.comment-item { font-size: 13px; color: var(--paper-dim); border-left: 2px solid var(--line-bright); padding: 4px 10px; }
+.comment-item b { color: var(--paper); font-weight: 600; }
+.comment-item time { font-family: var(--font-mono); font-size: 11px; color: var(--muted); margin-left: 6px; }
+.comment-form { display: flex; gap: 8px; flex-wrap: wrap; }
+.comment-form input[type="text"] { flex: 1 1 120px; }
+.comment-form input, .comment-form textarea {
+  background: var(--panel); border: 1px solid var(--line-bright); color: var(--paper);
+  padding: 7px 10px; font-size: 13px; font-family: var(--font-kr);
+}
+
+.setup-notice {
+  border: 1px solid var(--rust-dim);
+  background: rgba(193,79,33,0.08);
+  padding: 20px;
+  font-size: 13px;
+  color: var(--paper-dim);
+  line-height: 1.7;
+}
+.setup-notice code {
+  background: var(--panel-raised);
+  padding: 1px 6px;
+  font-family: var(--font-mono);
+  color: var(--amber);
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.site-footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media (max-width: 880px) {
+  .app { grid-template-columns: 1fr; }
+  .topbar { display: flex; }
+  .rail {
+    position: fixed;
+    inset: 0 25% 0 0;
+    z-index: 50;
+    transform: translateX(-100%);
+    transition: transform 0.18s ease;
+    box-shadow: 40px 0 60px rgba(0,0,0,0.4);
+  }
+  .rail.is-open { transform: translateX(0); }
+  .main { padding: 24px 18px 60px; }
+  .hero { padding: 32px 22px; }
+  .hero h1 { font-size: 28px; }
+  .update-row { grid-template-columns: 1fr; gap: 4px; }
+}
