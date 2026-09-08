@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>방어구 — EterPedia</title>
-<meta name="description" content="방어구 데이터베이스 (준비중)">
+<meta name="description" content="이터널시티 방어구·의류·방패 부위별 전체 목록.">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -45,15 +45,13 @@
         <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 10h16M10 4v16"/></svg>
         제작 재료
       </a>
-      <a class="rail__link is-active is-soon" href="armors.html">
+      <a class="rail__link is-active" href="armors.html">
         <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg>
         방어구
-        <span class="rail__link-badge">예정</span>
       </a>
-      <a class="rail__link is-soon" href="accessories.html">
+      <a class="rail__link" href="accessories.html">
         <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M8 12l-3 9h14l-3-9"/></svg>
         악세서리
-        <span class="rail__link-badge">예정</span>
       </a>
     </nav>
 
@@ -109,19 +107,33 @@
   <main class="main">
 
     <div class="page-header">
-      <div class="page-header__eyebrow">COMING SOON</div>
+      <div class="page-header__eyebrow">ITEM DATABASE / ARMORS</div>
       <h1>방어구</h1>
+      <p>부위별 탭으로 방어구·의류·방패를 확인하세요. (출처: eterinfo.kr)</p>
     </div>
-    <div class="placeholder">
-      <div class="placeholder__mark">DATA NOT YET LINKED</div>
-      <h2>방어구 정보는 준비 중입니다</h2>
-      <p>방어력, 세트 효과, 강화·플러스업 수치를 정리할 예정입니다. weapons.json과 같은 구조로 armors.json을 추가하면 바로 페이지를 구성할 수 있습니다.</p>
+
+    <div class="chip-group" id="ar-tabs" style="margin-bottom:16px; flex-wrap:wrap;"></div>
+
+    <div class="toolbar">
+      <div class="toolbar__search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="ar-search" placeholder="이름으로 검색...">
+      </div>
+      <select id="ar-cat1"><option value="">전체 분류</option></select>
+      <select id="ar-grade"><option value="">전체 등급</option></select>
+      <span class="toolbar__count" id="ar-count"></span>
     </div>
-    
+
+    <div class="grid" id="ar-grid">
+      <div class="empty-state"><strong>불러오는 중...</strong></div>
+    </div>
+
   </main>
 </div>
 
 <script src="js/nav.js"></script>
-
+<script src="js/common.js"></script>
+<script src="js/itemgrid.js"></script>
+<script src="js/armors.js"></script>
 </body>
 </html>

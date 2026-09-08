@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', async () => {
-  const [weapons, costumes, quests, achievements, ringData] = await Promise.all([
+  const [weapons, costumes, quests, achievements, ringData, armors, accessories] = await Promise.all([
     EterCommon.loadJSON('data/weapons.json'),
     EterCommon.loadJSON('data/costumes.json'),
     EterCommon.loadJSON('data/quests.json'),
     EterCommon.loadJSON('data/achievements.json'),
     EterCommon.loadJSON('data/ring_materials.json'),
+    EterCommon.loadJSON('data/armors.json'),
+    EterCommon.loadJSON('data/accessories.json'),
   ]);
   const ringCount = (ringData && ringData.rings) ? ringData.rings.length : 0;
 
@@ -17,9 +19,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   setText('count-quests', `${quests.length}건`);
   setText('count-achievements', `${achievements.length}건`);
   setText('count-ringmats', `${ringCount}종`);
+  setText('count-armors', `${armors.length}건`);
+  setText('count-accessories', `${accessories.length}건`);
 
   const updates = [
-    ...weapons.map(w => ({ date: w.updatedAt, type: '무기', badge: 'olive', label: w.name, href: 'weapons.html' })),
+    ...weapons.map(w => ({ date: w.updatedAt || '2026-09-08', type: '무기', badge: 'olive', label: w.name, href: 'weapons.html' })),
     ...costumes.map(c => ({ date: '2026-09-07', type: '코스튬', badge: 'olive', label: c.name, href: 'costumes.html' })),
     ...quests.map(q => ({ date: q.updatedAt, type: '퀘스트', badge: 'main', label: q.name, href: 'quests.html' })),
     ...achievements.map(a => ({ date: a.updatedAt, type: '업적', badge: 'grade', label: a.name, href: 'achievements.html' })),

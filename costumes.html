@@ -45,15 +45,13 @@
         <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 10h16M10 4v16"/></svg>
         제작 재료
       </a>
-      <a class="rail__link is-soon" href="armors.html">
+      <a class="rail__link" href="armors.html">
         <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg>
         방어구
-        <span class="rail__link-badge">예정</span>
       </a>
-      <a class="rail__link is-soon" href="accessories.html">
+      <a class="rail__link" href="accessories.html">
         <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M8 12l-3 9h14l-3-9"/></svg>
         악세서리
-        <span class="rail__link-badge">예정</span>
       </a>
     </nav>
 
@@ -133,11 +131,33 @@
       <div class="empty-state"><strong>불러오는 중...</strong></div>
     </div>
 
+    <div class="section-title" style="margin-top:44px;">
+      <h2>전체 코스튬 · 날개 아이템 목록</h2>
+      <span class="section-title__note">출처: eterinfo.kr</span>
+    </div>
+
+    <div class="chip-group" id="ci-tabs" style="margin-bottom:16px;"></div>
+
+    <div class="toolbar">
+      <div class="toolbar__search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="ci-search" placeholder="이름으로 검색...">
+      </div>
+      <select id="ci-grade"><option value="">전체 등급</option></select>
+      <span class="toolbar__count" id="ci-count"></span>
+    </div>
+
+    <div class="grid" id="ci-grid">
+      <div class="empty-state"><strong>불러오는 중...</strong></div>
+    </div>
+
   </main>
 </div>
 
 <script src="js/nav.js"></script>
 <script src="js/common.js"></script>
 <script src="js/costumes.js"></script>
+<script src="js/itemgrid.js"></script>
+<script src="js/costume-items.js"></script>
 </body>
 </html>

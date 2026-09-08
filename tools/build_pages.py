@@ -53,8 +53,10 @@ weapons_body = """
     <div class="page-header">
       <div class="page-header__eyebrow">ITEM DATABASE / WEAPONS</div>
       <h1>무기 정보</h1>
-      <p>등급, 타입, CL·불법무기 여부로 필터링해 원하는 무기를 빠르게 찾아보세요.</p>
+      <p>이터널시티 CL 무기 전체 목록입니다. 타입 탭과 검색/필터로 원하는 무기를 빠르게 찾아보세요. (출처: eterinfo.kr)</p>
     </div>
+
+    <div class="chip-group" id="w-tabs" style="margin-bottom:16px;"></div>
 
     <div class="toolbar">
       <div class="toolbar__search">
@@ -62,7 +64,6 @@ weapons_body = """
         <input type="text" id="w-search" placeholder="무기 이름으로 검색...">
       </div>
       <select id="w-cat1"><option value="">전체 분류</option></select>
-      <select id="w-type"><option value="">전체 타입</option></select>
       <select id="w-grade"><option value="">전체 등급</option></select>
       <span class="toolbar__count" id="w-count"></span>
     </div>
@@ -72,7 +73,8 @@ weapons_body = """
     </div>
 """
 write_page('weapons.html', '무기 정보', '이터널시티 무기 등급별·타입별 스펙과 강화 정보.',
-           'weapons.html', weapons_body, '<script src="js/common.js"></script>\n<script src="js/weapons.js"></script>')
+           'weapons.html', weapons_body,
+           '<script src="js/common.js"></script>\n<script src="js/itemgrid.js"></script>\n<script src="js/weapons.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 코스튬 · 날개
@@ -102,9 +104,31 @@ costumes_body = """
     <div class="grid" id="c-grid" style="grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));">
       <div class="empty-state"><strong>불러오는 중...</strong></div>
     </div>
+
+    <div class="section-title" style="margin-top:44px;">
+      <h2>전체 코스튬 · 날개 아이템 목록</h2>
+      <span class="section-title__note">출처: eterinfo.kr</span>
+    </div>
+
+    <div class="chip-group" id="ci-tabs" style="margin-bottom:16px;"></div>
+
+    <div class="toolbar">
+      <div class="toolbar__search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="ci-search" placeholder="이름으로 검색...">
+      </div>
+      <select id="ci-grade"><option value="">전체 등급</option></select>
+      <span class="toolbar__count" id="ci-count"></span>
+    </div>
+
+    <div class="grid" id="ci-grid">
+      <div class="empty-state"><strong>불러오는 중...</strong></div>
+    </div>
 """
 write_page('costumes.html', '코스튬 · 날개', '이터널시티 날개의상 강화단계별 방어력/스탯/회피도 정보.',
-           'costumes.html', costumes_body, '<script src="js/common.js"></script>\n<script src="js/costumes.js"></script>')
+           'costumes.html', costumes_body,
+           '<script src="js/common.js"></script>\n<script src="js/costumes.js"></script>\n'
+           '<script src="js/itemgrid.js"></script>\n<script src="js/costume-items.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 제작 재료 (리마스터 반지 재료)
@@ -461,13 +485,69 @@ write_page('calculators.html', '강화 시뮬레이터', '이터널시티 아이
            'calculators.html', calculators_body, '<script src="js/common.js"></script>\n<script src="js/plusup.js"></script>')
 
 # ---------------------------------------------------------------------------
+# 방어구
+# ---------------------------------------------------------------------------
+armors_body = """
+    <div class="page-header">
+      <div class="page-header__eyebrow">ITEM DATABASE / ARMORS</div>
+      <h1>방어구</h1>
+      <p>부위별 탭으로 방어구·의류·방패를 확인하세요. (출처: eterinfo.kr)</p>
+    </div>
+
+    <div class="chip-group" id="ar-tabs" style="margin-bottom:16px; flex-wrap:wrap;"></div>
+
+    <div class="toolbar">
+      <div class="toolbar__search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="ar-search" placeholder="이름으로 검색...">
+      </div>
+      <select id="ar-cat1"><option value="">전체 분류</option></select>
+      <select id="ar-grade"><option value="">전체 등급</option></select>
+      <span class="toolbar__count" id="ar-count"></span>
+    </div>
+
+    <div class="grid" id="ar-grid">
+      <div class="empty-state"><strong>불러오는 중...</strong></div>
+    </div>
+"""
+write_page('armors.html', '방어구', '이터널시티 방어구·의류·방패 부위별 전체 목록.',
+           'armors.html', armors_body,
+           '<script src="js/common.js"></script>\n<script src="js/itemgrid.js"></script>\n<script src="js/armors.js"></script>')
+
+# ---------------------------------------------------------------------------
+# 악세서리
+# ---------------------------------------------------------------------------
+accessories_body = """
+    <div class="page-header">
+      <div class="page-header__eyebrow">ITEM DATABASE / ACCESSORIES</div>
+      <h1>악세서리</h1>
+      <p>반지·목걸이·귀걸이·팔찌·벨트 등 악세서리 전체 목록입니다. (출처: eterinfo.kr)</p>
+    </div>
+
+    <div class="chip-group" id="ac-tabs" style="margin-bottom:16px; flex-wrap:wrap;"></div>
+
+    <div class="toolbar">
+      <div class="toolbar__search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="ac-search" placeholder="이름으로 검색...">
+      </div>
+      <select id="ac-cat1"><option value="">전체 분류</option></select>
+      <select id="ac-grade"><option value="">전체 등급</option></select>
+      <span class="toolbar__count" id="ac-count"></span>
+    </div>
+
+    <div class="grid" id="ac-grid">
+      <div class="empty-state"><strong>불러오는 중...</strong></div>
+    </div>
+"""
+write_page('accessories.html', '악세서리', '이터널시티 악세서리(반지·목걸이·귀걸이·팔찌·벨트) 전체 목록.',
+           'accessories.html', accessories_body,
+           '<script src="js/common.js"></script>\n<script src="js/itemgrid.js"></script>\n<script src="js/accessories.js"></script>')
+
+# ---------------------------------------------------------------------------
 # 준비중 placeholder 페이지들
 # ---------------------------------------------------------------------------
 soon_pages = [
-    ('armors.html', '방어구', '방어구 데이터베이스 (준비중)',
-     '방어구 정보는 준비 중입니다', '방어력, 세트 효과, 강화·플러스업 수치를 정리할 예정입니다. weapons.json과 같은 구조로 armors.json을 추가하면 바로 페이지를 구성할 수 있습니다.'),
-    ('accessories.html', '악세서리', '악세서리 데이터베이스 (준비중)',
-     '악세서리 정보는 준비 중입니다', '목걸이, 반지 등 부가 옵션 아이템을 정리할 예정입니다.'),
     ('characters.html', '캐릭터 · 용병', '캐릭터/용병 정보 (준비중)',
      '캐릭터 · 용병 정보는 준비 중입니다', '직업 특성, 스탯 분배 가이드, 용병 스킬트리를 정리할 예정입니다.'),
     ('regions.html', '지역 · 어썰트', '지역/어썰트 정보 (준비중)',
