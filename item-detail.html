@@ -119,9 +119,11 @@
     </div>
 
     <div id="id-content" style="display:none;">
-      <div class="cat-grid" style="grid-template-columns: 260px 1fr; margin-bottom: 28px;">
-        <div class="cat-card" style="min-height:auto; align-items:center; justify-content:center;">
-          <img id="id-image" src="" alt="" style="width:100%; max-width:180px; object-fit:contain; background:var(--panel-raised); border:1px solid var(--line);" onerror="this.style.display='none'">
+      <div class="cat-grid" style="grid-template-columns: 220px 1fr; margin-bottom: 28px;">
+        <div class="cat-card" style="min-height:auto; padding:0; overflow:hidden;">
+          <div style="aspect-ratio:1/1; width:100%; display:flex; align-items:center; justify-content:center; background:var(--panel-raised);">
+            <img id="id-image" src="" alt="" style="max-width:75%; max-height:75%; object-fit:contain; image-rendering:pixelated;" onerror="this.style.display='none'">
+          </div>
         </div>
         <div class="cat-card" style="min-height:auto;">
           <div class="card__badges" id="id-badges" style="margin-bottom:10px;"></div>
@@ -134,14 +136,10 @@
       <div id="id-weapon-calc" style="display:none;">
         <div class="section-title"><h2>강화 · 튜닝 계산기</h2></div>
         <div class="cat-card" style="min-height:auto; margin-bottom:36px;">
-          <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end;">
-            <label style="font-size:12.5px; color:var(--muted);">몸체 튜닝
-              <select id="id-body" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
-            </label>
-            <label style="font-size:12.5px; color:var(--muted);">강화 단계
-              <select id="id-stage" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
-            </label>
-          </div>
+          <div style="font-size:12px; font-family:var(--font-mono); color:var(--muted); margin-bottom:6px;">몸체 튜닝</div>
+          <div class="chip-group" id="id-body" style="flex-wrap:wrap; margin-bottom:16px;"></div>
+          <div style="font-size:12px; font-family:var(--font-mono); color:var(--muted); margin-bottom:6px;">강화 단계</div>
+          <div class="chip-group" id="id-stage" style="flex-wrap:wrap;"></div>
           <div style="margin-top:16px; border-top:1px solid var(--line); padding-top:14px;">
             <div class="hero__stat" style="border:none; padding:0;">
               <div class="hero__stat-num" id="id-attack-result">–</div>
@@ -151,31 +149,63 @@
           <div id="id-breakdown" style="margin-top:12px; font-family:var(--font-mono); font-size:12px; color:var(--muted); display:flex; flex-direction:column; gap:3px;"></div>
           <div class="card__foot" style="margin-top:10px;">총열/손잡이/조준경(치명·탄착률·명중률)은 영향 스탯은 확정됐지만 상한·반올림 규칙이 미확인이라 계산에서 제외했습니다. 오차 안내: 사이트 값과 ±2 정도 차이가 날 수 있습니다.</div>
         </div>
+
+        <div class="section-title"><h2>데미지 레인지 계산</h2></div>
+        <div class="cat-card" style="min-height:auto; margin-bottom:36px;">
+          <p>위에서 계산한 파괴력을 캐릭터 스탯(체력/기술/템공합 등)이 반영된 <b style="color:var(--paper);">"인벤창 공격력"</b>으로
+          바꾸는 정확한 공식은 아직 확인되지 않았습니다. 기본값은 위 계산 파괴력을 그대로 쓰지만,
+          실제 게임 화면에 보이는 공격력 숫자를 알고 있다면 직접 입력해서 더 정확하게 계산할 수 있습니다.</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin:12px 0;">
+            <label style="font-size:12.5px; color:var(--muted);">인벤창 공격력
+              <input id="id-inv-attack" type="number" style="display:block; margin-top:4px; width:140px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-mono);">
+            </label>
+            <label style="font-size:12.5px; color:var(--muted);">크기 보정
+              <input id="id-mult-size" type="number" step="0.01" value="1" style="display:block; margin-top:4px; width:80px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-mono);">
+            </label>
+            <label style="font-size:12.5px; color:var(--muted);">탄종 보정
+              <input id="id-mult-ammo" type="number" step="0.01" value="1" style="display:block; margin-top:4px; width:80px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-mono);">
+            </label>
+            <label style="font-size:12.5px; color:var(--muted);">특수 보정</label>
+            <input id="id-mult-special" type="number" step="0.01" value="1" style="display:block; margin-top:4px; width:80px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-mono);">
+            <label style="font-size:12.5px; color:var(--muted);">스킬 보정
+              <input id="id-mult-skill" type="number" step="0.01" value="1" style="display:block; margin-top:4px; width:80px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-mono);">
+            </label>
+          </div>
+          <div style="overflow-x:auto;">
+            <table style="width:100%; border-collapse:collapse; font-size:13px;">
+              <thead>
+                <tr style="background:var(--panel-raised); text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--muted);">
+                  <th style="text-align:left; padding:8px 10px;">구분</th>
+                  <th style="padding:8px 10px;">최소</th>
+                  <th style="padding:8px 10px;">최대</th>
+                </tr>
+              </thead>
+              <tbody id="id-damage-table"></tbody>
+            </table>
+          </div>
+          <div class="card__foot" style="margin-top:10px;">배율(0.88 / 발화·크리티컬 1.5·1.55배 / 헤드샷 3.10배)은 확정된 값이며, 실측 아이템으로
+          오차 없이 검증했습니다. 크기·탄종·특수·스킬 보정값은 아이템마다 달라질 수 있어 기본값 1로 계산됩니다.</div>
+        </div>
       </div>
 
       <!-- 방어구 플러스업 계산기 -->
       <div id="id-armor-calc" style="display:none;">
         <div class="section-title"><h2>플러스업 효과 계산기</h2></div>
         <div class="cat-card" style="min-height:auto; margin-bottom:36px;">
-          <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end;">
-            <label style="font-size:12.5px; color:var(--muted);">재질
-              <select id="id-material" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);">
-                <option value="장인">장인 (1.11)</option>
-                <option value="명인">명인 (1.66)</option>
-                <option value="O.T" selected>O.T (2.5)</option>
-              </select>
-            </label>
-            <label style="font-size:12.5px; color:var(--muted);">부위
-              <select id="id-piece" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);">
-                <option value="일반" selected>일반 (×1)</option>
-                <option value="원피스">원피스 (×2)</option>
-                <option value="전신의상">전신의상 (×6)</option>
-              </select>
-            </label>
-            <label style="font-size:12.5px; color:var(--muted);">플러스업 단계
-              <select id="id-level" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
-            </label>
+          <div style="font-size:12px; font-family:var(--font-mono); color:var(--muted); margin-bottom:6px;">재질</div>
+          <div class="chip-group" id="id-material" style="flex-wrap:wrap; margin-bottom:16px;">
+            <button class="chip" data-value="장인">장인 (1.11)</button>
+            <button class="chip" data-value="명인">명인 (1.66)</button>
+            <button class="chip is-active" data-value="O.T">O.T (2.5)</button>
           </div>
+          <div style="font-size:12px; font-family:var(--font-mono); color:var(--muted); margin-bottom:6px;">부위</div>
+          <div class="chip-group" id="id-piece" style="flex-wrap:wrap; margin-bottom:16px;">
+            <button class="chip is-active" data-value="일반">일반 (×1)</button>
+            <button class="chip" data-value="원피스">원피스 (×2)</button>
+            <button class="chip" data-value="전신의상">전신의상 (×6)</button>
+          </div>
+          <div style="font-size:12px; font-family:var(--font-mono); color:var(--muted); margin-bottom:6px;">플러스업 단계</div>
+          <div class="chip-group" id="id-level" style="flex-wrap:wrap;"></div>
           <div style="margin-top:16px; border-top:1px solid var(--line); padding-top:14px;">
             <div class="hero__stat" style="border:none; padding:0;">
               <div class="hero__stat-num" id="id-armor-result">–</div>

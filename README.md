@@ -38,7 +38,9 @@ eterpedia/
   (El 전용 판매/구매 게시판, Firebase 연동), **시세**(거래 게시판 데이터를 자동 집계한
   아이템별 시세표), **아이템 등급 착용 제한 계산기**와 **명인 업그레이드 승급 확률**
   (출처: 나무위키), **무기 강화/튜닝 계산기**와 **방어구 플러스업 효과 계산기**
-  (확정 공식 기반, 사용자 제공 자료), **접두사·유니크 개조 참고 정보**
+  (확정 공식 기반, 사용자 제공 자료), **접두사·유니크 개조 참고 정보**,
+  **아이템 상세페이지**(eterinfo.kr 스타일 강화/튜닝 실시간 계산), **마이 캐릭터**
+  (아이디+비밀번호 로그인, 부위별 장비 슬롯, 실시간 합산 요약 — Firebase Auth 설정 필요)
 - **실제 데이터 반영됨**:
   - `weapons.json` — eterinfo.kr 아이템 통합 목록 기반 CL 무기 전체 171종 (6~12등급,
     합법/불법 포함). 그중 mgame 공식 DB로 먼저 확인했던 31종은 명중/탄착/탄환/특수
@@ -299,6 +301,50 @@ window.ETER_FIREBASE_CONFIG = {
 저장 후 `trade.html`을 새로고침하면 "설정 필요" 안내 대신 게시판이 바로
 나타납니다.
 
+## 마이 캐릭터(로그인) 설정하기
+
+`mypage.html`은 아이디+비밀번호 로그인, 캐릭터 스탯, 장비 구성을 저장합니다.
+거래 게시판과 **같은 Firebase 프로젝트**를 그대로 사용하지만, 추가로
+**Firebase Authentication**을 한 번 더 켜야 합니다.
+
+### 1. 이메일/비밀번호 로그인 활성화
+
+1. Firebase 콘솔 → 왼쪽 메뉴 **Authentication** → "시작하기"
+2. **Sign-in method** 탭 → **이메일/비밀번호** 선택 → 사용 설정 → 저장
+
+> 화면에는 "아이디"만 입력받지만, 내부적으로는 `아이디@eterpedia.local` 형태의
+> 가짜 이메일을 만들어 Firebase Authentication에 등록합니다(`js/auth.js`).
+> 실제 이메일을 수집하지 않습니다.
+
+### 2. 보안 규칙에 캐릭터/사용자 컬렉션 추가
+
+Firestore Database → 규칙(Rules) 탭에서, 기존 `trade_posts` 규칙 블록 안에
+아래 두 블록을 **같은 `match /databases/{database}/documents { ... }` 안에** 추가합니다.
+
+```
+    match /users/{uid} {
+      allow read: if true;
+      allow create, update: if request.auth != null && request.auth.uid == uid;
+      allow delete: if false;
+    }
+
+    match /characters/{uid} {
+      allow read: if true;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.keys().hasAll(['name','level','trait']);
+      allow delete: if request.auth != null && request.auth.uid == uid;
+    }
+```
+
+(전체 규칙 예시는 이 README의 "거래 게시판(Firebase) 설정하기" 3번 항목에 있는
+블록을 참고해서, 그 안에 위 두 `match`를 나란히 추가하면 됩니다.)
+
+### 3. 확인
+
+`js/firebase-config.js`는 거래 게시판 설정 때 이미 채워두셨다면 추가 작업이
+필요 없습니다. `mypage.html`을 열어 회원가입 → 로그인 → 캐릭터 정보 입력 →
+저장하기가 되는지 확인하세요.
+
 ## 아이템 상세페이지 (eterinfo.kr 스타일 실시간 계산기)
 
 `item-detail.html?cat=weapons&id=CLW000800` 같은 주소로 접근하는 동적 페이지입니다.
@@ -324,6 +370,14 @@ window.ETER_FIREBASE_CONFIG = {
   `maxEnhancedPower`를 그대로 유지).
 - **방어구 플러스업 효과**: `등급계수 × 재질계수 × CL보정 × 부위보정 × 누적가중스텝`.
   스펙에 있는 예시(6등급/O.T/7플 → +22.5%)와 정확히 일치하는 걸 확인했습니다.
+- **데미지 레인지**: `인벤창 공격력 × 0.88 × (크기·탄종·특수·스킬 보정)`을 기준으로
+  일반/발화(×1.5)/크리티컬(×1.55)/헤드샷(×3.10)/크리티컬발화/헤드샷발화까지 6가지
+  구간을 계산합니다. `[CL] 처형자의 검` 실측값(공격력 52,604 → 일반 46,292~69,438 ~
+  헤드샷발화 215,256~322,884)과 **오차 없이 정확히 일치**했습니다. 다만 "인벤창
+  공격력"(무기 파괴력에 체력/기술/템공합/업적공/해방공이 어떻게 반영되는지)을 구하는
+  공식 자체는 아직 미확인이라, 계산기에서는 위 무기 계산 파괴력을 기본값으로 쓰고
+  사용자가 실제 게임 화면의 공격력 숫자를 직접 입력해 덮어쓸 수 있게 했습니다
+  (`calculateCharacterAttack`은 `NEEDS_VERIFICATION` 상태로 명시).
 - 총열/손잡이/조준경(치명·탄착률·명중률에 영향)은 **효과는 확정**이지만 상한이나
   정수처리 규칙이 미확인이라 계산기에 포함하지 않았습니다. 접두사와 유니크 개조도
   정성적 효과만 표시하고 수치는 넣지 않았습니다(`data/armor_prefixes.json`,
