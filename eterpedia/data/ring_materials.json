@@ -1,0 +1,99 @@
+{
+  "hand": "오른손",
+  "columnGroups": { "a": [1, 2, 3, 4, 5], "b": [0, 1, 2, 3, 4, 5, 6] },
+  "rings": [
+    {
+      "id": "spider",
+      "name": "흠 묻은 거미줄 반지",
+      "variant": "거미",
+      "materials": [
+        { "name": "거미줄 반지 파편조각", "a": [30, 60, 100, 150, 210], "b": [10, 20, 30, 40, 50, 60, 70] },
+        { "name": "오염된 체액", "a": [68, 68, 140, 230, 230], "b": [14, 54, null, 72, 90, null, null] },
+        { "name": "문드러진 살점", "a": [11, 54, 108, 108, 192], "b": [11, null, 43, 54, null, 84, null] },
+        { "name": "흙 묻은 실주머니", "a": [276, 509, 655, 837, 1065], "b": [57, 219, 233, 146, 182, 228, 569] },
+        { "name": "뾰족한 뿔", "a": [537, 537, 1104, 1813, 1813], "b": [111, 426, null, 567, 709, null, 1108] },
+        { "name": "질긴 힘줄", "a": [129, 659, 1321, 1321, 2356], "b": [129, null, 530, 662, null, 1035, 1294] },
+        { "name": "뻣뻣한 털", "a": [28, 57, 57, 103, 160], "b": [null, 28, 29, null, 46, 57, null] },
+        { "name": "물컹한 심장", "a": [87, 179, 179, 323, 504], "b": [null, 87, 92, null, 144, 181, 226] },
+        { "name": "썩은 내장", "a": [null, null, 59, 133, 133], "b": [null, null, null, 59, 74, null, null] },
+        { "name": "기름 묻은 넝마", "a": [null, null, 146, 146, 146], "b": [null, null, null, 146, null, null, null] },
+        { "name": "뭉툭한 이빨", "a": [null, null, 973, 2190, 2190], "b": [null, null, null, 973, 1217, null, null] },
+        { "name": "눅눅한 밀랍", "a": [null, null, null, 182, 182], "b": [null, null, null, null, 182, null, null] },
+        { "name": "뒤틀린 골격", "a": [null, null, null, null, 111], "b": [null, null, null, null, null, 111, null] },
+        { "name": "메마른 가죽(미구현)", "a": [null, null, null, null, 228], "b": [null, null, null, null, null, 228, null] },
+        { "name": "단단한 뼈", "a": [null, null, null, null, 1460], "b": [null, null, null, null, null, 1460, null] },
+        { "name": "거미의 정수", "a": [null, null, null, null, null], "b": [null, null, null, null, null, null, 1] }
+      ]
+    },
+    {
+      "id": "brass",
+      "name": "기름 묻은 놋쇠 반지",
+      "variant": "좀비",
+      "materials": [
+        { "name": "녹쇠 반지 파편조각", "a": [30, 60, 100, 150, 210], "b": [10, 20, 30, 40, 50, 60, 70] },
+        { "name": "오염된 체액", "a": [68, 68, 140, 230, 230], "b": [14, 54, null, 72, 90, null, null] },
+        { "name": "문드러진 살점", "a": [11, 54, 108, 108, 192], "b": [11, null, 43, 54, null, 84, null] },
+        { "name": "흙 묻은 실주머니", "a": [null, null, null, null, 228], "b": [null, null, null, null, null, 228, null] },
+        { "name": "뾰족한 뿔", "a": [null, null, null, null, 1460], "b": [null, null, null, null, null, 1460, null] },
+        { "name": "질긴 힘줄", "a": [537, 537, 1104, 1813, 1813], "b": [111, 426, null, 567, 709, null, 1108] },
+        { "name": "뻣뻣한 털", "a": [28, 57, 57, 103, 160], "b": [null, 28, 29, null, 46, 57, null] },
+        { "name": "물컹한 심장", "a": [129, 659, 1321, 1321, 2356], "b": [129, null, 530, 662, null, 1035, 1294] },
+        { "name": "썩은 내장", "a": [null, null, 59, 133, 133], "b": [null, null, null, 59, 74, null, null] },
+        { "name": "기름 묻은 넝마", "a": [276, 509, 655, 837, 1065], "b": [57, 219, 233, 146, 182, 228, 569] },
+        { "name": "뭉툭한 이빨", "a": [87, 179, 179, 323, 504], "b": [null, 87, 92, null, 144, 181, 226] },
+        { "name": "눅눅한 밀랍", "a": [null, null, 146, 146, 146], "b": [null, null, null, 146, null, null, null] },
+        { "name": "뒤틀린 골격", "a": [null, null, null, null, 111], "b": [null, null, null, null, null, 111, null] },
+        { "name": "메마른 가죽(미구현)", "a": [null, null, null, 182, 182], "b": [null, null, null, null, 182, null, null] },
+        { "name": "단단한 뼈", "a": [null, null, 973, 2190, 2190], "b": [null, null, null, 973, 1217, null, null] },
+        { "name": "좀비의 정수", "a": [null, null, null, null, null], "b": [null, null, null, null, null, null, 1] }
+      ]
+    },
+    {
+      "id": "wax",
+      "name": "눅눅한 밀랍 반지",
+      "variant": "별",
+      "materials": [
+        { "name": "밀랍 반지 파편조각", "a": [30, 60, 100, 150, 210], "b": [10, 20, 30, 40, 50, 60, 70] },
+        { "name": "오염된 체액", "a": [68, 68, 140, 230, 230], "b": [14, 54, null, 72, 90, null, null] },
+        { "name": "문드러진 살점", "a": [13, 65, 130, 130, 232], "b": [13, null, 52, 65, null, 102, null] },
+        { "name": "흙 묻은 실주머니", "a": [null, null, null, 182, 182], "b": [null, null, null, null, 182, null, null] },
+        { "name": "뾰족한 뿔", "a": [null, null, 973, 2190, 2190], "b": [null, null, null, 973, 1217, null, null] },
+        { "name": "질긴 힘줄", "a": [null, null, null, null, 1460], "b": [null, null, null, null, null, 1460, null] },
+        { "name": "뻣뻣한 털", "a": [40, 82, 82, 148, 231], "b": [null, 40, 42, null, 66, 83, null] },
+        { "name": "물컹한 심장", "a": [537, 537, 1104, 1813, 1813], "b": [111, 426, null, 567, 709, null, 1108] },
+        { "name": "썩은 내장", "a": [null, null, 103, 231, 231], "b": [null, null, null, 103, 128, null, null] },
+        { "name": "기름 묻은 넝마", "a": [null, null, null, null, 228], "b": [null, null, null, null, null, 228, null] },
+        { "name": "뭉툭한 이빨", "a": [129, 659, 1321, 1321, 2356], "b": [129, null, 530, 662, null, 1035, 1294] },
+        { "name": "눅눅한 밀랍", "a": [276, 509, 655, 837, 1065], "b": [57, 219, 233, 146, 182, 228, 569] },
+        { "name": "뒤틀린 골격", "a": [null, null, null, null, 231], "b": [null, null, null, null, null, 231, null] },
+        { "name": "메마른 가죽(미구현)", "a": [null, null, 146, 146, 146], "b": [null, null, null, 146, null, null, null] },
+        { "name": "단단한 뼈", "a": [87, 179, 179, 323, 504], "b": [null, 87, 92, null, 144, 181, 226] },
+        { "name": "뱀의 정수", "a": [null, null, null, null, null], "b": [null, null, null, null, null, null, 1] }
+      ]
+    },
+    {
+      "id": "shell",
+      "name": "메마른 껍질 반지",
+      "variant": "개미",
+      "note": "원본 스크린샷이 '물컹한 심장' 행에서 잘려 있어, 마지막 고유 재료(예: 개미의 정수) 행이 누락되었을 수 있습니다.",
+      "materials": [
+        { "name": "껍질 반지 파편조각", "a": [30, 60, 100, 150, 210], "b": [10, 20, 30, 40, 50, 60, null] },
+        { "name": "오염된 체액", "a": [68, 68, 140, 230, 230], "b": [14, 54, null, 72, 90, null, null] },
+        { "name": "문드러진 살점", "a": [13, 65, 130, 130, 232], "b": [13, null, 52, 65, null, 102, null] },
+        { "name": "메마른 키틴판", "a": [276, 509, 655, 837, 1065], "b": [57, 219, 233, 146, 182, 228, null] },
+        { "name": "뭉툭한 이빨", "a": [537, 537, 1104, 1813, 1813], "b": [111, 426, null, 567, 709, null, null] },
+        { "name": "단단한 뼈", "a": [129, 129, 791, 791, 791], "b": [129, null, null, 662, null, null, null] },
+        { "name": "뻣뻣한 털", "a": [40, 82, 82, 148, 231], "b": [null, 40, 42, null, 66, 83, null] },
+        { "name": "뾰족한 뿔", "a": [87, 179, 179, 323, 504], "b": [null, 87, 92, null, 144, 181, null] },
+        { "name": "단단한 뼈", "a": [null, 530, 530, 530, 1565], "b": [null, null, 530, null, null, 1035, null] },
+        { "name": "썩은 내장", "a": [null, null, 103, 231, 231], "b": [null, null, null, 103, 128, null, null] },
+        { "name": "흙 묻은 실주머니", "a": [null, null, 146, 146, 146], "b": [null, null, null, 146, null, null, null] },
+        { "name": "질긴 힘줄", "a": [null, null, 973, 2190, 2190], "b": [null, null, null, 973, 1217, null, null] },
+        { "name": "기름 묻은 넝마", "a": [null, null, null, 182, 182], "b": [null, null, null, null, 182, null, null] },
+        { "name": "뒤틀린 골격", "a": [null, null, null, null, 231], "b": [null, null, null, null, null, 231, null] },
+        { "name": "눅눅한 밀랍", "a": [null, null, null, null, 228], "b": [null, null, null, null, null, 228, null] },
+        { "name": "물컹한 심장", "a": [null, null, null, 1460, 1460], "b": [null, null, null, null, 1460, null, null] }
+      ]
+    }
+  ]
+}

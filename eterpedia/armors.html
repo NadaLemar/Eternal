@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>방어구 — EterPedia</title>
+<meta name="description" content="방어구 데이터베이스 (준비중)">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="topbar__brand">Eter<span>Pedia</span></div>
+  <button class="topbar__toggle" data-nav-toggle aria-label="메뉴 열기">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+</div>
+
+<div class="app">
+
+  <!-- ============ 좌측 레일 네비게이션 ============ -->
+  <aside class="rail">
+    <div class="rail__brand">
+      <div class="rail__brand-mark">Eter<span>Pedia</span></div>
+      <div class="rail__brand-sub">이터널시티 통합 기록보관소</div>
+    </div>
+
+    <nav class="rail__nav">
+      <a class="rail__link" href="index.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>
+        홈
+      </a>
+    </nav>
+
+    <div class="rail__section-label">아이템 정보</div>
+    <nav class="rail__nav">
+      <a class="rail__link" href="weapons.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg>
+        무기 정보
+      </a>
+      <a class="rail__link" href="costumes.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3c2 3-2 4 0 7M12 3c-2 3 2 4 0 7M12 10c-5 0-8 4-8 9h16c0-5-3-9-8-9z"/></svg>
+        코스튬 · 날개
+      </a>
+      <a class="rail__link" href="ring-materials.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 10h16M10 4v16"/></svg>
+        제작 재료
+      </a>
+      <a class="rail__link is-active is-soon" href="armors.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg>
+        방어구
+        <span class="rail__link-badge">예정</span>
+      </a>
+      <a class="rail__link is-soon" href="accessories.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M8 12l-3 9h14l-3-9"/></svg>
+        악세서리
+        <span class="rail__link-badge">예정</span>
+      </a>
+    </nav>
+
+    <div class="rail__section-label">진행 정보</div>
+    <nav class="rail__nav">
+      <a class="rail__link" href="quests.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 3v18l4-2 4 2 4-2 4 2V3l-4 2-4-2-4 2z"/></svg>
+        퀘스트
+      </a>
+      <a class="rail__link" href="achievements.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="9" r="6"/><path d="M8.5 14.5L7 22l5-3 5 3-1.5-7.5"/></svg>
+        업적 · 도전과제
+      </a>
+      <a class="rail__link is-soon" href="characters.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+        캐릭터 · 용병
+        <span class="rail__link-badge">예정</span>
+      </a>
+      <a class="rail__link is-soon" href="regions.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></svg>
+        지역 · 어썰트
+        <span class="rail__link-badge">예정</span>
+      </a>
+    </nav>
+
+    <div class="rail__section-label">도구</div>
+    <nav class="rail__nav">
+      <a class="rail__link" href="calculators.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg>
+        강화 시뮬레이터
+      </a>
+    </nav>
+
+    <div class="rail__section-label">커뮤니티</div>
+    <nav class="rail__nav">
+      <a class="rail__link" href="trade.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8h16M4 8l3-4M4 8l3 4M20 16H4M20 16l-3-4M20 16l-3 4"/></svg>
+        거래 게시판
+      </a>
+      <a class="rail__link" href="market.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17l5-6 4 4 8-9M20 6h-4M20 6v4"/></svg>
+        시세
+      </a>
+    </nav>
+
+    <div class="rail__footer">
+      데이터 오류 제보 · 기여 안내는<br>README를 참고하세요.
+    </div>
+  </aside>
+
+  
+  <!-- ============ 본문 ============ -->
+  <main class="main">
+
+    <div class="page-header">
+      <div class="page-header__eyebrow">COMING SOON</div>
+      <h1>방어구</h1>
+    </div>
+    <div class="placeholder">
+      <div class="placeholder__mark">DATA NOT YET LINKED</div>
+      <h2>방어구 정보는 준비 중입니다</h2>
+      <p>방어력, 세트 효과, 강화·플러스업 수치를 정리할 예정입니다. weapons.json과 같은 구조로 armors.json을 추가하면 바로 페이지를 구성할 수 있습니다.</p>
+    </div>
+    
+  </main>
+</div>
+
+<script src="js/nav.js"></script>
+
+</body>
+</html>

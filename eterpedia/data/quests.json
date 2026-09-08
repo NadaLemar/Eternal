@@ -1,0 +1,60 @@
+[
+  {
+    "id": "q001",
+    "name": "[예시] 폐허의 첫걸음",
+    "category": "메인",
+    "levelReq": 1,
+    "region": "구시가지",
+    "giver": "정찰대장 카를로스",
+    "description": "튜토리얼 이후 첫 메인 퀘스트. 실제 게임 DB의 퀘스트명과 조건으로 교체해야 합니다.",
+    "objectives": [
+      "구시가지 순찰병 5마리 처치",
+      "정찰대장에게 보고"
+    ],
+    "rewards": { "exp": 1200, "el": 500, "items": ["기초 응급키트 x2"] },
+    "updatedAt": "2026-08-01"
+  },
+  {
+    "id": "q002",
+    "name": "[예시] 보급 부족",
+    "category": "일일",
+    "levelReq": 10,
+    "region": "폐공장 지대",
+    "giver": "보급관 리사",
+    "description": "매일 반복 가능한 일일 퀘스트 예시. 실제 보상/조건 데이터로 교체 필요.",
+    "objectives": [
+      "고철 조각 20개 수집"
+    ],
+    "rewards": { "exp": 400, "el": 800, "items": [] },
+    "updatedAt": "2026-08-01"
+  },
+  {
+    "id": "q003",
+    "name": "[예시] 붉은 깃발 작전",
+    "category": "이벤트",
+    "levelReq": 20,
+    "region": "붉은 지대",
+    "giver": "이벤트 NPC",
+    "description": "시즌 이벤트 기간 한정 퀘스트 예시입니다.",
+    "objectives": [
+      "이벤트 몬스터 처치",
+      "붉은 깃발 회수"
+    ],
+    "rewards": { "exp": 0, "el": 0, "items": ["이벤트 전용 코스튬"] },
+    "updatedAt": "2026-08-01"
+  },
+  {
+    "id": "q004",
+    "name": "[예시] 용병 계약서",
+    "category": "서브",
+    "levelReq": 15,
+    "region": "중립지대",
+    "giver": "용병 길드원",
+    "description": "용병 시스템을 소개하는 서브 퀘스트 예시입니다.",
+    "objectives": [
+      "용병 계약서 3장 제출"
+    ],
+    "rewards": { "exp": 600, "el": 300, "items": ["용병 소환권 x1"] },
+    "updatedAt": "2026-08-01"
+  }
+]

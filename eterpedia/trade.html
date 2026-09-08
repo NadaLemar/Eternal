@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>거래 게시판 — EterPedia</title>
+<meta name="description" content="El 기준 이터널시티 아이템 판매/구매 게시판.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="topbar__brand">Eter<span>Pedia</span></div>
+  <button class="topbar__toggle" data-nav-toggle aria-label="메뉴 열기">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+</div>
+
+<div class="app">
+
+  <!-- ============ 좌측 레일 네비게이션 ============ -->
+  <aside class="rail">
+    <div class="rail__brand">
+      <div class="rail__brand-mark">Eter<span>Pedia</span></div>
+      <div class="rail__brand-sub">이터널시티 통합 기록보관소</div>
+    </div>
+
+    <nav class="rail__nav">
+      <a class="rail__link" href="index.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>
+        홈
+      </a>
+    </nav>
+
+    <div class="rail__section-label">아이템 정보</div>
+    <nav class="rail__nav">
+      <a class="rail__link" href="weapons.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg>
+        무기 정보
+      </a>
+      <a class="rail__link" href="costumes.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3c2 3-2 4 0 7M12 3c-2 3 2 4 0 7M12 10c-5 0-8 4-8 9h16c0-5-3-9-8-9z"/></svg>
+        코스튬 · 날개
+      </a>
+      <a class="rail__link" href="ring-materials.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 10h16M10 4v16"/></svg>
+        제작 재료
+      </a>
+      <a class="rail__link is-soon" href="armors.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg>
+        방어구
+        <span class="rail__link-badge">예정</span>
+      </a>
+      <a class="rail__link is-soon" href="accessories.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M8 12l-3 9h14l-3-9"/></svg>
+        악세서리
+        <span class="rail__link-badge">예정</span>
+      </a>
+    </nav>
+
+    <div class="rail__section-label">진행 정보</div>
+    <nav class="rail__nav">
+      <a class="rail__link" href="quests.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 3v18l4-2 4 2 4-2 4 2V3l-4 2-4-2-4 2z"/></svg>
+        퀘스트
+      </a>
+      <a class="rail__link" href="achievements.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="9" r="6"/><path d="M8.5 14.5L7 22l5-3 5 3-1.5-7.5"/></svg>
+        업적 · 도전과제
+      </a>
+      <a class="rail__link is-soon" href="characters.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+        캐릭터 · 용병
+        <span class="rail__link-badge">예정</span>
+      </a>
+      <a class="rail__link is-soon" href="regions.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></svg>
+        지역 · 어썰트
+        <span class="rail__link-badge">예정</span>
+      </a>
+    </nav>
+
+    <div class="rail__section-label">도구</div>
+    <nav class="rail__nav">
+      <a class="rail__link" href="calculators.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg>
+        강화 시뮬레이터
+      </a>
+    </nav>
+
+    <div class="rail__section-label">커뮤니티</div>
+    <nav class="rail__nav">
+      <a class="rail__link is-active" href="trade.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8h16M4 8l3-4M4 8l3 4M20 16H4M20 16l-3-4M20 16l-3 4"/></svg>
+        거래 게시판
+      </a>
+      <a class="rail__link" href="market.html">
+        <svg class="rail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17l5-6 4 4 8-9M20 6h-4M20 6v4"/></svg>
+        시세
+      </a>
+    </nav>
+
+    <div class="rail__footer">
+      데이터 오류 제보 · 기여 안내는<br>README를 참고하세요.
+    </div>
+  </aside>
+
+  
+  <!-- ============ 본문 ============ -->
+  <main class="main">
+
+    <div class="page-header">
+      <div class="page-header__eyebrow">COMMUNITY / TRADE BOARD</div>
+      <h1>거래 게시판</h1>
+      <p>El(게임 내 화폐) 기준으로 판다/삽니다 글을 올리고, 댓글로 연락을 주고받으세요. 현금(RMT) 거래는 취급하지 않습니다.</p>
+    </div>
+
+    <div id="tr-setup-notice" class="setup-notice" style="display:none;">
+      <strong style="color:var(--paper); display:block; margin-bottom:8px;">거래 게시판을 사용하려면 Firebase 설정이 필요합니다</strong>
+      아직 <code>js/firebase-config.js</code>가 기본값 그대로예요. README.md의
+      "거래 게시판(Firebase) 설정하기" 섹션을 따라 무료 Firebase 프로젝트를 만들고
+      설정값을 붙여넣으면 이 페이지가 바로 동작합니다.
+    </div>
+
+    <div id="tr-app">
+      <div class="toolbar">
+        <div class="chip-group" id="tr-type">
+          <button class="chip is-active" data-type="">전체</button>
+          <button class="chip" data-type="sell">판매</button>
+          <button class="chip" data-type="buy">구매</button>
+        </div>
+        <select id="tr-category">
+          <option value="">전체 카테고리</option>
+          <option value="무기">무기</option>
+          <option value="코스튬">코스튬·날개</option>
+          <option value="방어구">방어구</option>
+          <option value="악세서리">악세서리</option>
+          <option value="제작재료">제작 재료</option>
+          <option value="기타">기타</option>
+        </select>
+        <div class="toolbar__search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input type="text" id="tr-search" placeholder="아이템 이름으로 검색...">
+        </div>
+        <label style="display:flex; align-items:center; gap:6px; font-size:12.5px; color:var(--muted);">
+          <input type="checkbox" id="tr-hide-done"> 거래완료 숨기기
+        </label>
+        <span class="toolbar__count" id="tr-count"></span>
+      </div>
+
+      <button class="btn" id="tr-form-toggle" style="margin-bottom:16px;">+ 새 글 작성</button>
+
+      <div id="tr-form-box" style="display:none; border:1px solid var(--line); padding:18px; margin-bottom:28px;">
+        <form id="tr-form">
+          <div class="form-grid">
+            <div class="form-field">
+              <label>구분</label>
+              <select name="type" required>
+                <option value="sell">판매</option>
+                <option value="buy">구매</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label>카테고리</label>
+              <select name="category" required>
+                <option value="무기">무기</option>
+                <option value="코스튬">코스튬·날개</option>
+                <option value="방어구">방어구</option>
+                <option value="악세서리">악세서리</option>
+                <option value="제작재료">제작 재료</option>
+                <option value="기타">기타</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label>아이템명</label>
+              <input type="text" name="itemName" maxlength="60" required>
+            </div>
+            <div class="form-field">
+              <label>가격 (El)</label>
+              <input type="number" name="price" min="0" required>
+            </div>
+            <div class="form-field">
+              <label>닉네임</label>
+              <input type="text" name="nickname" maxlength="20" required>
+            </div>
+            <div class="form-field">
+              <label>연락 방법 (게임 닉네임/디스코드 등)</label>
+              <input type="text" name="contact" maxlength="80" required>
+            </div>
+            <div class="form-field">
+              <label>삭제/수정 비밀번호</label>
+              <input type="password" name="editKey" maxlength="20" required>
+            </div>
+            <div class="form-field full">
+              <label>상세 설명</label>
+              <textarea name="description" rows="3" maxlength="1000"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn">등록하기</button>
+        </form>
+      </div>
+
+      <div id="tr-list">
+        <div class="empty-state"><strong>불러오는 중...</strong></div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/common.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore-compat.js"></script>
+<script src="js/trade.js"></script>
+</body>
+</html>
