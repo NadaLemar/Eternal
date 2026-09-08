@@ -46,8 +46,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('id-name').textContent = item.name;
   document.getElementById('id-meta').textContent = `${item.type || ''}${item.grade != null ? ' · 등급 ' + item.grade : ''}${item.category1 ? ' · ' + item.category1 : ''}`;
 
+  const imgEl = document.getElementById('id-image');
+  const imgFallback = document.getElementById('id-image-fallback');
   if (item.imageUrl) {
-    document.getElementById('id-image').src = item.imageUrl;
+    imgEl.onload = () => { imgEl.style.display = ''; imgFallback.style.display = 'none'; };
+    imgEl.onerror = () => { imgEl.style.display = 'none'; imgFallback.textContent = '이미지를 불러올 수 없습니다'; imgFallback.style.display = ''; };
+    imgEl.src = item.imageUrl;
+  } else {
+    imgFallback.textContent = '이미지 없음';
   }
 
   const badges = [
@@ -71,11 +77,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (item.size) statRows.push(`<div class="stat-row"><dt>크기</dt><dd>${EterCommon.escapeHtml(item.size)}</dd></div>`);
   document.getElementById('id-basestats').innerHTML = statRows.join('');
 
-  if (item.detailUrl) {
-    document.getElementById('id-link').innerHTML = `<a href="${item.detailUrl}" target="_blank" rel="noopener">eterinfo.kr 원본 보기 ↗</a> · <a href="${CAT_BACK[cat]}" style="margin-left:10px; color:var(--olive);">목록으로</a>`;
-  } else {
-    document.getElementById('id-link').innerHTML = `<a href="${CAT_BACK[cat]}" style="color:var(--olive);">목록으로</a>`;
-  }
+  document.getElementById('id-link').innerHTML = `<a href="${CAT_BACK[cat]}" style="color:var(--olive);">목록으로</a>`;
 
   // 버튼형 선택 그룹 생성 헬퍼: 옵션을 직접 채우고 클릭 시 is-active 토글 + 콜백
   function buildChipGroup(containerEl, options, activeValue, onChange) {

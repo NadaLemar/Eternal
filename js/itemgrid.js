@@ -57,15 +57,15 @@ const EterItemGrid = (() => {
     ].filter(Boolean).join('');
 
     const img = (opts.showImage && item.imageUrl)
-      ? `<img src="${item.imageUrl}" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:40px; height:40px; object-fit:contain; background:var(--panel-raised); border:1px solid var(--line); flex-shrink:0;" onerror="this.style.display='none'">`
+      ? `<img src="${item.imageUrl}" alt="" loading="lazy" style="width:40px; height:40px; object-fit:contain; background:var(--panel-raised); border:1px solid var(--line); flex-shrink:0;" onerror="this.style.display='none'">`
       : '';
 
     return `
-      <article class="card">
+      <a class="card card--link" href="item-detail.html?cat=${opts.catKey}&id=${encodeURIComponent(item.id)}">
         <div class="card__head">
           ${img}
           <div>
-            <div class="card__title"><a href="item-detail.html?cat=${opts.catKey}&id=${encodeURIComponent(item.id)}" style="color:inherit;">${EterCommon.escapeHtml(item.name)}</a></div>
+            <div class="card__title">${EterCommon.escapeHtml(item.name)}</div>
             <div class="card__meta">${item.type || ''}${item.grade != null ? ' · 등급 ' + item.grade : ''}</div>
           </div>
         </div>
@@ -76,11 +76,7 @@ const EterItemGrid = (() => {
         ${item.tuningSlots && item.tuningSlots.length ? `<div class="card__foot">튜닝 슬롯: ${item.tuningSlots.map(EterCommon.escapeHtml).join(', ')}</div>` : ''}
         ${item.materialOptions && item.materialOptions.length ? `<div class="card__foot">재질 옵션: ${item.materialOptions.map(EterCommon.escapeHtml).join(', ')}</div>` : ''}
         ${secondaryBlock(item)}
-        <div class="card__foot" style="display:flex; justify-content:space-between; gap:8px;">
-          <a href="item-detail.html?cat=${opts.catKey}&id=${encodeURIComponent(item.id)}" style="color:var(--olive);">상세 · 계산기 열기 →</a>
-          ${item.detailUrl ? `<a href="${item.detailUrl}" target="_blank" rel="noopener">원본 ↗</a>` : ''}
-        </div>
-      </article>
+      </a>
     `;
   }
 

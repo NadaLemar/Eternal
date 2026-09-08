@@ -494,8 +494,8 @@ item_detail_body = """
       <div class="cat-grid" style="grid-template-columns: 220px 1fr; margin-bottom: 28px;">
         <div class="cat-card" style="min-height:auto; padding:0; overflow:hidden;">
           <div style="aspect-ratio:1/1; width:100%; display:flex; align-items:center; justify-content:center; background:var(--panel-raised);">
-            <img id="id-image" src="" alt="" referrerpolicy="no-referrer" style="max-width:75%; max-height:75%; object-fit:contain; image-rendering:pixelated;" onerror="this.style.display='none'; document.getElementById('id-image-fallback').style.display='';">
-            <div id="id-image-fallback" style="display:none; font-size:11px; color:var(--muted); text-align:center; padding:16px; font-family:var(--font-mono);">이미지를 불러올 수 없습니다</div>
+            <img id="id-image" alt="" style="display:none; max-width:75%; max-height:75%; object-fit:contain; image-rendering:pixelated;">
+            <div id="id-image-fallback" style="font-size:11px; color:var(--muted); text-align:center; padding:16px; font-family:var(--font-mono);">이미지를 불러오는 중...</div>
           </div>
         </div>
         <div class="cat-card" style="min-height:auto;">
