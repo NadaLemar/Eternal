@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     searchId: 'ar-search',
     countId: 'ar-count',
     showImage: true,
+    catKey: 'armors',
     filters: [
       { id: 'ar-cat1', field: 'category1' },
       { id: 'ar-grade', field: 'grade', isGrade: true },

@@ -65,7 +65,7 @@ const EterItemGrid = (() => {
         <div class="card__head">
           ${img}
           <div>
-            <div class="card__title">${EterCommon.escapeHtml(item.name)}</div>
+            <div class="card__title"><a href="item-detail.html?cat=${opts.catKey}&id=${encodeURIComponent(item.id)}" style="color:inherit;">${EterCommon.escapeHtml(item.name)}</a></div>
             <div class="card__meta">${item.type || ''}${item.grade != null ? ' · 등급 ' + item.grade : ''}</div>
           </div>
         </div>
@@ -76,7 +76,10 @@ const EterItemGrid = (() => {
         ${item.tuningSlots && item.tuningSlots.length ? `<div class="card__foot">튜닝 슬롯: ${item.tuningSlots.map(EterCommon.escapeHtml).join(', ')}</div>` : ''}
         ${item.materialOptions && item.materialOptions.length ? `<div class="card__foot">재질 옵션: ${item.materialOptions.map(EterCommon.escapeHtml).join(', ')}</div>` : ''}
         ${secondaryBlock(item)}
-        ${item.detailUrl ? `<div class="card__foot"><a href="${item.detailUrl}" target="_blank" rel="noopener">원본 보기 ↗</a></div>` : ''}
+        <div class="card__foot" style="display:flex; justify-content:space-between; gap:8px;">
+          <a href="item-detail.html?cat=${opts.catKey}&id=${encodeURIComponent(item.id)}" style="color:var(--olive);">상세 · 계산기 열기 →</a>
+          ${item.detailUrl ? `<a href="${item.detailUrl}" target="_blank" rel="noopener">원본 ↗</a>` : ''}
+        </div>
       </article>
     `;
   }
@@ -134,7 +137,7 @@ const EterItemGrid = (() => {
       const filtered = items.filter(matches);
       if (countEl) countEl.textContent = `${filtered.length} / ${items.length}건`;
       grid.innerHTML = filtered.length
-        ? filtered.map(it => card(it, { showImage: config.showImage })).join('')
+        ? filtered.map(it => card(it, { showImage: config.showImage, catKey: config.catKey })).join('')
         : `<div class="empty-state"><strong>조건에 맞는 항목이 없습니다</strong>검색어나 필터를 조정해보세요.</div>`;
     }
 

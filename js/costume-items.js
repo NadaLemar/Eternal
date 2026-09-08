@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     searchId: 'ci-search',
     countId: 'ci-count',
     showImage: true,
+    catKey: 'costume_items',
     filters: [
       { id: 'ci-grade', field: 'grade', isGrade: true },
     ],

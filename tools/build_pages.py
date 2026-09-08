@@ -689,6 +689,95 @@ write_page('accessories.html', '악세서리', '이터널시티 악세서리(반
            '<script src="js/common.js"></script>\n<script src="js/itemgrid.js"></script>\n<script src="js/accessories.js"></script>')
 
 # ---------------------------------------------------------------------------
+# 아이템 상세 (동적 페이지, ?cat=&id= 로 구동)
+# ---------------------------------------------------------------------------
+item_detail_body = """
+    <div class="page-header">
+      <div class="page-header__eyebrow" id="id-eyebrow">ITEM DETAIL</div>
+      <h1 id="id-name">불러오는 중...</h1>
+      <p id="id-meta"></p>
+    </div>
+
+    <div id="id-notfound" class="placeholder" style="display:none;">
+      <div class="placeholder__mark">NOT FOUND</div>
+      <h2>아이템을 찾을 수 없습니다</h2>
+      <p>주소에 문제가 있거나 데이터가 아직 없는 아이템입니다. <a href="weapons.html" style="color:var(--olive);">무기 목록으로 돌아가기</a></p>
+    </div>
+
+    <div id="id-content" style="display:none;">
+      <div class="cat-grid" style="grid-template-columns: 260px 1fr; margin-bottom: 28px;">
+        <div class="cat-card" style="min-height:auto; align-items:center; justify-content:center;">
+          <img id="id-image" src="" alt="" style="width:100%; max-width:180px; object-fit:contain; background:var(--panel-raised); border:1px solid var(--line);" onerror="this.style.display='none'">
+        </div>
+        <div class="cat-card" style="min-height:auto;">
+          <div class="card__badges" id="id-badges" style="margin-bottom:10px;"></div>
+          <dl class="card__stats" id="id-basestats" style="grid-template-columns: repeat(3, 1fr);"></dl>
+          <div class="card__foot" id="id-link" style="margin-top:14px;"></div>
+        </div>
+      </div>
+
+      <!-- 무기 강화 계산기 -->
+      <div id="id-weapon-calc" style="display:none;">
+        <div class="section-title"><h2>강화 · 튜닝 계산기</h2></div>
+        <div class="cat-card" style="min-height:auto; margin-bottom:36px;">
+          <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end;">
+            <label style="font-size:12.5px; color:var(--muted);">몸체 튜닝
+              <select id="id-body" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
+            </label>
+            <label style="font-size:12.5px; color:var(--muted);">강화 단계
+              <select id="id-stage" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
+            </label>
+          </div>
+          <div style="margin-top:16px; border-top:1px solid var(--line); padding-top:14px;">
+            <div class="hero__stat" style="border:none; padding:0;">
+              <div class="hero__stat-num" id="id-attack-result">–</div>
+              <div class="hero__stat-label">계산된 파괴력</div>
+            </div>
+          </div>
+          <div id="id-breakdown" style="margin-top:12px; font-family:var(--font-mono); font-size:12px; color:var(--muted); display:flex; flex-direction:column; gap:3px;"></div>
+          <div class="card__foot" style="margin-top:10px;">총열/손잡이/조준경(치명·탄착률·명중률)은 영향 스탯은 확정됐지만 상한·반올림 규칙이 미확인이라 계산에서 제외했습니다. 오차 안내: 사이트 값과 ±2 정도 차이가 날 수 있습니다.</div>
+        </div>
+      </div>
+
+      <!-- 방어구 플러스업 계산기 -->
+      <div id="id-armor-calc" style="display:none;">
+        <div class="section-title"><h2>플러스업 효과 계산기</h2></div>
+        <div class="cat-card" style="min-height:auto; margin-bottom:36px;">
+          <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end;">
+            <label style="font-size:12.5px; color:var(--muted);">재질
+              <select id="id-material" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);">
+                <option value="장인">장인 (1.11)</option>
+                <option value="명인">명인 (1.66)</option>
+                <option value="O.T" selected>O.T (2.5)</option>
+              </select>
+            </label>
+            <label style="font-size:12.5px; color:var(--muted);">부위
+              <select id="id-piece" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);">
+                <option value="일반" selected>일반 (×1)</option>
+                <option value="원피스">원피스 (×2)</option>
+                <option value="전신의상">전신의상 (×6)</option>
+              </select>
+            </label>
+            <label style="font-size:12.5px; color:var(--muted);">플러스업 단계
+              <select id="id-level" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
+            </label>
+          </div>
+          <div style="margin-top:16px; border-top:1px solid var(--line); padding-top:14px;">
+            <div class="hero__stat" style="border:none; padding:0;">
+              <div class="hero__stat-num" id="id-armor-result">–</div>
+              <div class="hero__stat-label">공격력 증가율</div>
+            </div>
+          </div>
+          <div id="id-armor-breakdown" style="margin-top:12px; font-family:var(--font-mono); font-size:12px; color:var(--muted); display:flex; flex-direction:column; gap:3px;"></div>
+        </div>
+      </div>
+    </div>
+"""
+write_page('item-detail.html', '아이템 상세', '이터널시티 아이템 상세정보 및 강화/튜닝 계산기.',
+           'weapons.html', item_detail_body,
+           '<script src="js/common.js"></script>\n<script src="js/calcengine.js"></script>\n<script src="js/itemdetail.js"></script>')
+
+# ---------------------------------------------------------------------------
 # 준비중 placeholder 페이지들
 # ---------------------------------------------------------------------------
 soon_pages = [

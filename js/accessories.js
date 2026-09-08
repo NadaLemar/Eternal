@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     searchId: 'ac-search',
     countId: 'ac-count',
     showImage: true,
+    catKey: 'accessories',
     filters: [
       { id: 'ac-cat1', field: 'category1' },
       { id: 'ac-grade', field: 'grade', isGrade: true },
