@@ -170,7 +170,8 @@
             </div>
             <div class="form-field">
               <label>아이템명</label>
-              <input type="text" name="itemName" maxlength="60" required>
+              <input type="text" name="itemName" id="tr-itemname" maxlength="60" required list="tr-item-catalog" placeholder="입력 시 등록된 아이템명이 자동완성됩니다" autocomplete="off">
+              <datalist id="tr-item-catalog"></datalist>
             </div>
             <div class="form-field">
               <label>가격 (El)</label>
