@@ -7,7 +7,7 @@
     "grade": 6,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA010200",
-    "imageUrl": "https://eterinfo.kr/resource/img/353.gif",
+    "imageUrl": "images/CLA010200_353.gif",
     "weight": 0,
     "holdCount": 1,
     "tuningSlots": [
@@ -39,7 +39,7 @@
     "type": "남성모자",
     "defense": 81,
     "detailUrl": "https://eterinfo.kr/item/CLA011400",
-    "imageUrl": "https://eterinfo.kr/resource/img/126.gif"
+    "imageUrl": "images/CLA011400_126.gif"
   },
   {
     "id": "CLA011500",
@@ -49,7 +49,7 @@
     "grade": 7,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA011500",
-    "imageUrl": "https://eterinfo.kr/resource/img/348.gif"
+    "imageUrl": "images/CLA011500_348.gif"
   },
   {
     "id": "CLA012300",
@@ -60,7 +60,7 @@
     "type": "남성하의",
     "defense": 75,
     "detailUrl": "https://eterinfo.kr/item/CLA012300",
-    "imageUrl": "https://eterinfo.kr/resource/img/4048.gif"
+    "imageUrl": "images/CLA012300_4048.gif"
   },
   {
     "id": "CLA012400",
@@ -71,7 +71,7 @@
     "type": "여성모자",
     "defense": 59,
     "detailUrl": "https://eterinfo.kr/item/CLA012400",
-    "imageUrl": "https://eterinfo.kr/resource/img/5200.gif"
+    "imageUrl": "images/CLA012400_5200.gif"
   },
   {
     "id": "CLA012600",
@@ -82,7 +82,7 @@
     "type": "여성자켓상의",
     "defense": 74,
     "detailUrl": "https://eterinfo.kr/item/CLA012600",
-    "imageUrl": "https://eterinfo.kr/resource/img/5000.gif"
+    "imageUrl": "images/CLA012600_5000.gif"
   },
   {
     "id": "CLA012700",
@@ -93,7 +93,7 @@
     "type": "남성모자",
     "defense": 107,
     "detailUrl": "https://eterinfo.kr/item/CLA012700",
-    "imageUrl": "https://eterinfo.kr/resource/img/5107.gif"
+    "imageUrl": "images/CLA012700_5107.gif"
   },
   {
     "id": "CLA012800",
@@ -103,7 +103,7 @@
     "grade": 8,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA012800",
-    "imageUrl": "https://eterinfo.kr/resource/img/347.gif"
+    "imageUrl": "images/CLA012800_347.gif"
   },
   {
     "id": "CLA013300",
@@ -114,7 +114,7 @@
     "type": "남성상의",
     "defense": 93,
     "detailUrl": "https://eterinfo.kr/item/CLA013300",
-    "imageUrl": "https://eterinfo.kr/resource/img/4046.gif"
+    "imageUrl": "images/CLA013300_4046.gif"
   },
   {
     "id": "CLA013400",
@@ -125,7 +125,7 @@
     "type": "남성모자",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/CLA013400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2536_03.gif"
+    "imageUrl": "images/CLA013400_2536_03.gif"
   },
   {
     "id": "CLA013500",
@@ -136,7 +136,7 @@
     "type": "남성자켓상의",
     "defense": 74,
     "detailUrl": "https://eterinfo.kr/item/CLA013500",
-    "imageUrl": "https://eterinfo.kr/resource/img/457.gif"
+    "imageUrl": "images/CLA013500_457.gif"
   },
   {
     "id": "CLA013600",
@@ -146,7 +146,7 @@
     "grade": 6,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA013600",
-    "imageUrl": "https://eterinfo.kr/resource/img/796.gif"
+    "imageUrl": "images/CLA013600_796.gif"
   },
   {
     "id": "CLA013700",
@@ -157,7 +157,7 @@
     "type": "남성하의",
     "defense": 99,
     "detailUrl": "https://eterinfo.kr/item/CLA013700",
-    "imageUrl": "https://eterinfo.kr/resource/img/4049.gif"
+    "imageUrl": "images/CLA013700_4049.gif"
   },
   {
     "id": "CLA013900",
@@ -168,7 +168,7 @@
     "type": "여성자켓상의",
     "defense": 95,
     "detailUrl": "https://eterinfo.kr/item/CLA013900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5004.gif"
+    "imageUrl": "images/CLA013900_5004.gif"
   },
   {
     "id": "CLA014000",
@@ -179,7 +179,7 @@
     "type": "여성모자",
     "defense": 72,
     "detailUrl": "https://eterinfo.kr/item/CLA014000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5500.gif"
+    "imageUrl": "images/CLA014000_5500.gif"
   },
   {
     "id": "CLA014100",
@@ -189,7 +189,7 @@
     "grade": 9,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA014100",
-    "imageUrl": "https://eterinfo.kr/resource/img/352.gif"
+    "imageUrl": "images/CLA014100_352.gif"
   },
   {
     "id": "CLA014500",
@@ -200,7 +200,7 @@
     "type": "남성자켓상의",
     "defense": 98,
     "detailUrl": "https://eterinfo.kr/item/CLA014500",
-    "imageUrl": "https://eterinfo.kr/resource/img/4045.gif"
+    "imageUrl": "images/CLA014500_4045.gif"
   },
   {
     "id": "CLA014600",
@@ -211,7 +211,7 @@
     "type": "남성상의",
     "defense": 125,
     "detailUrl": "https://eterinfo.kr/item/CLA014600",
-    "imageUrl": "https://eterinfo.kr/resource/img/121.gif"
+    "imageUrl": "images/CLA014600_121.gif"
   },
   {
     "id": "CLA014700",
@@ -222,7 +222,7 @@
     "type": "남성모자",
     "defense": 81,
     "detailUrl": "https://eterinfo.kr/item/CLA014700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2537_01.gif"
+    "imageUrl": "images/CLA014700_2537_01.gif"
   },
   {
     "id": "CLA014800",
@@ -233,7 +233,7 @@
     "type": "여성상의",
     "defense": 111,
     "detailUrl": "https://eterinfo.kr/item/CLA014800",
-    "imageUrl": "https://eterinfo.kr/resource/img/5008.gif"
+    "imageUrl": "images/CLA014800_5008.gif"
   },
   {
     "id": "CLA014900",
@@ -243,7 +243,7 @@
     "grade": 7,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA014900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5402.gif"
+    "imageUrl": "images/CLA014900_5402.gif"
   },
   {
     "id": "CLA015000",
@@ -254,7 +254,7 @@
     "type": "남성하의",
     "defense": 131,
     "detailUrl": "https://eterinfo.kr/item/CLA015000",
-    "imageUrl": "https://eterinfo.kr/resource/img/123.gif"
+    "imageUrl": "images/CLA015000_123.gif"
   },
   {
     "id": "CLA015100",
@@ -265,7 +265,7 @@
     "type": "여성자켓상의",
     "defense": 155,
     "detailUrl": "https://eterinfo.kr/item/CLA015100",
-    "imageUrl": "https://eterinfo.kr/resource/img/5007.gif"
+    "imageUrl": "images/CLA015100_5007.gif"
   },
   {
     "id": "CLA015300",
@@ -276,7 +276,7 @@
     "type": "여성모자",
     "defense": 92,
     "detailUrl": "https://eterinfo.kr/item/CLA015300",
-    "imageUrl": "https://eterinfo.kr/resource/img/5202.gif"
+    "imageUrl": "images/CLA015300_5202.gif"
   },
   {
     "id": "CLA015400",
@@ -286,7 +286,7 @@
     "grade": 10,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA015400",
-    "imageUrl": "https://eterinfo.kr/resource/img/562.gif"
+    "imageUrl": "images/CLA015400_562.gif"
   },
   {
     "id": "CLA015800",
@@ -297,7 +297,7 @@
     "type": "여성모자",
     "defense": 56,
     "detailUrl": "https://eterinfo.kr/item/CLA015800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2596_01.gif"
+    "imageUrl": "images/CLA015800_2596_01.gif"
   },
   {
     "id": "CLA015900",
@@ -308,7 +308,7 @@
     "type": "남성자켓상의",
     "defense": 128,
     "detailUrl": "https://eterinfo.kr/item/CLA015900",
-    "imageUrl": "https://eterinfo.kr/resource/img/4047.gif"
+    "imageUrl": "images/CLA015900_4047.gif"
   },
   {
     "id": "CLA016000",
@@ -319,7 +319,7 @@
     "type": "남성상의",
     "defense": 171,
     "detailUrl": "https://eterinfo.kr/item/CLA016000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5109.gif"
+    "imageUrl": "images/CLA016000_5109.gif"
   },
   {
     "id": "CLA016100",
@@ -330,7 +330,7 @@
     "type": "남성모자",
     "defense": 105,
     "detailUrl": "https://eterinfo.kr/item/CLA016100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2539_01.gif"
+    "imageUrl": "images/CLA016100_2539_01.gif"
   },
   {
     "id": "CLA016200",
@@ -341,7 +341,7 @@
     "type": "여성상의",
     "defense": 152,
     "detailUrl": "https://eterinfo.kr/item/CLA016200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5010.gif"
+    "imageUrl": "images/CLA016200_5010.gif"
   },
   {
     "id": "CLA016300",
@@ -351,7 +351,7 @@
     "grade": 8,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA016300",
-    "imageUrl": "https://eterinfo.kr/resource/img/795.gif"
+    "imageUrl": "images/CLA016300_795.gif"
   },
   {
     "id": "CLA016400",
@@ -362,7 +362,7 @@
     "type": "남성하의",
     "defense": 182,
     "detailUrl": "https://eterinfo.kr/item/CLA016400",
-    "imageUrl": "https://eterinfo.kr/resource/img/5108.gif"
+    "imageUrl": "images/CLA016400_5108.gif"
   },
   {
     "id": "CLA016500",
@@ -373,7 +373,7 @@
     "type": "여성자켓상의",
     "defense": 207,
     "detailUrl": "https://eterinfo.kr/item/CLA016500",
-    "imageUrl": "https://eterinfo.kr/resource/img/5002.gif"
+    "imageUrl": "images/CLA016500_5002.gif"
   },
   {
     "id": "CLA016700",
@@ -383,7 +383,7 @@
     "grade": 11,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA016700",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-2199.gif"
+    "imageUrl": "images/CLA016700_11-2199.gif"
   },
   {
     "id": "CLA017100",
@@ -394,7 +394,7 @@
     "type": "남성상의",
     "defense": 86,
     "detailUrl": "https://eterinfo.kr/item/CLA017100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA017100_2500_02.gif"
   },
   {
     "id": "CLA017200",
@@ -405,7 +405,7 @@
     "type": "감염체전용의상",
     "defense": 180,
     "detailUrl": "https://eterinfo.kr/item/CLA017200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5113_01.gif"
+    "imageUrl": "images/CLA017200_5113_01.gif"
   },
   {
     "id": "CLA017300",
@@ -416,7 +416,7 @@
     "type": "여성상의",
     "defense": 81,
     "detailUrl": "https://eterinfo.kr/item/CLA017300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA017300_2560_02.gif"
   },
   {
     "id": "CLA017400",
@@ -427,7 +427,7 @@
     "type": "여성자켓상의",
     "defense": 95,
     "detailUrl": "https://eterinfo.kr/item/CLA017400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2572_01.gif"
+    "imageUrl": "images/CLA017400_2572_01.gif"
   },
   {
     "id": "CLA017500",
@@ -438,7 +438,7 @@
     "type": "여성모자",
     "defense": 75,
     "detailUrl": "https://eterinfo.kr/item/CLA017500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2597_01.gif"
+    "imageUrl": "images/CLA017500_2597_01.gif"
   },
   {
     "id": "CLA017600",
@@ -449,7 +449,7 @@
     "type": "남성자켓상의",
     "defense": 174,
     "detailUrl": "https://eterinfo.kr/item/CLA017600",
-    "imageUrl": "https://eterinfo.kr/resource/img/122.gif"
+    "imageUrl": "images/CLA017600_122.gif"
   },
   {
     "id": "CLA017800",
@@ -460,7 +460,7 @@
     "type": "남성모자",
     "defense": 123,
     "detailUrl": "https://eterinfo.kr/item/CLA017800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2539_01.gif"
+    "imageUrl": "images/CLA017800_2539_01.gif"
   },
   {
     "id": "CLA017900",
@@ -470,7 +470,7 @@
     "grade": 9,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA017900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5403.gif"
+    "imageUrl": "images/CLA017900_5403.gif"
   },
   {
     "id": "CLA018300",
@@ -481,7 +481,7 @@
     "type": "남성모자",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/CLA018300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2540_01.gif"
+    "imageUrl": "images/CLA018300_2540_01.gif"
   },
   {
     "id": "CLA018400",
@@ -492,7 +492,7 @@
     "type": "남성상의",
     "defense": 120,
     "detailUrl": "https://eterinfo.kr/item/CLA018400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA018400_2500_02.gif"
   },
   {
     "id": "CLA018500",
@@ -503,7 +503,7 @@
     "type": "감염체전용의상",
     "defense": 237,
     "detailUrl": "https://eterinfo.kr/item/CLA018500",
-    "imageUrl": "https://eterinfo.kr/resource/img/5114_01.gif"
+    "imageUrl": "images/CLA018500_5114_01.gif"
   },
   {
     "id": "CLA018600",
@@ -514,7 +514,7 @@
     "type": "여성자켓상의",
     "defense": 140,
     "detailUrl": "https://eterinfo.kr/item/CLA018600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2573_01.gif"
+    "imageUrl": "images/CLA018600_2573_01.gif"
   },
   {
     "id": "CLA018700",
@@ -525,7 +525,7 @@
     "type": "여성상의",
     "defense": 107,
     "detailUrl": "https://eterinfo.kr/item/CLA018700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA018700_2560_02.gif"
   },
   {
     "id": "CLA018800",
@@ -536,7 +536,7 @@
     "type": "여성모자",
     "defense": 93,
     "detailUrl": "https://eterinfo.kr/item/CLA018800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2599_01.gif"
+    "imageUrl": "images/CLA018800_2599_01.gif"
   },
   {
     "id": "CLA018900",
@@ -547,7 +547,7 @@
     "type": "남성자켓상의",
     "defense": 248,
     "detailUrl": "https://eterinfo.kr/item/CLA018900",
-    "imageUrl": "https://eterinfo.kr/resource/img/327.gif"
+    "imageUrl": "images/CLA018900_327.gif"
   },
   {
     "id": "CLA019000",
@@ -557,7 +557,7 @@
     "grade": 9,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA019000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5400.gif"
+    "imageUrl": "images/CLA019000_5400.gif"
   },
   {
     "id": "CLA019400",
@@ -568,7 +568,7 @@
     "type": "남성자켓상의",
     "defense": 126,
     "detailUrl": "https://eterinfo.kr/item/CLA019400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2512_01.gif"
+    "imageUrl": "images/CLA019400_2512_01.gif"
   },
   {
     "id": "CLA019500",
@@ -579,7 +579,7 @@
     "type": "남성신발",
     "defense": 57,
     "detailUrl": "https://eterinfo.kr/item/CLA019500",
-    "imageUrl": "https://eterinfo.kr/resource/img/4053.gif"
+    "imageUrl": "images/CLA019500_4053.gif"
   },
   {
     "id": "CLA019600",
@@ -590,7 +590,7 @@
     "type": "남성모자",
     "defense": 81,
     "detailUrl": "https://eterinfo.kr/item/CLA019600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2541_02.gif"
+    "imageUrl": "images/CLA019600_2541_02.gif"
   },
   {
     "id": "CLA019700",
@@ -601,7 +601,7 @@
     "type": "남성상의",
     "defense": 161,
     "detailUrl": "https://eterinfo.kr/item/CLA019700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA019700_2500_02.gif"
   },
   {
     "id": "CLA019800",
@@ -612,7 +612,7 @@
     "type": "감염체전용의상",
     "defense": 308,
     "detailUrl": "https://eterinfo.kr/item/CLA019800",
-    "imageUrl": "https://eterinfo.kr/resource/img/5114_01.gif"
+    "imageUrl": "images/CLA019800_5114_01.gif"
   },
   {
     "id": "CLA019900",
@@ -623,7 +623,7 @@
     "type": "여성상의",
     "defense": 144,
     "detailUrl": "https://eterinfo.kr/item/CLA019900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA019900_2560_02.gif"
   },
   {
     "id": "CLA020000",
@@ -634,7 +634,7 @@
     "type": "여성자켓상의",
     "defense": 200,
     "detailUrl": "https://eterinfo.kr/item/CLA020000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2575_01.gif"
+    "imageUrl": "images/CLA020000_2575_01.gif"
   },
   {
     "id": "CLA020100",
@@ -645,7 +645,7 @@
     "type": "여성모자",
     "defense": 107,
     "detailUrl": "https://eterinfo.kr/item/CLA020100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2599_01.gif"
+    "imageUrl": "images/CLA020100_2599_01.gif"
   },
   {
     "id": "CLA020200",
@@ -655,7 +655,7 @@
     "grade": 10,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA020200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5401.gif"
+    "imageUrl": "images/CLA020200_5401.gif"
   },
   {
     "id": "CLA020400",
@@ -666,7 +666,7 @@
     "type": "여성하의",
     "defense": 123,
     "detailUrl": "https://eterinfo.kr/item/CLA020400",
-    "imageUrl": "https://eterinfo.kr/resource/img/552.gif"
+    "imageUrl": "images/CLA020400_552.gif"
   },
   {
     "id": "CLA020500",
@@ -677,7 +677,7 @@
     "type": "여성모자",
     "defense": 56,
     "detailUrl": "https://eterinfo.kr/item/CLA020500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2600_01.gif"
+    "imageUrl": "images/CLA020500_2600_01.gif"
   },
   {
     "id": "CLA020600",
@@ -688,7 +688,7 @@
     "type": "남성신발",
     "defense": 72,
     "detailUrl": "https://eterinfo.kr/item/CLA020600",
-    "imageUrl": "https://eterinfo.kr/resource/img/125.gif"
+    "imageUrl": "images/CLA020600_125.gif"
   },
   {
     "id": "CLA020700",
@@ -699,7 +699,7 @@
     "type": "남성자켓상의",
     "defense": 165,
     "detailUrl": "https://eterinfo.kr/item/CLA020700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2513_01.gif"
+    "imageUrl": "images/CLA020700_2513_01.gif"
   },
   {
     "id": "CLA020800",
@@ -710,7 +710,7 @@
     "type": "남성모자",
     "defense": 105,
     "detailUrl": "https://eterinfo.kr/item/CLA020800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2543_02.gif"
+    "imageUrl": "images/CLA020800_2543_02.gif"
   },
   {
     "id": "CLA020900",
@@ -721,7 +721,7 @@
     "type": "남성상의",
     "defense": 200,
     "detailUrl": "https://eterinfo.kr/item/CLA020900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA020900_2500_02.gif"
   },
   {
     "id": "CLA021000",
@@ -732,7 +732,7 @@
     "type": "감염체전용의상",
     "defense": 408,
     "detailUrl": "https://eterinfo.kr/item/CLA021000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5116_01.gif"
+    "imageUrl": "images/CLA021000_5116_01.gif"
   },
   {
     "id": "CLA021100",
@@ -743,7 +743,7 @@
     "type": "여성상의",
     "defense": 176,
     "detailUrl": "https://eterinfo.kr/item/CLA021100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA021100_2560_02.gif"
   },
   {
     "id": "CLA021200",
@@ -754,7 +754,7 @@
     "type": "여성자켓상의",
     "defense": 242,
     "detailUrl": "https://eterinfo.kr/item/CLA021200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2575_01.gif"
+    "imageUrl": "images/CLA021200_2575_01.gif"
   },
   {
     "id": "CLA021300",
@@ -764,7 +764,7 @@
     "grade": 11,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA021300",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1917.gif"
+    "imageUrl": "images/CLA021300_11-1917.gif"
   },
   {
     "id": "CLA021500",
@@ -775,7 +775,7 @@
     "type": "남성상의",
     "defense": 86,
     "detailUrl": "https://eterinfo.kr/item/CLA021500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA021500_2500_02.gif"
   },
   {
     "id": "CLA021600",
@@ -786,7 +786,7 @@
     "type": "남성하의",
     "defense": 98,
     "detailUrl": "https://eterinfo.kr/item/CLA021600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2524_01.gif"
+    "imageUrl": "images/CLA021600_2524_01.gif"
   },
   {
     "id": "CLA021700",
@@ -797,7 +797,7 @@
     "type": "여성자켓상의",
     "defense": 95,
     "detailUrl": "https://eterinfo.kr/item/CLA021700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2576_02.gif"
+    "imageUrl": "images/CLA021700_2576_02.gif"
   },
   {
     "id": "CLA021800",
@@ -808,7 +808,7 @@
     "type": "여성상의",
     "defense": 81,
     "detailUrl": "https://eterinfo.kr/item/CLA021800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA021800_2560_02.gif"
   },
   {
     "id": "CLA021900",
@@ -819,7 +819,7 @@
     "type": "여성모자",
     "defense": 75,
     "detailUrl": "https://eterinfo.kr/item/CLA021900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2601_01.gif"
+    "imageUrl": "images/CLA021900_2601_01.gif"
   },
   {
     "id": "CLA022000",
@@ -830,7 +830,7 @@
     "type": "여성하의",
     "defense": 99,
     "detailUrl": "https://eterinfo.kr/item/CLA022000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5104.gif"
+    "imageUrl": "images/CLA022000_5104.gif"
   },
   {
     "id": "CLA022100",
@@ -841,7 +841,7 @@
     "type": "남성자켓상의",
     "defense": 225,
     "detailUrl": "https://eterinfo.kr/item/CLA022100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2515_01.gif"
+    "imageUrl": "images/CLA022100_2515_01.gif"
   },
   {
     "id": "CLA022200",
@@ -852,7 +852,7 @@
     "type": "남성신발",
     "defense": 95,
     "detailUrl": "https://eterinfo.kr/item/CLA022200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5110.gif"
+    "imageUrl": "images/CLA022200_5110.gif"
   },
   {
     "id": "CLA022300",
@@ -863,7 +863,7 @@
     "type": "남성모자",
     "defense": 123,
     "detailUrl": "https://eterinfo.kr/item/CLA022300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2543_02.gif"
+    "imageUrl": "images/CLA022300_2543_02.gif"
   },
   {
     "id": "CLA022400",
@@ -874,7 +874,7 @@
     "type": "남성모자",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/CLA022400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2544_01.gif"
+    "imageUrl": "images/CLA022400_2544_01.gif"
   },
   {
     "id": "CLA022500",
@@ -885,7 +885,7 @@
     "type": "남성신발",
     "defense": 59,
     "detailUrl": "https://eterinfo.kr/item/CLA022500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2548_02.gif"
+    "imageUrl": "images/CLA022500_2548_02.gif"
   },
   {
     "id": "CLA022600",
@@ -896,7 +896,7 @@
     "type": "여성신발",
     "defense": 53,
     "detailUrl": "https://eterinfo.kr/item/CLA022600",
-    "imageUrl": "https://eterinfo.kr/resource/img/5302.gif"
+    "imageUrl": "images/CLA022600_5302.gif"
   },
   {
     "id": "CLA022700",
@@ -907,7 +907,7 @@
     "type": "남성상의",
     "defense": 120,
     "detailUrl": "https://eterinfo.kr/item/CLA022700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA022700_2500_02.gif"
   },
   {
     "id": "CLA022800",
@@ -918,7 +918,7 @@
     "type": "남성하의",
     "defense": 128,
     "detailUrl": "https://eterinfo.kr/item/CLA022800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2525_01.gif"
+    "imageUrl": "images/CLA022800_2525_01.gif"
   },
   {
     "id": "CLA022900",
@@ -929,7 +929,7 @@
     "type": "여성자켓상의",
     "defense": 140,
     "detailUrl": "https://eterinfo.kr/item/CLA022900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2577_01.gif"
+    "imageUrl": "images/CLA022900_2577_01.gif"
   },
   {
     "id": "CLA023000",
@@ -940,7 +940,7 @@
     "type": "여성상의",
     "defense": 107,
     "detailUrl": "https://eterinfo.kr/item/CLA023000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA023000_2560_02.gif"
   },
   {
     "id": "CLA023100",
@@ -951,7 +951,7 @@
     "type": "여성하의",
     "defense": 188,
     "detailUrl": "https://eterinfo.kr/item/CLA023100",
-    "imageUrl": "https://eterinfo.kr/resource/img/5100.gif"
+    "imageUrl": "images/CLA023100_5100.gif"
   },
   {
     "id": "CLA023200",
@@ -962,7 +962,7 @@
     "type": "여성모자",
     "defense": 93,
     "detailUrl": "https://eterinfo.kr/item/CLA023200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2603_01.gif"
+    "imageUrl": "images/CLA023200_2603_01.gif"
   },
   {
     "id": "CLA023300",
@@ -973,7 +973,7 @@
     "type": "남성자켓상의",
     "defense": 288,
     "detailUrl": "https://eterinfo.kr/item/CLA023300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2515_01.gif"
+    "imageUrl": "images/CLA023300_2515_01.gif"
   },
   {
     "id": "CLA023400",
@@ -984,7 +984,7 @@
     "type": "남성자켓상의",
     "defense": 126,
     "detailUrl": "https://eterinfo.kr/item/CLA023400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2516_01.gif"
+    "imageUrl": "images/CLA023400_2516_01.gif"
   },
   {
     "id": "CLA023500",
@@ -995,7 +995,7 @@
     "type": "남성모자",
     "defense": 81,
     "detailUrl": "https://eterinfo.kr/item/CLA023500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2545_01.gif"
+    "imageUrl": "images/CLA023500_2545_01.gif"
   },
   {
     "id": "CLA023600",
@@ -1006,7 +1006,7 @@
     "type": "남성신발",
     "defense": 74,
     "detailUrl": "https://eterinfo.kr/item/CLA023600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2549_01.gif"
+    "imageUrl": "images/CLA023600_2549_01.gif"
   },
   {
     "id": "CLA023700",
@@ -1017,7 +1017,7 @@
     "type": "여성신발",
     "defense": 63,
     "detailUrl": "https://eterinfo.kr/item/CLA023700",
-    "imageUrl": "https://eterinfo.kr/resource/img/5304.gif"
+    "imageUrl": "images/CLA023700_5304.gif"
   },
   {
     "id": "CLA023800",
@@ -1028,7 +1028,7 @@
     "type": "남성상의",
     "defense": 161,
     "detailUrl": "https://eterinfo.kr/item/CLA023800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA023800_2500_02.gif"
   },
   {
     "id": "CLA023900",
@@ -1039,7 +1039,7 @@
     "type": "남성하의",
     "defense": 170,
     "detailUrl": "https://eterinfo.kr/item/CLA023900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2527_01.gif"
+    "imageUrl": "images/CLA023900_2527_01.gif"
   },
   {
     "id": "CLA024000",
@@ -1050,7 +1050,7 @@
     "type": "여성자켓상의",
     "defense": 200,
     "detailUrl": "https://eterinfo.kr/item/CLA024000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2579_01.gif"
+    "imageUrl": "images/CLA024000_2579_01.gif"
   },
   {
     "id": "CLA024100",
@@ -1061,7 +1061,7 @@
     "type": "여성상의",
     "defense": 144,
     "detailUrl": "https://eterinfo.kr/item/CLA024100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA024100_2560_02.gif"
   },
   {
     "id": "CLA024200",
@@ -1072,7 +1072,7 @@
     "type": "여성하의",
     "defense": 146,
     "detailUrl": "https://eterinfo.kr/item/CLA024200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5011.gif"
+    "imageUrl": "images/CLA024200_5011.gif"
   },
   {
     "id": "CLA024300",
@@ -1083,7 +1083,7 @@
     "type": "여성모자",
     "defense": 107,
     "detailUrl": "https://eterinfo.kr/item/CLA024300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2603_01.gif"
+    "imageUrl": "images/CLA024300_2603_01.gif"
   },
   {
     "id": "CLA024500",
@@ -1094,7 +1094,7 @@
     "type": "여성모자",
     "defense": 56,
     "detailUrl": "https://eterinfo.kr/item/CLA024500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2604_01.gif"
+    "imageUrl": "images/CLA024500_2604_01.gif"
   },
   {
     "id": "CLA024600",
@@ -1105,7 +1105,7 @@
     "type": "남성자켓상의",
     "defense": 165,
     "detailUrl": "https://eterinfo.kr/item/CLA024600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2517_01.gif"
+    "imageUrl": "images/CLA024600_2517_01.gif"
   },
   {
     "id": "CLA024700",
@@ -1116,7 +1116,7 @@
     "type": "남성모자",
     "defense": 105,
     "detailUrl": "https://eterinfo.kr/item/CLA024700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2547_01.gif"
+    "imageUrl": "images/CLA024700_2547_01.gif"
   },
   {
     "id": "CLA024800",
@@ -1127,7 +1127,7 @@
     "type": "남성신발",
     "defense": 93,
     "detailUrl": "https://eterinfo.kr/item/CLA024800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2550_01.gif"
+    "imageUrl": "images/CLA024800_2550_01.gif"
   },
   {
     "id": "CLA024900",
@@ -1138,7 +1138,7 @@
     "type": "여성신발",
     "defense": 83,
     "detailUrl": "https://eterinfo.kr/item/CLA024900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5300.gif"
+    "imageUrl": "images/CLA024900_5300.gif"
   },
   {
     "id": "CLA025000",
@@ -1149,7 +1149,7 @@
     "type": "남성상의",
     "defense": 200,
     "detailUrl": "https://eterinfo.kr/item/CLA025000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA025000_2500_02.gif"
   },
   {
     "id": "CLA025100",
@@ -1160,7 +1160,7 @@
     "type": "남성하의",
     "defense": 212,
     "detailUrl": "https://eterinfo.kr/item/CLA025100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2527_01.gif"
+    "imageUrl": "images/CLA025100_2527_01.gif"
   },
   {
     "id": "CLA025200",
@@ -1171,7 +1171,7 @@
     "type": "여성상의",
     "defense": 176,
     "detailUrl": "https://eterinfo.kr/item/CLA025200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA025200_2560_02.gif"
   },
   {
     "id": "CLA025300",
@@ -1182,7 +1182,7 @@
     "type": "여성자켓상의",
     "defense": 242,
     "detailUrl": "https://eterinfo.kr/item/CLA025300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2579_01.gif"
+    "imageUrl": "images/CLA025300_2579_01.gif"
   },
   {
     "id": "CLA025500",
@@ -1193,7 +1193,7 @@
     "type": "남성상의",
     "defense": 86,
     "detailUrl": "https://eterinfo.kr/item/CLA025500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA025500_2500_02.gif"
   },
   {
     "id": "CLA025600",
@@ -1204,7 +1204,7 @@
     "type": "남성하의",
     "defense": 98,
     "detailUrl": "https://eterinfo.kr/item/CLA025600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2528_02.gif"
+    "imageUrl": "images/CLA025600_2528_02.gif"
   },
   {
     "id": "CLA025700",
@@ -1215,7 +1215,7 @@
     "type": "여성자켓상의",
     "defense": 95,
     "detailUrl": "https://eterinfo.kr/item/CLA025700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2580_03.gif"
+    "imageUrl": "images/CLA025700_2580_03.gif"
   },
   {
     "id": "CLA025800",
@@ -1226,7 +1226,7 @@
     "type": "여성상의",
     "defense": 81,
     "detailUrl": "https://eterinfo.kr/item/CLA025800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA025800_2560_02.gif"
   },
   {
     "id": "CLA025900",
@@ -1237,7 +1237,7 @@
     "type": "여성신발",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/CLA025900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2608_01.gif"
+    "imageUrl": "images/CLA025900_2608_01.gif"
   },
   {
     "id": "CLA026000",
@@ -1248,7 +1248,7 @@
     "type": "여성모자",
     "defense": 75,
     "detailUrl": "https://eterinfo.kr/item/CLA026000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2605_01.gif"
+    "imageUrl": "images/CLA026000_2605_01.gif"
   },
   {
     "id": "CLA026100",
@@ -1259,7 +1259,7 @@
     "type": "남성자켓상의",
     "defense": 225,
     "detailUrl": "https://eterinfo.kr/item/CLA026100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2519_01.gif"
+    "imageUrl": "images/CLA026100_2519_01.gif"
   },
   {
     "id": "CLA026200",
@@ -1270,7 +1270,7 @@
     "type": "남성모자",
     "defense": 123,
     "detailUrl": "https://eterinfo.kr/item/CLA026200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2547_01.gif"
+    "imageUrl": "images/CLA026200_2547_01.gif"
   },
   {
     "id": "CLA026300",
@@ -1281,7 +1281,7 @@
     "type": "남성신발",
     "defense": 110,
     "detailUrl": "https://eterinfo.kr/item/CLA026300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2551_02.gif"
+    "imageUrl": "images/CLA026300_2551_02.gif"
   },
   {
     "id": "CLA026500",
@@ -1292,7 +1292,7 @@
     "type": "남성신발",
     "defense": 59,
     "detailUrl": "https://eterinfo.kr/item/CLA026500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2552_02.gif"
+    "imageUrl": "images/CLA026500_2552_02.gif"
   },
   {
     "id": "CLA026600",
@@ -1303,7 +1303,7 @@
     "type": "남성상의",
     "defense": 120,
     "detailUrl": "https://eterinfo.kr/item/CLA026600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA026600_2500_02.gif"
   },
   {
     "id": "CLA026700",
@@ -1314,7 +1314,7 @@
     "type": "남성하의",
     "defense": 128,
     "detailUrl": "https://eterinfo.kr/item/CLA026700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2529_01.gif"
+    "imageUrl": "images/CLA026700_2529_01.gif"
   },
   {
     "id": "CLA026800",
@@ -1325,7 +1325,7 @@
     "type": "여성자켓상의",
     "defense": 140,
     "detailUrl": "https://eterinfo.kr/item/CLA026800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2581_02.gif"
+    "imageUrl": "images/CLA026800_2581_02.gif"
   },
   {
     "id": "CLA026900",
@@ -1336,7 +1336,7 @@
     "type": "여성상의",
     "defense": 107,
     "detailUrl": "https://eterinfo.kr/item/CLA026900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA026900_2560_02.gif"
   },
   {
     "id": "CLA027000",
@@ -1347,7 +1347,7 @@
     "type": "여성신발",
     "defense": 68,
     "detailUrl": "https://eterinfo.kr/item/CLA027000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2609_01.gif"
+    "imageUrl": "images/CLA027000_2609_01.gif"
   },
   {
     "id": "CLA027100",
@@ -1358,7 +1358,7 @@
     "type": "여성모자",
     "defense": 93,
     "detailUrl": "https://eterinfo.kr/item/CLA027100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2607_01.gif"
+    "imageUrl": "images/CLA027100_2607_01.gif"
   },
   {
     "id": "CLA027200",
@@ -1369,7 +1369,7 @@
     "type": "남성자켓상의",
     "defense": 288,
     "detailUrl": "https://eterinfo.kr/item/CLA027200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2519_01.gif"
+    "imageUrl": "images/CLA027200_2519_01.gif"
   },
   {
     "id": "CLA027300",
@@ -1380,7 +1380,7 @@
     "type": "남성모자",
     "defense": 130,
     "detailUrl": "https://eterinfo.kr/item/CLA027300",
-    "imageUrl": "https://eterinfo.kr/resource/img/563.gif"
+    "imageUrl": "images/CLA027300_563.gif"
   },
   {
     "id": "CLA027500",
@@ -1391,7 +1391,7 @@
     "type": "남성자켓상의",
     "defense": 126,
     "detailUrl": "https://eterinfo.kr/item/CLA027500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2520_01.gif"
+    "imageUrl": "images/CLA027500_2520_01.gif"
   },
   {
     "id": "CLA027600",
@@ -1402,7 +1402,7 @@
     "type": "남성신발",
     "defense": 74,
     "detailUrl": "https://eterinfo.kr/item/CLA027600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2553_01.gif"
+    "imageUrl": "images/CLA027600_2553_01.gif"
   },
   {
     "id": "CLA027700",
@@ -1413,7 +1413,7 @@
     "type": "남성상의",
     "defense": 161,
     "detailUrl": "https://eterinfo.kr/item/CLA027700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA027700_2500_02.gif"
   },
   {
     "id": "CLA027800",
@@ -1424,7 +1424,7 @@
     "type": "남성하의",
     "defense": 170,
     "detailUrl": "https://eterinfo.kr/item/CLA027800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2531_01.gif"
+    "imageUrl": "images/CLA027800_2531_01.gif"
   },
   {
     "id": "CLA027900",
@@ -1435,7 +1435,7 @@
     "type": "여성신발",
     "defense": 81,
     "detailUrl": "https://eterinfo.kr/item/CLA027900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2611_01.gif"
+    "imageUrl": "images/CLA027900_2611_01.gif"
   },
   {
     "id": "CLA028000",
@@ -1446,7 +1446,7 @@
     "type": "여성상의",
     "defense": 144,
     "detailUrl": "https://eterinfo.kr/item/CLA028000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA028000_2560_02.gif"
   },
   {
     "id": "CLA028100",
@@ -1457,7 +1457,7 @@
     "type": "여성자켓상의",
     "defense": 200,
     "detailUrl": "https://eterinfo.kr/item/CLA028100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2583_01.gif"
+    "imageUrl": "images/CLA028100_2583_01.gif"
   },
   {
     "id": "CLA028200",
@@ -1468,7 +1468,7 @@
     "type": "여성모자",
     "defense": 107,
     "detailUrl": "https://eterinfo.kr/item/CLA028200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2607_01.gif"
+    "imageUrl": "images/CLA028200_2607_01.gif"
   },
   {
     "id": "CLA028300",
@@ -1479,7 +1479,7 @@
     "type": "남성모자",
     "defense": 157,
     "detailUrl": "https://eterinfo.kr/item/CLA028300",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-2200.gif"
+    "imageUrl": "images/CLA028300_11-2200.gif"
   },
   {
     "id": "CLA028500",
@@ -1490,7 +1490,7 @@
     "type": "남성자켓상의",
     "defense": 165,
     "detailUrl": "https://eterinfo.kr/item/CLA028500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2521_01.gif"
+    "imageUrl": "images/CLA028500_2521_01.gif"
   },
   {
     "id": "CLA028600",
@@ -1501,7 +1501,7 @@
     "type": "남성신발",
     "defense": 93,
     "detailUrl": "https://eterinfo.kr/item/CLA028600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2555_01.gif"
+    "imageUrl": "images/CLA028600_2555_01.gif"
   },
   {
     "id": "CLA028700",
@@ -1512,7 +1512,7 @@
     "type": "남성상의",
     "defense": 200,
     "detailUrl": "https://eterinfo.kr/item/CLA028700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/CLA028700_2500_02.gif"
   },
   {
     "id": "CLA028800",
@@ -1523,7 +1523,7 @@
     "type": "남성하의",
     "defense": 212,
     "detailUrl": "https://eterinfo.kr/item/CLA028800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2531_01.gif"
+    "imageUrl": "images/CLA028800_2531_01.gif"
   },
   {
     "id": "CLA028900",
@@ -1534,7 +1534,7 @@
     "type": "여성자켓상의",
     "defense": 242,
     "detailUrl": "https://eterinfo.kr/item/CLA028900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2583_01.gif"
+    "imageUrl": "images/CLA028900_2583_01.gif"
   },
   {
     "id": "CLA029000",
@@ -1545,7 +1545,7 @@
     "type": "여성신발",
     "defense": 95,
     "detailUrl": "https://eterinfo.kr/item/CLA029000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2611_01.gif"
+    "imageUrl": "images/CLA029000_2611_01.gif"
   },
   {
     "id": "CLA029100",
@@ -1556,7 +1556,7 @@
     "type": "여성상의",
     "defense": 176,
     "detailUrl": "https://eterinfo.kr/item/CLA029100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/CLA029100_2560_02.gif"
   },
   {
     "id": "CLA029200",
@@ -1567,7 +1567,7 @@
     "type": "여성모자",
     "defense": 112,
     "detailUrl": "https://eterinfo.kr/item/CLA029200",
-    "imageUrl": "https://eterinfo.kr/resource/img/468.gif"
+    "imageUrl": "images/CLA029200_468.gif"
   },
   {
     "id": "CLA029300",
@@ -1578,7 +1578,7 @@
     "type": "남성하의",
     "defense": 98,
     "detailUrl": "https://eterinfo.kr/item/CLA029300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2532_02.gif"
+    "imageUrl": "images/CLA029300_2532_02.gif"
   },
   {
     "id": "CLA029400",
@@ -1589,7 +1589,7 @@
     "type": "여성신발",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/CLA029400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2612_01.gif"
+    "imageUrl": "images/CLA029400_2612_01.gif"
   },
   {
     "id": "CLA029500",
@@ -1600,7 +1600,7 @@
     "type": "여성스타킹",
     "defense": 35,
     "detailUrl": "https://eterinfo.kr/item/CLA029500",
-    "imageUrl": "https://eterinfo.kr/resource/img/595.gif"
+    "imageUrl": "images/CLA029500_595.gif"
   },
   {
     "id": "CLA029600",
@@ -1611,7 +1611,7 @@
     "type": "남성자켓상의",
     "defense": 225,
     "detailUrl": "https://eterinfo.kr/item/CLA029600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2523_01.gif"
+    "imageUrl": "images/CLA029600_2523_01.gif"
   },
   {
     "id": "CLA029700",
@@ -1622,7 +1622,7 @@
     "type": "남성신발",
     "defense": 110,
     "detailUrl": "https://eterinfo.kr/item/CLA029700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2555_01.gif"
+    "imageUrl": "images/CLA029700_2555_01.gif"
   },
   {
     "id": "CLA029800",
@@ -1633,7 +1633,7 @@
     "type": "남성상의",
     "defense": 209,
     "detailUrl": "https://eterinfo.kr/item/CLA029800",
-    "imageUrl": "https://eterinfo.kr/resource/img/522.gif"
+    "imageUrl": "images/CLA029800_522.gif"
   },
   {
     "id": "CLA029900",
@@ -1644,7 +1644,7 @@
     "type": "여성코트",
     "defense": 287,
     "detailUrl": "https://eterinfo.kr/item/CLA029900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5003.gif"
+    "imageUrl": "images/CLA029900_5003.gif"
   },
   {
     "id": "CLA030000",
@@ -1655,7 +1655,7 @@
     "type": "여성모자",
     "defense": 134,
     "detailUrl": "https://eterinfo.kr/item/CLA030000",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1923.gif"
+    "imageUrl": "images/CLA030000_11-1923.gif"
   },
   {
     "id": "CLA030100",
@@ -1666,7 +1666,7 @@
     "type": "여성상의",
     "defense": 206,
     "detailUrl": "https://eterinfo.kr/item/CLA030100",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1930.gif"
+    "imageUrl": "images/CLA030100_11-1930.gif"
   },
   {
     "id": "CLA030200",
@@ -1677,7 +1677,7 @@
     "type": "남성신발",
     "defense": 59,
     "detailUrl": "https://eterinfo.kr/item/CLA030200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2556_01.gif"
+    "imageUrl": "images/CLA030200_2556_01.gif"
   },
   {
     "id": "CLA030300",
@@ -1688,7 +1688,7 @@
     "type": "감염체전용의상",
     "defense": 180,
     "detailUrl": "https://eterinfo.kr/item/CLA030300",
-    "imageUrl": "https://eterinfo.kr/resource/img/5111_03.gif"
+    "imageUrl": "images/CLA030300_5111_03.gif"
   },
   {
     "id": "CLA030400",
@@ -1699,7 +1699,7 @@
     "type": "남성하의",
     "defense": 128,
     "detailUrl": "https://eterinfo.kr/item/CLA030400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2533_01.gif"
+    "imageUrl": "images/CLA030400_2533_01.gif"
   },
   {
     "id": "CLA030500",
@@ -1710,7 +1710,7 @@
     "type": "여성신발",
     "defense": 68,
     "detailUrl": "https://eterinfo.kr/item/CLA030500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2613_01.gif"
+    "imageUrl": "images/CLA030500_2613_01.gif"
   },
   {
     "id": "CLA030600",
@@ -1721,7 +1721,7 @@
     "type": "남성자켓상의",
     "defense": 288,
     "detailUrl": "https://eterinfo.kr/item/CLA030600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2523_01.gif"
+    "imageUrl": "images/CLA030600_2523_01.gif"
   },
   {
     "id": "CLA030700",
@@ -1732,7 +1732,7 @@
     "type": "남성상의",
     "defense": 253,
     "detailUrl": "https://eterinfo.kr/item/CLA030700",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-2220.gif"
+    "imageUrl": "images/CLA030700_11-2220.gif"
   },
   {
     "id": "CLA030800",
@@ -1743,7 +1743,7 @@
     "type": "여성코트",
     "defense": 395,
     "detailUrl": "https://eterinfo.kr/item/CLA030800",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1929.gif"
+    "imageUrl": "images/CLA030800_11-1929.gif"
   },
   {
     "id": "CLA030900",
@@ -1754,7 +1754,7 @@
     "type": "남성신발",
     "defense": 74,
     "detailUrl": "https://eterinfo.kr/item/CLA030900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2557_01.gif"
+    "imageUrl": "images/CLA030900_2557_01.gif"
   },
   {
     "id": "CLA031000",
@@ -1765,7 +1765,7 @@
     "type": "감염체전용의상",
     "defense": 237,
     "detailUrl": "https://eterinfo.kr/item/CLA031000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5112_01.gif"
+    "imageUrl": "images/CLA031000_5112_01.gif"
   },
   {
     "id": "CLA031100",
@@ -1776,7 +1776,7 @@
     "type": "남성하의",
     "defense": 170,
     "detailUrl": "https://eterinfo.kr/item/CLA031100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2535_01.gif"
+    "imageUrl": "images/CLA031100_2535_01.gif"
   },
   {
     "id": "CLA031200",
@@ -1787,7 +1787,7 @@
     "type": "여성신발",
     "defense": 81,
     "detailUrl": "https://eterinfo.kr/item/CLA031200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2615_01.gif"
+    "imageUrl": "images/CLA031200_2615_01.gif"
   },
   {
     "id": "CLA031300",
@@ -1798,7 +1798,7 @@
     "type": "남성코트",
     "defense": 302,
     "detailUrl": "https://eterinfo.kr/item/CLA031300",
-    "imageUrl": "https://eterinfo.kr/resource/img/525.gif"
+    "imageUrl": "images/CLA031300_525.gif"
   },
   {
     "id": "CLA031400",
@@ -1809,7 +1809,7 @@
     "type": "남성신발",
     "defense": 93,
     "detailUrl": "https://eterinfo.kr/item/CLA031400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2559_01.gif"
+    "imageUrl": "images/CLA031400_2559_01.gif"
   },
   {
     "id": "CLA031500",
@@ -1820,7 +1820,7 @@
     "type": "감염체전용의상",
     "defense": 308,
     "detailUrl": "https://eterinfo.kr/item/CLA031500",
-    "imageUrl": "https://eterinfo.kr/resource/img/5117_01.gif"
+    "imageUrl": "images/CLA031500_5117_01.gif"
   },
   {
     "id": "CLA031600",
@@ -1831,7 +1831,7 @@
     "type": "남성하의",
     "defense": 212,
     "detailUrl": "https://eterinfo.kr/item/CLA031600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2535_01.gif"
+    "imageUrl": "images/CLA031600_2535_01.gif"
   },
   {
     "id": "CLA031700",
@@ -1842,7 +1842,7 @@
     "type": "여성신발",
     "defense": 95,
     "detailUrl": "https://eterinfo.kr/item/CLA031700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2615_01.gif"
+    "imageUrl": "images/CLA031700_2615_01.gif"
   },
   {
     "id": "CLA031800",
@@ -1853,7 +1853,7 @@
     "type": "남성코트",
     "defense": 410,
     "detailUrl": "https://eterinfo.kr/item/CLA031800",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-2219.gif"
+    "imageUrl": "images/CLA031800_11-2219.gif"
   },
   {
     "id": "CLA031900",
@@ -1864,7 +1864,7 @@
     "type": "여성신발",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/CLA031900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2616_02.gif"
+    "imageUrl": "images/CLA031900_2616_02.gif"
   },
   {
     "id": "CLA032000",
@@ -1875,7 +1875,7 @@
     "type": "남성신발",
     "defense": 110,
     "detailUrl": "https://eterinfo.kr/item/CLA032000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2559_01.gif"
+    "imageUrl": "images/CLA032000_2559_01.gif"
   },
   {
     "id": "CLA032100",
@@ -1886,7 +1886,7 @@
     "type": "감염체전용의상",
     "defense": 408,
     "detailUrl": "https://eterinfo.kr/item/CLA032100",
-    "imageUrl": "https://eterinfo.kr/resource/img/5117_01.gif"
+    "imageUrl": "images/CLA032100_5117_01.gif"
   },
   {
     "id": "CLA032200",
@@ -1897,7 +1897,7 @@
     "type": "남성하의",
     "defense": 221,
     "detailUrl": "https://eterinfo.kr/item/CLA032200",
-    "imageUrl": "https://eterinfo.kr/resource/img/550.gif"
+    "imageUrl": "images/CLA032200_550.gif"
   },
   {
     "id": "CLA032300",
@@ -1908,7 +1908,7 @@
     "type": "여성하의",
     "defense": 87,
     "detailUrl": "https://eterinfo.kr/item/CLA032300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2584_02.gif"
+    "imageUrl": "images/CLA032300_2584_02.gif"
   },
   {
     "id": "CLA032400",
@@ -1919,7 +1919,7 @@
     "type": "여성신발",
     "defense": 68,
     "detailUrl": "https://eterinfo.kr/item/CLA032400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2617_01.gif"
+    "imageUrl": "images/CLA032400_2617_01.gif"
   },
   {
     "id": "CLA032500",
@@ -1930,7 +1930,7 @@
     "type": "남성신발",
     "defense": 115,
     "detailUrl": "https://eterinfo.kr/item/CLA032500",
-    "imageUrl": "https://eterinfo.kr/resource/img/559.gif"
+    "imageUrl": "images/CLA032500_559.gif"
   },
   {
     "id": "CLA032600",
@@ -1941,7 +1941,7 @@
     "type": "남성하의",
     "defense": 266,
     "detailUrl": "https://eterinfo.kr/item/CLA032600",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-2272.gif"
+    "imageUrl": "images/CLA032600_11-2272.gif"
   },
   {
     "id": "CLA032700",
@@ -1952,7 +1952,7 @@
     "type": "여성하의",
     "defense": 105,
     "detailUrl": "https://eterinfo.kr/item/CLA032700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2585_02.gif"
+    "imageUrl": "images/CLA032700_2585_02.gif"
   },
   {
     "id": "CLA032800",
@@ -1963,7 +1963,7 @@
     "type": "여성신발",
     "defense": 81,
     "detailUrl": "https://eterinfo.kr/item/CLA032800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2619_01.gif"
+    "imageUrl": "images/CLA032800_2619_01.gif"
   },
   {
     "id": "CLA032900",
@@ -1974,7 +1974,7 @@
     "type": "남성신발",
     "defense": 137,
     "detailUrl": "https://eterinfo.kr/item/CLA032900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2299.jpg"
+    "imageUrl": "images/CLA032900_2299.jpg"
   },
   {
     "id": "CLA033000",
@@ -1985,7 +1985,7 @@
     "type": "여성하의",
     "defense": 128,
     "detailUrl": "https://eterinfo.kr/item/CLA033000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2587_04.gif"
+    "imageUrl": "images/CLA033000_2587_04.gif"
   },
   {
     "id": "CLA033100",
@@ -1996,7 +1996,7 @@
     "type": "여성신발",
     "defense": 95,
     "detailUrl": "https://eterinfo.kr/item/CLA033100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2619_01.gif"
+    "imageUrl": "images/CLA033100_2619_01.gif"
   },
   {
     "id": "CLA033200",
@@ -2007,7 +2007,7 @@
     "type": "여성하의",
     "defense": 170,
     "detailUrl": "https://eterinfo.kr/item/CLA033200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2587_04.gif"
+    "imageUrl": "images/CLA033200_2587_04.gif"
   },
   {
     "id": "CLA033300",
@@ -2018,7 +2018,7 @@
     "type": "여성신발",
     "defense": 100,
     "detailUrl": "https://eterinfo.kr/item/CLA033300",
-    "imageUrl": "https://eterinfo.kr/resource/img/5301.gif"
+    "imageUrl": "images/CLA033300_5301.gif"
   },
   {
     "id": "CLA033400",
@@ -2029,7 +2029,7 @@
     "type": "여성하의",
     "defense": 87,
     "detailUrl": "https://eterinfo.kr/item/CLA033400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2588_03.gif"
+    "imageUrl": "images/CLA033400_2588_03.gif"
   },
   {
     "id": "CLA033500",
@@ -2040,7 +2040,7 @@
     "type": "여성신발",
     "defense": 119,
     "detailUrl": "https://eterinfo.kr/item/CLA033500",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1960.gif"
+    "imageUrl": "images/CLA033500_11-1960.gif"
   },
   {
     "id": "CLA033600",
@@ -2051,7 +2051,7 @@
     "type": "여성하의",
     "defense": 105,
     "detailUrl": "https://eterinfo.kr/item/CLA033600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2589_03.gif"
+    "imageUrl": "images/CLA033600_2589_03.gif"
   },
   {
     "id": "CLA033700",
@@ -2062,7 +2062,7 @@
     "type": "여성하의",
     "defense": 128,
     "detailUrl": "https://eterinfo.kr/item/CLA033700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2591_02.gif"
+    "imageUrl": "images/CLA033700_2591_02.gif"
   },
   {
     "id": "CLA033800",
@@ -2073,7 +2073,7 @@
     "type": "여성하의",
     "defense": 170,
     "detailUrl": "https://eterinfo.kr/item/CLA033800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2591_02.gif"
+    "imageUrl": "images/CLA033800_2591_02.gif"
   },
   {
     "id": "CLA033900",
@@ -2084,7 +2084,7 @@
     "type": "여성하의",
     "defense": 87,
     "detailUrl": "https://eterinfo.kr/item/CLA033900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2592_02.gif"
+    "imageUrl": "images/CLA033900_2592_02.gif"
   },
   {
     "id": "CLA034000",
@@ -2095,7 +2095,7 @@
     "type": "여성하의",
     "defense": 105,
     "detailUrl": "https://eterinfo.kr/item/CLA034000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2593_02.gif"
+    "imageUrl": "images/CLA034000_2593_02.gif"
   },
   {
     "id": "CLA034100",
@@ -2106,7 +2106,7 @@
     "type": "여성하의",
     "defense": 128,
     "detailUrl": "https://eterinfo.kr/item/CLA034100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2595_01.gif"
+    "imageUrl": "images/CLA034100_2595_01.gif"
   },
   {
     "id": "CLA034200",
@@ -2117,7 +2117,7 @@
     "type": "여성하의",
     "defense": 170,
     "detailUrl": "https://eterinfo.kr/item/CLA034200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2595_01.gif"
+    "imageUrl": "images/CLA034200_2595_01.gif"
   },
   {
     "id": "CLA034300",
@@ -2128,7 +2128,7 @@
     "type": "여성스타킹",
     "defense": 47,
     "detailUrl": "https://eterinfo.kr/item/CLA034300",
-    "imageUrl": "https://eterinfo.kr/resource/img/5122_01.gif"
+    "imageUrl": "images/CLA034300_5122_01.gif"
   },
   {
     "id": "CLA034400",
@@ -2139,7 +2139,7 @@
     "type": "여성스타킹",
     "defense": 60,
     "detailUrl": "https://eterinfo.kr/item/CLA034400",
-    "imageUrl": "https://eterinfo.kr/resource/img/5123_01.gif"
+    "imageUrl": "images/CLA034400_5123_01.gif"
   },
   {
     "id": "CLA034500",
@@ -2150,7 +2150,7 @@
     "type": "여성하의",
     "defense": 73,
     "detailUrl": "https://eterinfo.kr/item/CLA034500",
-    "imageUrl": "https://eterinfo.kr/resource/img/565.gif"
+    "imageUrl": "images/CLA034500_565.gif"
   },
   {
     "id": "CLA034600",
@@ -2161,7 +2161,7 @@
     "type": "여성하의",
     "defense": 328,
     "detailUrl": "https://eterinfo.kr/item/CLA034600",
-    "imageUrl": "https://eterinfo.kr/resource/img/5101.gif"
+    "imageUrl": "images/CLA034600_5101.gif"
   },
   {
     "id": "CLA034700",
@@ -2172,7 +2172,7 @@
     "type": "여성하의",
     "defense": 220,
     "detailUrl": "https://eterinfo.kr/item/CLA034700",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1951.gif"
+    "imageUrl": "images/CLA034700_11-1951.gif"
   },
   {
     "id": "CLA034800",
@@ -2183,7 +2183,7 @@
     "type": "여성스타킹",
     "defense": 86,
     "detailUrl": "https://eterinfo.kr/item/CLA034800",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1998.gif"
+    "imageUrl": "images/CLA034800_11-1998.gif"
   },
   {
     "id": "CLA034900",
@@ -2194,7 +2194,7 @@
     "type": "감염체전용의상",
     "defense": 524,
     "detailUrl": "https://eterinfo.kr/item/CLA034900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5116_01.gif"
+    "imageUrl": "images/CLA034900_5116_01.gif"
   },
   {
     "id": "CLA035000",
@@ -2205,7 +2205,7 @@
     "type": "감염체전용의상",
     "defense": 524,
     "detailUrl": "https://eterinfo.kr/item/CLA035000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5117_01.gif"
+    "imageUrl": "images/CLA035000_5117_01.gif"
   },
   {
     "id": "CLA035100",
@@ -2216,7 +2216,7 @@
     "type": "감염체전용의상",
     "defense": 671,
     "detailUrl": "https://eterinfo.kr/item/CLA035100",
-    "imageUrl": "https://eterinfo.kr/resource/img/5116_01.gif"
+    "imageUrl": "images/CLA035100_5116_01.gif"
   },
   {
     "id": "CLA035200",
@@ -2227,7 +2227,7 @@
     "type": "감염체전용의상",
     "defense": 671,
     "detailUrl": "https://eterinfo.kr/item/CLA035200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5117_01.gif"
+    "imageUrl": "images/CLA035200_5117_01.gif"
   },
   {
     "id": "CLH000100",
@@ -2238,7 +2238,7 @@
     "type": "근접무기용방패",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/CLH000100",
-    "imageUrl": "https://eterinfo.kr/resource/img/4054.gif"
+    "imageUrl": "images/CLH000100_4054.gif"
   },
   {
     "id": "CLH000200",
@@ -2249,7 +2249,7 @@
     "type": "원거리용방패",
     "defense": 43,
     "detailUrl": "https://eterinfo.kr/item/CLH000200",
-    "imageUrl": "https://eterinfo.kr/resource/img/4085.gif"
+    "imageUrl": "images/CLH000200_4085.gif"
   },
   {
     "id": "CLH000300",
@@ -2260,7 +2260,7 @@
     "type": "근접무기용방패",
     "defense": 111,
     "detailUrl": "https://eterinfo.kr/item/CLH000300",
-    "imageUrl": "https://eterinfo.kr/resource/img/4057.gif"
+    "imageUrl": "images/CLH000300_4057.gif"
   },
   {
     "id": "CLH000400",
@@ -2271,7 +2271,7 @@
     "type": "원거리용방패",
     "defense": 78,
     "detailUrl": "https://eterinfo.kr/item/CLH000400",
-    "imageUrl": "https://eterinfo.kr/resource/img/4086.gif"
+    "imageUrl": "images/CLH000400_4086.gif"
   },
   {
     "id": "CLH000500",
@@ -2282,7 +2282,7 @@
     "type": "근접무기용방패",
     "defense": 155,
     "detailUrl": "https://eterinfo.kr/item/CLH000500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2624_01.gif"
+    "imageUrl": "images/CLH000500_2624_01.gif"
   },
   {
     "id": "CLH000600",
@@ -2293,7 +2293,7 @@
     "type": "원거리용방패",
     "defense": 109,
     "detailUrl": "https://eterinfo.kr/item/CLH000600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2626_01.gif"
+    "imageUrl": "images/CLH000600_2626_01.gif"
   },
   {
     "id": "CLH000700",
@@ -2304,7 +2304,7 @@
     "type": "근접무기용방패",
     "defense": 217,
     "detailUrl": "https://eterinfo.kr/item/CLH000700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2625_01.gif"
+    "imageUrl": "images/CLH000700_2625_01.gif"
   },
   {
     "id": "CLH000800",
@@ -2315,7 +2315,7 @@
     "type": "원거리용방패",
     "defense": 152,
     "detailUrl": "https://eterinfo.kr/item/CLH000800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2627_1.gif"
+    "imageUrl": "images/CLH000800_2627_1.gif"
   },
   {
     "id": "CLH000900",
@@ -2326,7 +2326,7 @@
     "type": "근접무기용방패",
     "defense": 293,
     "detailUrl": "https://eterinfo.kr/item/CLH000900",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB082.gif"
+    "imageUrl": "images/CLH000900_CB082.gif"
   },
   {
     "id": "CLH001000",
@@ -2337,7 +2337,7 @@
     "type": "원거리용방패",
     "defense": 205,
     "detailUrl": "https://eterinfo.kr/item/CLH001000",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB081.gif"
+    "imageUrl": "images/CLH001000_CB081.gif"
   },
   {
     "id": "NCA010100",
@@ -2348,7 +2348,7 @@
     "type": "남성모자",
     "defense": 42,
     "detailUrl": "https://eterinfo.kr/item/NCA010100",
-    "imageUrl": "https://eterinfo.kr/resource/img/4052.gif"
+    "imageUrl": "images/NCA010100_4052.gif"
   },
   {
     "id": "NCA010200",
@@ -2358,7 +2358,7 @@
     "grade": 6,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA010200",
-    "imageUrl": "https://eterinfo.kr/resource/img/353.gif"
+    "imageUrl": "images/NCA010200_353.gif"
   },
   {
     "id": "NCA011400",
@@ -2369,7 +2369,7 @@
     "type": "남성모자",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/NCA011400",
-    "imageUrl": "https://eterinfo.kr/resource/img/126.gif"
+    "imageUrl": "images/NCA011400_126.gif"
   },
   {
     "id": "NCA011500",
@@ -2379,7 +2379,7 @@
     "grade": 7,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA011500",
-    "imageUrl": "https://eterinfo.kr/resource/img/348.gif"
+    "imageUrl": "images/NCA011500_348.gif"
   },
   {
     "id": "NCA012300",
@@ -2390,7 +2390,7 @@
     "type": "남성하의",
     "defense": 50,
     "detailUrl": "https://eterinfo.kr/item/NCA012300",
-    "imageUrl": "https://eterinfo.kr/resource/img/4048.gif"
+    "imageUrl": "images/NCA012300_4048.gif"
   },
   {
     "id": "NCA012400",
@@ -2401,7 +2401,7 @@
     "type": "여성모자",
     "defense": 39,
     "detailUrl": "https://eterinfo.kr/item/NCA012400",
-    "imageUrl": "https://eterinfo.kr/resource/img/5200.gif"
+    "imageUrl": "images/NCA012400_5200.gif"
   },
   {
     "id": "NCA012600",
@@ -2412,7 +2412,7 @@
     "type": "여성자켓상의",
     "defense": 49,
     "detailUrl": "https://eterinfo.kr/item/NCA012600",
-    "imageUrl": "https://eterinfo.kr/resource/img/5000.gif"
+    "imageUrl": "images/NCA012600_5000.gif"
   },
   {
     "id": "NCA012700",
@@ -2423,7 +2423,7 @@
     "type": "남성모자",
     "defense": 71,
     "detailUrl": "https://eterinfo.kr/item/NCA012700",
-    "imageUrl": "https://eterinfo.kr/resource/img/5107.gif"
+    "imageUrl": "images/NCA012700_5107.gif"
   },
   {
     "id": "NCA012800",
@@ -2433,7 +2433,7 @@
     "grade": 8,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA012800",
-    "imageUrl": "https://eterinfo.kr/resource/img/347.gif"
+    "imageUrl": "images/NCA012800_347.gif"
   },
   {
     "id": "NCA013300",
@@ -2444,7 +2444,7 @@
     "type": "남성상의",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/NCA013300",
-    "imageUrl": "https://eterinfo.kr/resource/img/4046.gif"
+    "imageUrl": "images/NCA013300_4046.gif"
   },
   {
     "id": "NCA013400",
@@ -2455,7 +2455,7 @@
     "type": "남성모자",
     "defense": 41,
     "detailUrl": "https://eterinfo.kr/item/NCA013400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2536_03.gif"
+    "imageUrl": "images/NCA013400_2536_03.gif"
   },
   {
     "id": "NCA013500",
@@ -2466,7 +2466,7 @@
     "type": "남성자켓상의",
     "defense": 49,
     "detailUrl": "https://eterinfo.kr/item/NCA013500",
-    "imageUrl": "https://eterinfo.kr/resource/img/457.gif"
+    "imageUrl": "images/NCA013500_457.gif"
   },
   {
     "id": "NCA013600",
@@ -2476,7 +2476,7 @@
     "grade": 6,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA013600",
-    "imageUrl": "https://eterinfo.kr/resource/img/796.gif"
+    "imageUrl": "images/NCA013600_796.gif"
   },
   {
     "id": "NCA013700",
@@ -2487,7 +2487,7 @@
     "type": "남성하의",
     "defense": 66,
     "detailUrl": "https://eterinfo.kr/item/NCA013700",
-    "imageUrl": "https://eterinfo.kr/resource/img/4049.gif"
+    "imageUrl": "images/NCA013700_4049.gif"
   },
   {
     "id": "NCA013900",
@@ -2498,7 +2498,7 @@
     "type": "여성자켓상의",
     "defense": 63,
     "detailUrl": "https://eterinfo.kr/item/NCA013900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5004.gif"
+    "imageUrl": "images/NCA013900_5004.gif"
   },
   {
     "id": "NCA014000",
@@ -2509,7 +2509,7 @@
     "type": "여성모자",
     "defense": 48,
     "detailUrl": "https://eterinfo.kr/item/NCA014000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5500.gif"
+    "imageUrl": "images/NCA014000_5500.gif"
   },
   {
     "id": "NCA014100",
@@ -2519,7 +2519,7 @@
     "grade": 9,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA014100",
-    "imageUrl": "https://eterinfo.kr/resource/img/352.gif"
+    "imageUrl": "images/NCA014100_352.gif"
   },
   {
     "id": "NCA014500",
@@ -2530,7 +2530,7 @@
     "type": "남성자켓상의",
     "defense": 65,
     "detailUrl": "https://eterinfo.kr/item/NCA014500",
-    "imageUrl": "https://eterinfo.kr/resource/img/4045.gif"
+    "imageUrl": "images/NCA014500_4045.gif"
   },
   {
     "id": "NCA014600",
@@ -2541,7 +2541,7 @@
     "type": "남성상의",
     "defense": 83,
     "detailUrl": "https://eterinfo.kr/item/NCA014600",
-    "imageUrl": "https://eterinfo.kr/resource/img/121.gif"
+    "imageUrl": "images/NCA014600_121.gif"
   },
   {
     "id": "NCA014700",
@@ -2552,7 +2552,7 @@
     "type": "남성모자",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/NCA014700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2537_01.gif"
+    "imageUrl": "images/NCA014700_2537_01.gif"
   },
   {
     "id": "NCA014800",
@@ -2563,7 +2563,7 @@
     "type": "여성상의",
     "defense": 74,
     "detailUrl": "https://eterinfo.kr/item/NCA014800",
-    "imageUrl": "https://eterinfo.kr/resource/img/5008.gif"
+    "imageUrl": "images/NCA014800_5008.gif"
   },
   {
     "id": "NCA014900",
@@ -2573,7 +2573,7 @@
     "grade": 7,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA014900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5402.gif"
+    "imageUrl": "images/NCA014900_5402.gif"
   },
   {
     "id": "NCA015000",
@@ -2584,7 +2584,7 @@
     "type": "남성하의",
     "defense": 87,
     "detailUrl": "https://eterinfo.kr/item/NCA015000",
-    "imageUrl": "https://eterinfo.kr/resource/img/123.gif"
+    "imageUrl": "images/NCA015000_123.gif"
   },
   {
     "id": "NCA015100",
@@ -2595,7 +2595,7 @@
     "type": "여성자켓상의",
     "defense": 103,
     "detailUrl": "https://eterinfo.kr/item/NCA015100",
-    "imageUrl": "https://eterinfo.kr/resource/img/5007.gif"
+    "imageUrl": "images/NCA015100_5007.gif"
   },
   {
     "id": "NCA015300",
@@ -2606,7 +2606,7 @@
     "type": "여성모자",
     "defense": 61,
     "detailUrl": "https://eterinfo.kr/item/NCA015300",
-    "imageUrl": "https://eterinfo.kr/resource/img/5202.gif"
+    "imageUrl": "images/NCA015300_5202.gif"
   },
   {
     "id": "NCA015400",
@@ -2616,7 +2616,7 @@
     "grade": 10,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA015400",
-    "imageUrl": "https://eterinfo.kr/resource/img/562.gif"
+    "imageUrl": "images/NCA015400_562.gif"
   },
   {
     "id": "NCA015800",
@@ -2627,7 +2627,7 @@
     "type": "여성모자",
     "defense": 37,
     "detailUrl": "https://eterinfo.kr/item/NCA015800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2596_01.gif"
+    "imageUrl": "images/NCA015800_2596_01.gif"
   },
   {
     "id": "NCA015900",
@@ -2638,7 +2638,7 @@
     "type": "남성자켓상의",
     "defense": 85,
     "detailUrl": "https://eterinfo.kr/item/NCA015900",
-    "imageUrl": "https://eterinfo.kr/resource/img/4047.gif"
+    "imageUrl": "images/NCA015900_4047.gif"
   },
   {
     "id": "NCA016000",
@@ -2649,7 +2649,7 @@
     "type": "남성상의",
     "defense": 114,
     "detailUrl": "https://eterinfo.kr/item/NCA016000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5109.gif"
+    "imageUrl": "images/NCA016000_5109.gif"
   },
   {
     "id": "NCA016100",
@@ -2660,7 +2660,7 @@
     "type": "남성모자",
     "defense": 70,
     "detailUrl": "https://eterinfo.kr/item/NCA016100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2539_01.gif"
+    "imageUrl": "images/NCA016100_2539_01.gif"
   },
   {
     "id": "NCA016200",
@@ -2671,7 +2671,7 @@
     "type": "여성상의",
     "defense": 101,
     "detailUrl": "https://eterinfo.kr/item/NCA016200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5010.gif"
+    "imageUrl": "images/NCA016200_5010.gif"
   },
   {
     "id": "NCA016300",
@@ -2681,7 +2681,7 @@
     "grade": 8,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA016300",
-    "imageUrl": "https://eterinfo.kr/resource/img/795.gif"
+    "imageUrl": "images/NCA016300_795.gif"
   },
   {
     "id": "NCA016400",
@@ -2692,7 +2692,7 @@
     "type": "남성하의",
     "defense": 121,
     "detailUrl": "https://eterinfo.kr/item/NCA016400",
-    "imageUrl": "https://eterinfo.kr/resource/img/5108.gif"
+    "imageUrl": "images/NCA016400_5108.gif"
   },
   {
     "id": "NCA016500",
@@ -2703,7 +2703,7 @@
     "type": "여성자켓상의",
     "defense": 138,
     "detailUrl": "https://eterinfo.kr/item/NCA016500",
-    "imageUrl": "https://eterinfo.kr/resource/img/5002.gif"
+    "imageUrl": "images/NCA016500_5002.gif"
   },
   {
     "id": "NCA016700",
@@ -2713,7 +2713,7 @@
     "grade": 11,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA016700",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-2199.gif"
+    "imageUrl": "images/NCA016700_11-2199.gif"
   },
   {
     "id": "NCA017100",
@@ -2724,7 +2724,7 @@
     "type": "남성상의",
     "defense": 57,
     "detailUrl": "https://eterinfo.kr/item/NCA017100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA017100_2500_02.gif"
   },
   {
     "id": "NCA017200",
@@ -2735,7 +2735,7 @@
     "type": "감염체전용의상",
     "defense": 120,
     "detailUrl": "https://eterinfo.kr/item/NCA017200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5113_01.gif"
+    "imageUrl": "images/NCA017200_5113_01.gif"
   },
   {
     "id": "NCA017300",
@@ -2746,7 +2746,7 @@
     "type": "여성상의",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/NCA017300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA017300_2560_02.gif"
   },
   {
     "id": "NCA017400",
@@ -2757,7 +2757,7 @@
     "type": "여성자켓상의",
     "defense": 63,
     "detailUrl": "https://eterinfo.kr/item/NCA017400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2572_01.gif"
+    "imageUrl": "images/NCA017400_2572_01.gif"
   },
   {
     "id": "NCA017500",
@@ -2768,7 +2768,7 @@
     "type": "여성모자",
     "defense": 50,
     "detailUrl": "https://eterinfo.kr/item/NCA017500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2597_01.gif"
+    "imageUrl": "images/NCA017500_2597_01.gif"
   },
   {
     "id": "NCA017600",
@@ -2779,7 +2779,7 @@
     "type": "남성자켓상의",
     "defense": 116,
     "detailUrl": "https://eterinfo.kr/item/NCA017600",
-    "imageUrl": "https://eterinfo.kr/resource/img/122.gif"
+    "imageUrl": "images/NCA017600_122.gif"
   },
   {
     "id": "NCA017800",
@@ -2790,7 +2790,7 @@
     "type": "남성모자",
     "defense": 82,
     "detailUrl": "https://eterinfo.kr/item/NCA017800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2539_01.gif"
+    "imageUrl": "images/NCA017800_2539_01.gif"
   },
   {
     "id": "NCA017900",
@@ -2800,7 +2800,7 @@
     "grade": 9,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA017900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5403.gif"
+    "imageUrl": "images/NCA017900_5403.gif"
   },
   {
     "id": "NCA018300",
@@ -2811,7 +2811,7 @@
     "type": "남성모자",
     "defense": 41,
     "detailUrl": "https://eterinfo.kr/item/NCA018300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2540_01.gif"
+    "imageUrl": "images/NCA018300_2540_01.gif"
   },
   {
     "id": "NCA018400",
@@ -2822,7 +2822,7 @@
     "type": "남성상의",
     "defense": 80,
     "detailUrl": "https://eterinfo.kr/item/NCA018400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA018400_2500_02.gif"
   },
   {
     "id": "NCA018500",
@@ -2833,7 +2833,7 @@
     "type": "감염체전용의상",
     "defense": 158,
     "detailUrl": "https://eterinfo.kr/item/NCA018500",
-    "imageUrl": "https://eterinfo.kr/resource/img/5114_01.gif"
+    "imageUrl": "images/NCA018500_5114_01.gif"
   },
   {
     "id": "NCA018600",
@@ -2844,7 +2844,7 @@
     "type": "여성자켓상의",
     "defense": 93,
     "detailUrl": "https://eterinfo.kr/item/NCA018600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2573_01.gif"
+    "imageUrl": "images/NCA018600_2573_01.gif"
   },
   {
     "id": "NCA018700",
@@ -2855,7 +2855,7 @@
     "type": "여성상의",
     "defense": 71,
     "detailUrl": "https://eterinfo.kr/item/NCA018700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA018700_2560_02.gif"
   },
   {
     "id": "NCA018800",
@@ -2866,7 +2866,7 @@
     "type": "여성모자",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/NCA018800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2599_01.gif"
+    "imageUrl": "images/NCA018800_2599_01.gif"
   },
   {
     "id": "NCA018900",
@@ -2877,7 +2877,7 @@
     "type": "남성자켓상의",
     "defense": 165,
     "detailUrl": "https://eterinfo.kr/item/NCA018900",
-    "imageUrl": "https://eterinfo.kr/resource/img/327.gif"
+    "imageUrl": "images/NCA018900_327.gif"
   },
   {
     "id": "NCA019000",
@@ -2887,7 +2887,7 @@
     "grade": 9,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA019000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5400.gif"
+    "imageUrl": "images/NCA019000_5400.gif"
   },
   {
     "id": "NCA019400",
@@ -2898,7 +2898,7 @@
     "type": "남성자켓상의",
     "defense": 84,
     "detailUrl": "https://eterinfo.kr/item/NCA019400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2512_01.gif"
+    "imageUrl": "images/NCA019400_2512_01.gif"
   },
   {
     "id": "NCA019500",
@@ -2909,7 +2909,7 @@
     "type": "남성신발",
     "defense": 38,
     "detailUrl": "https://eterinfo.kr/item/NCA019500",
-    "imageUrl": "https://eterinfo.kr/resource/img/4053.gif"
+    "imageUrl": "images/NCA019500_4053.gif"
   },
   {
     "id": "NCA019600",
@@ -2920,7 +2920,7 @@
     "type": "남성모자",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/NCA019600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2541_02.gif"
+    "imageUrl": "images/NCA019600_2541_02.gif"
   },
   {
     "id": "NCA019700",
@@ -2931,7 +2931,7 @@
     "type": "남성상의",
     "defense": 107,
     "detailUrl": "https://eterinfo.kr/item/NCA019700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA019700_2500_02.gif"
   },
   {
     "id": "NCA019800",
@@ -2942,7 +2942,7 @@
     "type": "감염체전용의상",
     "defense": 205,
     "detailUrl": "https://eterinfo.kr/item/NCA019800",
-    "imageUrl": "https://eterinfo.kr/resource/img/5114_01.gif"
+    "imageUrl": "images/NCA019800_5114_01.gif"
   },
   {
     "id": "NCA019900",
@@ -2953,7 +2953,7 @@
     "type": "여성상의",
     "defense": 96,
     "detailUrl": "https://eterinfo.kr/item/NCA019900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA019900_2560_02.gif"
   },
   {
     "id": "NCA020000",
@@ -2964,7 +2964,7 @@
     "type": "여성자켓상의",
     "defense": 133,
     "detailUrl": "https://eterinfo.kr/item/NCA020000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2575_01.gif"
+    "imageUrl": "images/NCA020000_2575_01.gif"
   },
   {
     "id": "NCA020100",
@@ -2975,7 +2975,7 @@
     "type": "여성모자",
     "defense": 71,
     "detailUrl": "https://eterinfo.kr/item/NCA020100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2599_01.gif"
+    "imageUrl": "images/NCA020100_2599_01.gif"
   },
   {
     "id": "NCA020200",
@@ -2985,7 +2985,7 @@
     "grade": 10,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA020200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5401.gif"
+    "imageUrl": "images/NCA020200_5401.gif"
   },
   {
     "id": "NCA020400",
@@ -2996,7 +2996,7 @@
     "type": "여성하의",
     "defense": 82,
     "detailUrl": "https://eterinfo.kr/item/NCA020400",
-    "imageUrl": "https://eterinfo.kr/resource/img/552.gif"
+    "imageUrl": "images/NCA020400_552.gif"
   },
   {
     "id": "NCA020500",
@@ -3007,7 +3007,7 @@
     "type": "여성모자",
     "defense": 37,
     "detailUrl": "https://eterinfo.kr/item/NCA020500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2600_01.gif"
+    "imageUrl": "images/NCA020500_2600_01.gif"
   },
   {
     "id": "NCA020600",
@@ -3018,7 +3018,7 @@
     "type": "남성신발",
     "defense": 48,
     "detailUrl": "https://eterinfo.kr/item/NCA020600",
-    "imageUrl": "https://eterinfo.kr/resource/img/125.gif"
+    "imageUrl": "images/NCA020600_125.gif"
   },
   {
     "id": "NCA020700",
@@ -3029,7 +3029,7 @@
     "type": "남성자켓상의",
     "defense": 110,
     "detailUrl": "https://eterinfo.kr/item/NCA020700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2513_01.gif"
+    "imageUrl": "images/NCA020700_2513_01.gif"
   },
   {
     "id": "NCA020800",
@@ -3040,7 +3040,7 @@
     "type": "남성모자",
     "defense": 70,
     "detailUrl": "https://eterinfo.kr/item/NCA020800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2543_02.gif"
+    "imageUrl": "images/NCA020800_2543_02.gif"
   },
   {
     "id": "NCA020900",
@@ -3051,7 +3051,7 @@
     "type": "남성상의",
     "defense": 133,
     "detailUrl": "https://eterinfo.kr/item/NCA020900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA020900_2500_02.gif"
   },
   {
     "id": "NCA021000",
@@ -3062,7 +3062,7 @@
     "type": "감염체전용의상",
     "defense": 272,
     "detailUrl": "https://eterinfo.kr/item/NCA021000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5116_01.gif"
+    "imageUrl": "images/NCA021000_5116_01.gif"
   },
   {
     "id": "NCA021100",
@@ -3073,7 +3073,7 @@
     "type": "여성상의",
     "defense": 117,
     "detailUrl": "https://eterinfo.kr/item/NCA021100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA021100_2560_02.gif"
   },
   {
     "id": "NCA021200",
@@ -3084,7 +3084,7 @@
     "type": "여성자켓상의",
     "defense": 161,
     "detailUrl": "https://eterinfo.kr/item/NCA021200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2575_01.gif"
+    "imageUrl": "images/NCA021200_2575_01.gif"
   },
   {
     "id": "NCA021300",
@@ -3094,7 +3094,7 @@
     "grade": 11,
     "type": "여성가발",
     "detailUrl": "https://eterinfo.kr/item/NCA021300",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1917.gif"
+    "imageUrl": "images/NCA021300_11-1917.gif"
   },
   {
     "id": "NCA021500",
@@ -3105,7 +3105,7 @@
     "type": "남성상의",
     "defense": 57,
     "detailUrl": "https://eterinfo.kr/item/NCA021500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA021500_2500_02.gif"
   },
   {
     "id": "NCA021600",
@@ -3116,7 +3116,7 @@
     "type": "남성하의",
     "defense": 65,
     "detailUrl": "https://eterinfo.kr/item/NCA021600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2524_01.gif"
+    "imageUrl": "images/NCA021600_2524_01.gif"
   },
   {
     "id": "NCA021700",
@@ -3127,7 +3127,7 @@
     "type": "여성자켓상의",
     "defense": 63,
     "detailUrl": "https://eterinfo.kr/item/NCA021700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2576_02.gif"
+    "imageUrl": "images/NCA021700_2576_02.gif"
   },
   {
     "id": "NCA021800",
@@ -3138,7 +3138,7 @@
     "type": "여성상의",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/NCA021800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA021800_2560_02.gif"
   },
   {
     "id": "NCA021900",
@@ -3149,7 +3149,7 @@
     "type": "여성모자",
     "defense": 50,
     "detailUrl": "https://eterinfo.kr/item/NCA021900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2601_01.gif"
+    "imageUrl": "images/NCA021900_2601_01.gif"
   },
   {
     "id": "NCA022000",
@@ -3160,7 +3160,7 @@
     "type": "여성하의",
     "defense": 66,
     "detailUrl": "https://eterinfo.kr/item/NCA022000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5104.gif"
+    "imageUrl": "images/NCA022000_5104.gif"
   },
   {
     "id": "NCA022100",
@@ -3171,7 +3171,7 @@
     "type": "남성자켓상의",
     "defense": 150,
     "detailUrl": "https://eterinfo.kr/item/NCA022100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2515_01.gif"
+    "imageUrl": "images/NCA022100_2515_01.gif"
   },
   {
     "id": "NCA022200",
@@ -3182,7 +3182,7 @@
     "type": "남성신발",
     "defense": 63,
     "detailUrl": "https://eterinfo.kr/item/NCA022200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5110.gif"
+    "imageUrl": "images/NCA022200_5110.gif"
   },
   {
     "id": "NCA022300",
@@ -3193,7 +3193,7 @@
     "type": "남성모자",
     "defense": 82,
     "detailUrl": "https://eterinfo.kr/item/NCA022300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2543_02.gif"
+    "imageUrl": "images/NCA022300_2543_02.gif"
   },
   {
     "id": "NCA022400",
@@ -3204,7 +3204,7 @@
     "type": "남성모자",
     "defense": 41,
     "detailUrl": "https://eterinfo.kr/item/NCA022400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2544_01.gif"
+    "imageUrl": "images/NCA022400_2544_01.gif"
   },
   {
     "id": "NCA022500",
@@ -3215,7 +3215,7 @@
     "type": "남성신발",
     "defense": 39,
     "detailUrl": "https://eterinfo.kr/item/NCA022500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2548_02.gif"
+    "imageUrl": "images/NCA022500_2548_02.gif"
   },
   {
     "id": "NCA022600",
@@ -3226,7 +3226,7 @@
     "type": "여성신발",
     "defense": 35,
     "detailUrl": "https://eterinfo.kr/item/NCA022600",
-    "imageUrl": "https://eterinfo.kr/resource/img/5302.gif"
+    "imageUrl": "images/NCA022600_5302.gif"
   },
   {
     "id": "NCA022700",
@@ -3237,7 +3237,7 @@
     "type": "남성상의",
     "defense": 80,
     "detailUrl": "https://eterinfo.kr/item/NCA022700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA022700_2500_02.gif"
   },
   {
     "id": "NCA022800",
@@ -3248,7 +3248,7 @@
     "type": "남성하의",
     "defense": 85,
     "detailUrl": "https://eterinfo.kr/item/NCA022800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2525_01.gif"
+    "imageUrl": "images/NCA022800_2525_01.gif"
   },
   {
     "id": "NCA022900",
@@ -3259,7 +3259,7 @@
     "type": "여성자켓상의",
     "defense": 93,
     "detailUrl": "https://eterinfo.kr/item/NCA022900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2577_01.gif"
+    "imageUrl": "images/NCA022900_2577_01.gif"
   },
   {
     "id": "NCA023000",
@@ -3270,7 +3270,7 @@
     "type": "여성상의",
     "defense": 71,
     "detailUrl": "https://eterinfo.kr/item/NCA023000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA023000_2560_02.gif"
   },
   {
     "id": "NCA023100",
@@ -3281,7 +3281,7 @@
     "type": "여성하의",
     "defense": 125,
     "detailUrl": "https://eterinfo.kr/item/NCA023100",
-    "imageUrl": "https://eterinfo.kr/resource/img/5100.gif"
+    "imageUrl": "images/NCA023100_5100.gif"
   },
   {
     "id": "NCA023200",
@@ -3292,7 +3292,7 @@
     "type": "여성모자",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/NCA023200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2603_01.gif"
+    "imageUrl": "images/NCA023200_2603_01.gif"
   },
   {
     "id": "NCA023300",
@@ -3303,7 +3303,7 @@
     "type": "남성자켓상의",
     "defense": 192,
     "detailUrl": "https://eterinfo.kr/item/NCA023300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2515_01.gif"
+    "imageUrl": "images/NCA023300_2515_01.gif"
   },
   {
     "id": "NCA023400",
@@ -3314,7 +3314,7 @@
     "type": "남성자켓상의",
     "defense": 84,
     "detailUrl": "https://eterinfo.kr/item/NCA023400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2516_01.gif"
+    "imageUrl": "images/NCA023400_2516_01.gif"
   },
   {
     "id": "NCA023500",
@@ -3325,7 +3325,7 @@
     "type": "남성모자",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/NCA023500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2545_01.gif"
+    "imageUrl": "images/NCA023500_2545_01.gif"
   },
   {
     "id": "NCA023600",
@@ -3336,7 +3336,7 @@
     "type": "남성신발",
     "defense": 49,
     "detailUrl": "https://eterinfo.kr/item/NCA023600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2549_01.gif"
+    "imageUrl": "images/NCA023600_2549_01.gif"
   },
   {
     "id": "NCA023700",
@@ -3347,7 +3347,7 @@
     "type": "여성신발",
     "defense": 42,
     "detailUrl": "https://eterinfo.kr/item/NCA023700",
-    "imageUrl": "https://eterinfo.kr/resource/img/5304.gif"
+    "imageUrl": "images/NCA023700_5304.gif"
   },
   {
     "id": "NCA023800",
@@ -3358,7 +3358,7 @@
     "type": "남성상의",
     "defense": 107,
     "detailUrl": "https://eterinfo.kr/item/NCA023800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA023800_2500_02.gif"
   },
   {
     "id": "NCA023900",
@@ -3369,7 +3369,7 @@
     "type": "남성하의",
     "defense": 113,
     "detailUrl": "https://eterinfo.kr/item/NCA023900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2527_01.gif"
+    "imageUrl": "images/NCA023900_2527_01.gif"
   },
   {
     "id": "NCA024000",
@@ -3380,7 +3380,7 @@
     "type": "여성자켓상의",
     "defense": 133,
     "detailUrl": "https://eterinfo.kr/item/NCA024000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2579_01.gif"
+    "imageUrl": "images/NCA024000_2579_01.gif"
   },
   {
     "id": "NCA024100",
@@ -3391,7 +3391,7 @@
     "type": "여성상의",
     "defense": 96,
     "detailUrl": "https://eterinfo.kr/item/NCA024100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA024100_2560_02.gif"
   },
   {
     "id": "NCA024200",
@@ -3402,7 +3402,7 @@
     "type": "여성하의",
     "defense": 97,
     "detailUrl": "https://eterinfo.kr/item/NCA024200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5011.gif"
+    "imageUrl": "images/NCA024200_5011.gif"
   },
   {
     "id": "NCA024300",
@@ -3413,7 +3413,7 @@
     "type": "여성모자",
     "defense": 71,
     "detailUrl": "https://eterinfo.kr/item/NCA024300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2603_01.gif"
+    "imageUrl": "images/NCA024300_2603_01.gif"
   },
   {
     "id": "NCA024500",
@@ -3424,7 +3424,7 @@
     "type": "여성모자",
     "defense": 37,
     "detailUrl": "https://eterinfo.kr/item/NCA024500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2604_01.gif"
+    "imageUrl": "images/NCA024500_2604_01.gif"
   },
   {
     "id": "NCA024600",
@@ -3435,7 +3435,7 @@
     "type": "남성자켓상의",
     "defense": 110,
     "detailUrl": "https://eterinfo.kr/item/NCA024600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2517_01.gif"
+    "imageUrl": "images/NCA024600_2517_01.gif"
   },
   {
     "id": "NCA024700",
@@ -3446,7 +3446,7 @@
     "type": "남성모자",
     "defense": 70,
     "detailUrl": "https://eterinfo.kr/item/NCA024700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2547_01.gif"
+    "imageUrl": "images/NCA024700_2547_01.gif"
   },
   {
     "id": "NCA024800",
@@ -3457,7 +3457,7 @@
     "type": "남성신발",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/NCA024800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2550_01.gif"
+    "imageUrl": "images/NCA024800_2550_01.gif"
   },
   {
     "id": "NCA024900",
@@ -3468,7 +3468,7 @@
     "type": "여성신발",
     "defense": 55,
     "detailUrl": "https://eterinfo.kr/item/NCA024900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5300.gif"
+    "imageUrl": "images/NCA024900_5300.gif"
   },
   {
     "id": "NCA025000",
@@ -3479,7 +3479,7 @@
     "type": "남성상의",
     "defense": 133,
     "detailUrl": "https://eterinfo.kr/item/NCA025000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA025000_2500_02.gif"
   },
   {
     "id": "NCA025100",
@@ -3490,7 +3490,7 @@
     "type": "남성하의",
     "defense": 141,
     "detailUrl": "https://eterinfo.kr/item/NCA025100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2527_01.gif"
+    "imageUrl": "images/NCA025100_2527_01.gif"
   },
   {
     "id": "NCA025200",
@@ -3501,7 +3501,7 @@
     "type": "여성상의",
     "defense": 117,
     "detailUrl": "https://eterinfo.kr/item/NCA025200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA025200_2560_02.gif"
   },
   {
     "id": "NCA025300",
@@ -3512,7 +3512,7 @@
     "type": "여성자켓상의",
     "defense": 161,
     "detailUrl": "https://eterinfo.kr/item/NCA025300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2579_01.gif"
+    "imageUrl": "images/NCA025300_2579_01.gif"
   },
   {
     "id": "NCA025500",
@@ -3523,7 +3523,7 @@
     "type": "남성상의",
     "defense": 57,
     "detailUrl": "https://eterinfo.kr/item/NCA025500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA025500_2500_02.gif"
   },
   {
     "id": "NCA025600",
@@ -3534,7 +3534,7 @@
     "type": "남성하의",
     "defense": 65,
     "detailUrl": "https://eterinfo.kr/item/NCA025600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2528_02.gif"
+    "imageUrl": "images/NCA025600_2528_02.gif"
   },
   {
     "id": "NCA025700",
@@ -3545,7 +3545,7 @@
     "type": "여성자켓상의",
     "defense": 63,
     "detailUrl": "https://eterinfo.kr/item/NCA025700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2580_03.gif"
+    "imageUrl": "images/NCA025700_2580_03.gif"
   },
   {
     "id": "NCA025800",
@@ -3556,7 +3556,7 @@
     "type": "여성상의",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/NCA025800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA025800_2560_02.gif"
   },
   {
     "id": "NCA025900",
@@ -3567,7 +3567,7 @@
     "type": "여성신발",
     "defense": 36,
     "detailUrl": "https://eterinfo.kr/item/NCA025900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2608_01.gif"
+    "imageUrl": "images/NCA025900_2608_01.gif"
   },
   {
     "id": "NCA026000",
@@ -3578,7 +3578,7 @@
     "type": "여성모자",
     "defense": 50,
     "detailUrl": "https://eterinfo.kr/item/NCA026000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2605_01.gif"
+    "imageUrl": "images/NCA026000_2605_01.gif"
   },
   {
     "id": "NCA026100",
@@ -3589,7 +3589,7 @@
     "type": "남성자켓상의",
     "defense": 150,
     "detailUrl": "https://eterinfo.kr/item/NCA026100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2519_01.gif"
+    "imageUrl": "images/NCA026100_2519_01.gif"
   },
   {
     "id": "NCA026200",
@@ -3600,7 +3600,7 @@
     "type": "남성모자",
     "defense": 82,
     "detailUrl": "https://eterinfo.kr/item/NCA026200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2547_01.gif"
+    "imageUrl": "images/NCA026200_2547_01.gif"
   },
   {
     "id": "NCA026300",
@@ -3611,7 +3611,7 @@
     "type": "남성신발",
     "defense": 73,
     "detailUrl": "https://eterinfo.kr/item/NCA026300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2551_02.gif"
+    "imageUrl": "images/NCA026300_2551_02.gif"
   },
   {
     "id": "NCA026500",
@@ -3622,7 +3622,7 @@
     "type": "남성신발",
     "defense": 39,
     "detailUrl": "https://eterinfo.kr/item/NCA026500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2552_02.gif"
+    "imageUrl": "images/NCA026500_2552_02.gif"
   },
   {
     "id": "NCA026600",
@@ -3633,7 +3633,7 @@
     "type": "남성상의",
     "defense": 80,
     "detailUrl": "https://eterinfo.kr/item/NCA026600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA026600_2500_02.gif"
   },
   {
     "id": "NCA026700",
@@ -3644,7 +3644,7 @@
     "type": "남성하의",
     "defense": 85,
     "detailUrl": "https://eterinfo.kr/item/NCA026700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2529_01.gif"
+    "imageUrl": "images/NCA026700_2529_01.gif"
   },
   {
     "id": "NCA026800",
@@ -3655,7 +3655,7 @@
     "type": "여성자켓상의",
     "defense": 93,
     "detailUrl": "https://eterinfo.kr/item/NCA026800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2581_02.gif"
+    "imageUrl": "images/NCA026800_2581_02.gif"
   },
   {
     "id": "NCA026900",
@@ -3666,7 +3666,7 @@
     "type": "여성상의",
     "defense": 71,
     "detailUrl": "https://eterinfo.kr/item/NCA026900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA026900_2560_02.gif"
   },
   {
     "id": "NCA027000",
@@ -3677,7 +3677,7 @@
     "type": "여성신발",
     "defense": 45,
     "detailUrl": "https://eterinfo.kr/item/NCA027000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2609_01.gif"
+    "imageUrl": "images/NCA027000_2609_01.gif"
   },
   {
     "id": "NCA027100",
@@ -3688,7 +3688,7 @@
     "type": "여성모자",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/NCA027100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2607_01.gif"
+    "imageUrl": "images/NCA027100_2607_01.gif"
   },
   {
     "id": "NCA027200",
@@ -3699,7 +3699,7 @@
     "type": "남성자켓상의",
     "defense": 192,
     "detailUrl": "https://eterinfo.kr/item/NCA027200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2519_01.gif"
+    "imageUrl": "images/NCA027200_2519_01.gif"
   },
   {
     "id": "NCA027300",
@@ -3710,7 +3710,7 @@
     "type": "남성모자",
     "defense": 86,
     "detailUrl": "https://eterinfo.kr/item/NCA027300",
-    "imageUrl": "https://eterinfo.kr/resource/img/563.gif"
+    "imageUrl": "images/NCA027300_563.gif"
   },
   {
     "id": "NCA027500",
@@ -3721,7 +3721,7 @@
     "type": "남성자켓상의",
     "defense": 84,
     "detailUrl": "https://eterinfo.kr/item/NCA027500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2520_01.gif"
+    "imageUrl": "images/NCA027500_2520_01.gif"
   },
   {
     "id": "NCA027600",
@@ -3732,7 +3732,7 @@
     "type": "남성신발",
     "defense": 49,
     "detailUrl": "https://eterinfo.kr/item/NCA027600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2553_01.gif"
+    "imageUrl": "images/NCA027600_2553_01.gif"
   },
   {
     "id": "NCA027700",
@@ -3743,7 +3743,7 @@
     "type": "남성상의",
     "defense": 107,
     "detailUrl": "https://eterinfo.kr/item/NCA027700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA027700_2500_02.gif"
   },
   {
     "id": "NCA027800",
@@ -3754,7 +3754,7 @@
     "type": "남성하의",
     "defense": 113,
     "detailUrl": "https://eterinfo.kr/item/NCA027800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2531_01.gif"
+    "imageUrl": "images/NCA027800_2531_01.gif"
   },
   {
     "id": "NCA027900",
@@ -3765,7 +3765,7 @@
     "type": "여성신발",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/NCA027900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2611_01.gif"
+    "imageUrl": "images/NCA027900_2611_01.gif"
   },
   {
     "id": "NCA028000",
@@ -3776,7 +3776,7 @@
     "type": "여성상의",
     "defense": 96,
     "detailUrl": "https://eterinfo.kr/item/NCA028000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA028000_2560_02.gif"
   },
   {
     "id": "NCA028100",
@@ -3787,7 +3787,7 @@
     "type": "여성자켓상의",
     "defense": 133,
     "detailUrl": "https://eterinfo.kr/item/NCA028100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2583_01.gif"
+    "imageUrl": "images/NCA028100_2583_01.gif"
   },
   {
     "id": "NCA028200",
@@ -3798,7 +3798,7 @@
     "type": "여성모자",
     "defense": 71,
     "detailUrl": "https://eterinfo.kr/item/NCA028200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2607_01.gif"
+    "imageUrl": "images/NCA028200_2607_01.gif"
   },
   {
     "id": "NCA028300",
@@ -3809,7 +3809,7 @@
     "type": "남성모자",
     "defense": 104,
     "detailUrl": "https://eterinfo.kr/item/NCA028300",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-2200.gif"
+    "imageUrl": "images/NCA028300_11-2200.gif"
   },
   {
     "id": "NCA028500",
@@ -3820,7 +3820,7 @@
     "type": "남성자켓상의",
     "defense": 110,
     "detailUrl": "https://eterinfo.kr/item/NCA028500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2521_01.gif"
+    "imageUrl": "images/NCA028500_2521_01.gif"
   },
   {
     "id": "NCA028600",
@@ -3831,7 +3831,7 @@
     "type": "남성신발",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/NCA028600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2555_01.gif"
+    "imageUrl": "images/NCA028600_2555_01.gif"
   },
   {
     "id": "NCA028700",
@@ -3842,7 +3842,7 @@
     "type": "남성상의",
     "defense": 133,
     "detailUrl": "https://eterinfo.kr/item/NCA028700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2500_02.gif"
+    "imageUrl": "images/NCA028700_2500_02.gif"
   },
   {
     "id": "NCA028800",
@@ -3853,7 +3853,7 @@
     "type": "남성하의",
     "defense": 141,
     "detailUrl": "https://eterinfo.kr/item/NCA028800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2531_01.gif"
+    "imageUrl": "images/NCA028800_2531_01.gif"
   },
   {
     "id": "NCA028900",
@@ -3864,7 +3864,7 @@
     "type": "여성자켓상의",
     "defense": 161,
     "detailUrl": "https://eterinfo.kr/item/NCA028900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2583_01.gif"
+    "imageUrl": "images/NCA028900_2583_01.gif"
   },
   {
     "id": "NCA029000",
@@ -3875,7 +3875,7 @@
     "type": "여성신발",
     "defense": 63,
     "detailUrl": "https://eterinfo.kr/item/NCA029000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2611_01.gif"
+    "imageUrl": "images/NCA029000_2611_01.gif"
   },
   {
     "id": "NCA029100",
@@ -3886,7 +3886,7 @@
     "type": "여성상의",
     "defense": 117,
     "detailUrl": "https://eterinfo.kr/item/NCA029100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2560_02.gif"
+    "imageUrl": "images/NCA029100_2560_02.gif"
   },
   {
     "id": "NCA029200",
@@ -3897,7 +3897,7 @@
     "type": "여성모자",
     "defense": 74,
     "detailUrl": "https://eterinfo.kr/item/NCA029200",
-    "imageUrl": "https://eterinfo.kr/resource/img/468.gif"
+    "imageUrl": "images/NCA029200_468.gif"
   },
   {
     "id": "NCA029300",
@@ -3908,7 +3908,7 @@
     "type": "남성하의",
     "defense": 65,
     "detailUrl": "https://eterinfo.kr/item/NCA029300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2532_02.gif"
+    "imageUrl": "images/NCA029300_2532_02.gif"
   },
   {
     "id": "NCA029400",
@@ -3919,7 +3919,7 @@
     "type": "여성신발",
     "defense": 36,
     "detailUrl": "https://eterinfo.kr/item/NCA029400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2612_01.gif"
+    "imageUrl": "images/NCA029400_2612_01.gif"
   },
   {
     "id": "NCA029500",
@@ -3930,7 +3930,7 @@
     "type": "여성스타킹",
     "defense": 23,
     "detailUrl": "https://eterinfo.kr/item/NCA029500",
-    "imageUrl": "https://eterinfo.kr/resource/img/595.gif"
+    "imageUrl": "images/NCA029500_595.gif"
   },
   {
     "id": "NCA029600",
@@ -3941,7 +3941,7 @@
     "type": "남성자켓상의",
     "defense": 150,
     "detailUrl": "https://eterinfo.kr/item/NCA029600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2523_01.gif"
+    "imageUrl": "images/NCA029600_2523_01.gif"
   },
   {
     "id": "NCA029700",
@@ -3952,7 +3952,7 @@
     "type": "남성신발",
     "defense": 73,
     "detailUrl": "https://eterinfo.kr/item/NCA029700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2555_01.gif"
+    "imageUrl": "images/NCA029700_2555_01.gif"
   },
   {
     "id": "NCA029800",
@@ -3963,7 +3963,7 @@
     "type": "남성상의",
     "defense": 139,
     "detailUrl": "https://eterinfo.kr/item/NCA029800",
-    "imageUrl": "https://eterinfo.kr/resource/img/522.gif"
+    "imageUrl": "images/NCA029800_522.gif"
   },
   {
     "id": "NCA029900",
@@ -3974,7 +3974,7 @@
     "type": "여성코트",
     "defense": 191,
     "detailUrl": "https://eterinfo.kr/item/NCA029900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5003.gif"
+    "imageUrl": "images/NCA029900_5003.gif"
   },
   {
     "id": "NCA030000",
@@ -3985,7 +3985,7 @@
     "type": "여성모자",
     "defense": 89,
     "detailUrl": "https://eterinfo.kr/item/NCA030000",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1923.gif"
+    "imageUrl": "images/NCA030000_11-1923.gif"
   },
   {
     "id": "NCA030100",
@@ -3996,7 +3996,7 @@
     "type": "여성상의",
     "defense": 137,
     "detailUrl": "https://eterinfo.kr/item/NCA030100",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1930.gif"
+    "imageUrl": "images/NCA030100_11-1930.gif"
   },
   {
     "id": "NCA030200",
@@ -4007,7 +4007,7 @@
     "type": "남성신발",
     "defense": 39,
     "detailUrl": "https://eterinfo.kr/item/NCA030200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2556_01.gif"
+    "imageUrl": "images/NCA030200_2556_01.gif"
   },
   {
     "id": "NCA030300",
@@ -4018,7 +4018,7 @@
     "type": "감염체전용의상",
     "defense": 120,
     "detailUrl": "https://eterinfo.kr/item/NCA030300",
-    "imageUrl": "https://eterinfo.kr/resource/img/5111_03.gif"
+    "imageUrl": "images/NCA030300_5111_03.gif"
   },
   {
     "id": "NCA030400",
@@ -4029,7 +4029,7 @@
     "type": "남성하의",
     "defense": 85,
     "detailUrl": "https://eterinfo.kr/item/NCA030400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2533_01.gif"
+    "imageUrl": "images/NCA030400_2533_01.gif"
   },
   {
     "id": "NCA030500",
@@ -4040,7 +4040,7 @@
     "type": "여성신발",
     "defense": 45,
     "detailUrl": "https://eterinfo.kr/item/NCA030500",
-    "imageUrl": "https://eterinfo.kr/resource/img/2613_01.gif"
+    "imageUrl": "images/NCA030500_2613_01.gif"
   },
   {
     "id": "NCA030600",
@@ -4051,7 +4051,7 @@
     "type": "남성자켓상의",
     "defense": 192,
     "detailUrl": "https://eterinfo.kr/item/NCA030600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2523_01.gif"
+    "imageUrl": "images/NCA030600_2523_01.gif"
   },
   {
     "id": "NCA030700",
@@ -4062,7 +4062,7 @@
     "type": "남성상의",
     "defense": 168,
     "detailUrl": "https://eterinfo.kr/item/NCA030700",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-2220.gif"
+    "imageUrl": "images/NCA030700_11-2220.gif"
   },
   {
     "id": "NCA030800",
@@ -4073,7 +4073,7 @@
     "type": "여성코트",
     "defense": 263,
     "detailUrl": "https://eterinfo.kr/item/NCA030800",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1929.gif"
+    "imageUrl": "images/NCA030800_11-1929.gif"
   },
   {
     "id": "NCA030900",
@@ -4084,7 +4084,7 @@
     "type": "남성신발",
     "defense": 49,
     "detailUrl": "https://eterinfo.kr/item/NCA030900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2557_01.gif"
+    "imageUrl": "images/NCA030900_2557_01.gif"
   },
   {
     "id": "NCA031000",
@@ -4095,7 +4095,7 @@
     "type": "감염체전용의상",
     "defense": 158,
     "detailUrl": "https://eterinfo.kr/item/NCA031000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5112_01.gif"
+    "imageUrl": "images/NCA031000_5112_01.gif"
   },
   {
     "id": "NCA031100",
@@ -4106,7 +4106,7 @@
     "type": "남성하의",
     "defense": 113,
     "detailUrl": "https://eterinfo.kr/item/NCA031100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2535_01.gif"
+    "imageUrl": "images/NCA031100_2535_01.gif"
   },
   {
     "id": "NCA031200",
@@ -4117,7 +4117,7 @@
     "type": "여성신발",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/NCA031200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2615_01.gif"
+    "imageUrl": "images/NCA031200_2615_01.gif"
   },
   {
     "id": "NCA031300",
@@ -4128,7 +4128,7 @@
     "type": "남성코트",
     "defense": 201,
     "detailUrl": "https://eterinfo.kr/item/NCA031300",
-    "imageUrl": "https://eterinfo.kr/resource/img/525.gif"
+    "imageUrl": "images/NCA031300_525.gif"
   },
   {
     "id": "NCA031400",
@@ -4139,7 +4139,7 @@
     "type": "남성신발",
     "defense": 62,
     "detailUrl": "https://eterinfo.kr/item/NCA031400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2559_01.gif"
+    "imageUrl": "images/NCA031400_2559_01.gif"
   },
   {
     "id": "NCA031500",
@@ -4150,7 +4150,7 @@
     "type": "감염체전용의상",
     "defense": 205,
     "detailUrl": "https://eterinfo.kr/item/NCA031500",
-    "imageUrl": "https://eterinfo.kr/resource/img/5117_01.gif"
+    "imageUrl": "images/NCA031500_5117_01.gif"
   },
   {
     "id": "NCA031600",
@@ -4161,7 +4161,7 @@
     "type": "남성하의",
     "defense": 141,
     "detailUrl": "https://eterinfo.kr/item/NCA031600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2535_01.gif"
+    "imageUrl": "images/NCA031600_2535_01.gif"
   },
   {
     "id": "NCA031700",
@@ -4172,7 +4172,7 @@
     "type": "여성신발",
     "defense": 63,
     "detailUrl": "https://eterinfo.kr/item/NCA031700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2615_01.gif"
+    "imageUrl": "images/NCA031700_2615_01.gif"
   },
   {
     "id": "NCA031800",
@@ -4183,7 +4183,7 @@
     "type": "남성코트",
     "defense": 273,
     "detailUrl": "https://eterinfo.kr/item/NCA031800",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-2219.gif"
+    "imageUrl": "images/NCA031800_11-2219.gif"
   },
   {
     "id": "NCA031900",
@@ -4194,7 +4194,7 @@
     "type": "여성신발",
     "defense": 36,
     "detailUrl": "https://eterinfo.kr/item/NCA031900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2616_02.gif"
+    "imageUrl": "images/NCA031900_2616_02.gif"
   },
   {
     "id": "NCA032000",
@@ -4205,7 +4205,7 @@
     "type": "남성신발",
     "defense": 73,
     "detailUrl": "https://eterinfo.kr/item/NCA032000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2559_01.gif"
+    "imageUrl": "images/NCA032000_2559_01.gif"
   },
   {
     "id": "NCA032100",
@@ -4216,7 +4216,7 @@
     "type": "감염체전용의상",
     "defense": 272,
     "detailUrl": "https://eterinfo.kr/item/NCA032100",
-    "imageUrl": "https://eterinfo.kr/resource/img/5117_01.gif"
+    "imageUrl": "images/NCA032100_5117_01.gif"
   },
   {
     "id": "NCA032200",
@@ -4227,7 +4227,7 @@
     "type": "남성하의",
     "defense": 147,
     "detailUrl": "https://eterinfo.kr/item/NCA032200",
-    "imageUrl": "https://eterinfo.kr/resource/img/550.gif"
+    "imageUrl": "images/NCA032200_550.gif"
   },
   {
     "id": "NCA032300",
@@ -4238,7 +4238,7 @@
     "type": "여성하의",
     "defense": 58,
     "detailUrl": "https://eterinfo.kr/item/NCA032300",
-    "imageUrl": "https://eterinfo.kr/resource/img/2584_02.gif"
+    "imageUrl": "images/NCA032300_2584_02.gif"
   },
   {
     "id": "NCA032400",
@@ -4249,7 +4249,7 @@
     "type": "여성신발",
     "defense": 45,
     "detailUrl": "https://eterinfo.kr/item/NCA032400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2617_01.gif"
+    "imageUrl": "images/NCA032400_2617_01.gif"
   },
   {
     "id": "NCA032500",
@@ -4260,7 +4260,7 @@
     "type": "남성신발",
     "defense": 76,
     "detailUrl": "https://eterinfo.kr/item/NCA032500",
-    "imageUrl": "https://eterinfo.kr/resource/img/559.gif"
+    "imageUrl": "images/NCA032500_559.gif"
   },
   {
     "id": "NCA032600",
@@ -4271,7 +4271,7 @@
     "type": "남성하의",
     "defense": 177,
     "detailUrl": "https://eterinfo.kr/item/NCA032600",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-2272.gif"
+    "imageUrl": "images/NCA032600_11-2272.gif"
   },
   {
     "id": "NCA032700",
@@ -4282,7 +4282,7 @@
     "type": "여성하의",
     "defense": 70,
     "detailUrl": "https://eterinfo.kr/item/NCA032700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2585_02.gif"
+    "imageUrl": "images/NCA032700_2585_02.gif"
   },
   {
     "id": "NCA032800",
@@ -4293,7 +4293,7 @@
     "type": "여성신발",
     "defense": 54,
     "detailUrl": "https://eterinfo.kr/item/NCA032800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2619_01.gif"
+    "imageUrl": "images/NCA032800_2619_01.gif"
   },
   {
     "id": "NCA032900",
@@ -4304,7 +4304,7 @@
     "type": "남성신발",
     "defense": 91,
     "detailUrl": "https://eterinfo.kr/item/NCA032900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2299.jpg"
+    "imageUrl": "images/NCA032900_2299.jpg"
   },
   {
     "id": "NCA033000",
@@ -4315,7 +4315,7 @@
     "type": "여성하의",
     "defense": 85,
     "detailUrl": "https://eterinfo.kr/item/NCA033000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2587_04.gif"
+    "imageUrl": "images/NCA033000_2587_04.gif"
   },
   {
     "id": "NCA033100",
@@ -4326,7 +4326,7 @@
     "type": "여성신발",
     "defense": 63,
     "detailUrl": "https://eterinfo.kr/item/NCA033100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2619_01.gif"
+    "imageUrl": "images/NCA033100_2619_01.gif"
   },
   {
     "id": "NCA033200",
@@ -4337,7 +4337,7 @@
     "type": "여성하의",
     "defense": 113,
     "detailUrl": "https://eterinfo.kr/item/NCA033200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2587_04.gif"
+    "imageUrl": "images/NCA033200_2587_04.gif"
   },
   {
     "id": "NCA033300",
@@ -4348,7 +4348,7 @@
     "type": "여성신발",
     "defense": 66,
     "detailUrl": "https://eterinfo.kr/item/NCA033300",
-    "imageUrl": "https://eterinfo.kr/resource/img/5301.gif"
+    "imageUrl": "images/NCA033300_5301.gif"
   },
   {
     "id": "NCA033400",
@@ -4359,7 +4359,7 @@
     "type": "여성하의",
     "defense": 58,
     "detailUrl": "https://eterinfo.kr/item/NCA033400",
-    "imageUrl": "https://eterinfo.kr/resource/img/2588_03.gif"
+    "imageUrl": "images/NCA033400_2588_03.gif"
   },
   {
     "id": "NCA033500",
@@ -4370,7 +4370,7 @@
     "type": "여성신발",
     "defense": 79,
     "detailUrl": "https://eterinfo.kr/item/NCA033500",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1960.gif"
+    "imageUrl": "images/NCA033500_11-1960.gif"
   },
   {
     "id": "NCA033600",
@@ -4381,7 +4381,7 @@
     "type": "여성하의",
     "defense": 70,
     "detailUrl": "https://eterinfo.kr/item/NCA033600",
-    "imageUrl": "https://eterinfo.kr/resource/img/2589_03.gif"
+    "imageUrl": "images/NCA033600_2589_03.gif"
   },
   {
     "id": "NCA033700",
@@ -4392,7 +4392,7 @@
     "type": "여성하의",
     "defense": 85,
     "detailUrl": "https://eterinfo.kr/item/NCA033700",
-    "imageUrl": "https://eterinfo.kr/resource/img/2591_02.gif"
+    "imageUrl": "images/NCA033700_2591_02.gif"
   },
   {
     "id": "NCA033800",
@@ -4403,7 +4403,7 @@
     "type": "여성하의",
     "defense": 113,
     "detailUrl": "https://eterinfo.kr/item/NCA033800",
-    "imageUrl": "https://eterinfo.kr/resource/img/2591_02.gif"
+    "imageUrl": "images/NCA033800_2591_02.gif"
   },
   {
     "id": "NCA033900",
@@ -4414,7 +4414,7 @@
     "type": "여성하의",
     "defense": 58,
     "detailUrl": "https://eterinfo.kr/item/NCA033900",
-    "imageUrl": "https://eterinfo.kr/resource/img/2592_02.gif"
+    "imageUrl": "images/NCA033900_2592_02.gif"
   },
   {
     "id": "NCA034000",
@@ -4425,7 +4425,7 @@
     "type": "여성하의",
     "defense": 70,
     "detailUrl": "https://eterinfo.kr/item/NCA034000",
-    "imageUrl": "https://eterinfo.kr/resource/img/2593_02.gif"
+    "imageUrl": "images/NCA034000_2593_02.gif"
   },
   {
     "id": "NCA034100",
@@ -4436,7 +4436,7 @@
     "type": "여성하의",
     "defense": 85,
     "detailUrl": "https://eterinfo.kr/item/NCA034100",
-    "imageUrl": "https://eterinfo.kr/resource/img/2595_01.gif"
+    "imageUrl": "images/NCA034100_2595_01.gif"
   },
   {
     "id": "NCA034200",
@@ -4447,7 +4447,7 @@
     "type": "여성하의",
     "defense": 113,
     "detailUrl": "https://eterinfo.kr/item/NCA034200",
-    "imageUrl": "https://eterinfo.kr/resource/img/2595_01.gif"
+    "imageUrl": "images/NCA034200_2595_01.gif"
   },
   {
     "id": "NCA034300",
@@ -4458,7 +4458,7 @@
     "type": "여성스타킹",
     "defense": 31,
     "detailUrl": "https://eterinfo.kr/item/NCA034300",
-    "imageUrl": "https://eterinfo.kr/resource/img/5122_01.gif"
+    "imageUrl": "images/NCA034300_5122_01.gif"
   },
   {
     "id": "NCA034400",
@@ -4469,7 +4469,7 @@
     "type": "여성스타킹",
     "defense": 40,
     "detailUrl": "https://eterinfo.kr/item/NCA034400",
-    "imageUrl": "https://eterinfo.kr/resource/img/5123_01.gif"
+    "imageUrl": "images/NCA034400_5123_01.gif"
   },
   {
     "id": "NCA034500",
@@ -4480,7 +4480,7 @@
     "type": "여성하의",
     "defense": 48,
     "detailUrl": "https://eterinfo.kr/item/NCA034500",
-    "imageUrl": "https://eterinfo.kr/resource/img/565.gif"
+    "imageUrl": "images/NCA034500_565.gif"
   },
   {
     "id": "NCA034600",
@@ -4491,7 +4491,7 @@
     "type": "여성하의",
     "defense": 218,
     "detailUrl": "https://eterinfo.kr/item/NCA034600",
-    "imageUrl": "https://eterinfo.kr/resource/img/5101.gif"
+    "imageUrl": "images/NCA034600_5101.gif"
   },
   {
     "id": "NCA034700",
@@ -4502,7 +4502,7 @@
     "type": "여성하의",
     "defense": 146,
     "detailUrl": "https://eterinfo.kr/item/NCA034700",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1951.gif"
+    "imageUrl": "images/NCA034700_11-1951.gif"
   },
   {
     "id": "NCA034800",
@@ -4513,7 +4513,7 @@
     "type": "여성스타킹",
     "defense": 57,
     "detailUrl": "https://eterinfo.kr/item/NCA034800",
-    "imageUrl": "https://eterinfo.kr/resource/img/11-1998.gif"
+    "imageUrl": "images/NCA034800_11-1998.gif"
   },
   {
     "id": "NCA034900",
@@ -4524,7 +4524,7 @@
     "type": "감염체전용의상",
     "defense": 349,
     "detailUrl": "https://eterinfo.kr/item/NCA034900",
-    "imageUrl": "https://eterinfo.kr/resource/img/5116_01.gif"
+    "imageUrl": "images/NCA034900_5116_01.gif"
   },
   {
     "id": "NCA035000",
@@ -4535,7 +4535,7 @@
     "type": "감염체전용의상",
     "defense": 349,
     "detailUrl": "https://eterinfo.kr/item/NCA035000",
-    "imageUrl": "https://eterinfo.kr/resource/img/5117_01.gif"
+    "imageUrl": "images/NCA035000_5117_01.gif"
   },
   {
     "id": "NCA035100",
@@ -4546,7 +4546,7 @@
     "type": "감염체전용의상",
     "defense": 447,
     "detailUrl": "https://eterinfo.kr/item/NCA035100",
-    "imageUrl": "https://eterinfo.kr/resource/img/5116_01.gif"
+    "imageUrl": "images/NCA035100_5116_01.gif"
   },
   {
     "id": "NCA035200",
@@ -4557,6 +4557,6 @@
     "type": "감염체전용의상",
     "defense": 447,
     "detailUrl": "https://eterinfo.kr/item/NCA035200",
-    "imageUrl": "https://eterinfo.kr/resource/img/5117_01.gif"
+    "imageUrl": "images/NCA035200_5117_01.gif"
   }
 ]

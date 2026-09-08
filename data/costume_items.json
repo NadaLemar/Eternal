@@ -9,7 +9,7 @@
     "atkPct": 2,
     "defensePct": 12,
     "detailUrl": "https://eterinfo.kr/item/CLCO000000",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB037.gif"
+    "imageUrl": "images/CLCO000000_CB037.gif"
   },
   {
     "id": "CLCO000100",
@@ -21,7 +21,7 @@
     "atkPct": 2,
     "defensePct": 12,
     "detailUrl": "https://eterinfo.kr/item/CLCO000100",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB038.gif"
+    "imageUrl": "images/CLCO000100_CB038.gif"
   },
   {
     "id": "CLCO000200",
@@ -33,7 +33,7 @@
     "atkPct": 2,
     "defensePct": 12,
     "detailUrl": "https://eterinfo.kr/item/CLCO000200",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO000200_CB039.gif"
   },
   {
     "id": "CLCO000300",
@@ -45,7 +45,7 @@
     "atkPct": 2,
     "defensePct": 12,
     "detailUrl": "https://eterinfo.kr/item/CLCO000300",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO000300_CB040.gif"
   },
   {
     "id": "CLCO000400",
@@ -57,7 +57,7 @@
     "atkPct": 4,
     "defensePct": 14,
     "detailUrl": "https://eterinfo.kr/item/CLCO000400",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB037.gif"
+    "imageUrl": "images/CLCO000400_CB037.gif"
   },
   {
     "id": "CLCO000500",
@@ -69,7 +69,7 @@
     "atkPct": 4,
     "defensePct": 14,
     "detailUrl": "https://eterinfo.kr/item/CLCO000500",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB038.gif"
+    "imageUrl": "images/CLCO000500_CB038.gif"
   },
   {
     "id": "CLCO000600",
@@ -81,7 +81,7 @@
     "atkPct": 3,
     "defensePct": 13,
     "detailUrl": "https://eterinfo.kr/item/CLCO000600",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO000600_CB040.gif"
   },
   {
     "id": "CLCO000700",
@@ -93,7 +93,7 @@
     "atkPct": 3,
     "defensePct": 13,
     "detailUrl": "https://eterinfo.kr/item/CLCO000700",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO000700_CB039.gif"
   },
   {
     "id": "CLCO000800",
@@ -105,7 +105,7 @@
     "atkPct": 6,
     "defensePct": 16,
     "detailUrl": "https://eterinfo.kr/item/CLCO000800",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB038.gif"
+    "imageUrl": "images/CLCO000800_CB038.gif"
   },
   {
     "id": "CLCO000900",
@@ -117,7 +117,7 @@
     "atkPct": 6,
     "defensePct": 16,
     "detailUrl": "https://eterinfo.kr/item/CLCO000900",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB037.gif"
+    "imageUrl": "images/CLCO000900_CB037.gif"
   },
   {
     "id": "CLCO001000",
@@ -129,7 +129,7 @@
     "atkPct": 4,
     "defensePct": 14,
     "detailUrl": "https://eterinfo.kr/item/CLCO001000",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO001000_CB039.gif"
   },
   {
     "id": "CLCO001100",
@@ -141,7 +141,7 @@
     "atkPct": 4,
     "defensePct": 14,
     "detailUrl": "https://eterinfo.kr/item/CLCO001100",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO001100_CB040.gif"
   },
   {
     "id": "CLCO001200",
@@ -153,7 +153,7 @@
     "atkPct": 8,
     "defensePct": 18,
     "detailUrl": "https://eterinfo.kr/item/CLCO001200",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB037.gif"
+    "imageUrl": "images/CLCO001200_CB037.gif"
   },
   {
     "id": "CLCO001300",
@@ -165,7 +165,7 @@
     "atkPct": 8,
     "defensePct": 18,
     "detailUrl": "https://eterinfo.kr/item/CLCO001300",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB038.gif"
+    "imageUrl": "images/CLCO001300_CB038.gif"
   },
   {
     "id": "CLCO001400",
@@ -177,7 +177,7 @@
     "atkPct": 5,
     "defensePct": 15,
     "detailUrl": "https://eterinfo.kr/item/CLCO001400",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO001400_CB040.gif"
   },
   {
     "id": "CLCO001500",
@@ -189,7 +189,7 @@
     "atkPct": 5,
     "defensePct": 15,
     "detailUrl": "https://eterinfo.kr/item/CLCO001500",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO001500_CB039.gif"
   },
   {
     "id": "CLCO001600",
@@ -201,7 +201,7 @@
     "atkPct": 10,
     "defensePct": 20,
     "detailUrl": "https://eterinfo.kr/item/CLCO001600",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB037.gif"
+    "imageUrl": "images/CLCO001600_CB037.gif"
   },
   {
     "id": "CLCO001700",
@@ -213,7 +213,7 @@
     "atkPct": 10,
     "defensePct": 20,
     "detailUrl": "https://eterinfo.kr/item/CLCO001700",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB038.gif"
+    "imageUrl": "images/CLCO001700_CB038.gif"
   },
   {
     "id": "CLCO001800",
@@ -225,7 +225,7 @@
     "atkPct": 6,
     "defensePct": 16,
     "detailUrl": "https://eterinfo.kr/item/CLCO001800",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO001800_CB039.gif"
   },
   {
     "id": "CLCO001900",
@@ -237,7 +237,7 @@
     "atkPct": 6,
     "defensePct": 16,
     "detailUrl": "https://eterinfo.kr/item/CLCO001900",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO001900_CB040.gif"
   },
   {
     "id": "CLCO002000",
@@ -249,7 +249,7 @@
     "atkPct": 12,
     "defensePct": 22,
     "detailUrl": "https://eterinfo.kr/item/CLCO002000",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB038.gif"
+    "imageUrl": "images/CLCO002000_CB038.gif"
   },
   {
     "id": "CLCO002100",
@@ -261,7 +261,7 @@
     "atkPct": 12,
     "defensePct": 22,
     "detailUrl": "https://eterinfo.kr/item/CLCO002100",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB037.gif"
+    "imageUrl": "images/CLCO002100_CB037.gif"
   },
   {
     "id": "CLCO002200",
@@ -273,7 +273,7 @@
     "atkPct": 7,
     "defensePct": 17,
     "detailUrl": "https://eterinfo.kr/item/CLCO002200",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO002200_CB040.gif"
   },
   {
     "id": "CLCO002300",
@@ -285,7 +285,7 @@
     "atkPct": 7,
     "defensePct": 17,
     "detailUrl": "https://eterinfo.kr/item/CLCO002300",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO002300_CB039.gif"
   },
   {
     "id": "CLCO002400",
@@ -297,7 +297,7 @@
     "atkPct": 14,
     "defensePct": 24,
     "detailUrl": "https://eterinfo.kr/item/CLCO002400",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB037.gif"
+    "imageUrl": "images/CLCO002400_CB037.gif"
   },
   {
     "id": "CLCO002500",
@@ -309,7 +309,7 @@
     "atkPct": 14,
     "defensePct": 24,
     "detailUrl": "https://eterinfo.kr/item/CLCO002500",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB038.gif"
+    "imageUrl": "images/CLCO002500_CB038.gif"
   },
   {
     "id": "CLCO002600",
@@ -321,7 +321,7 @@
     "atkPct": 8,
     "defensePct": 18,
     "detailUrl": "https://eterinfo.kr/item/CLCO002600",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO002600_CB039.gif"
   },
   {
     "id": "CLCO002700",
@@ -333,7 +333,7 @@
     "atkPct": 8,
     "defensePct": 18,
     "detailUrl": "https://eterinfo.kr/item/CLCO002700",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO002700_CB040.gif"
   },
   {
     "id": "CLCO002800",
@@ -345,7 +345,7 @@
     "atkPct": 17,
     "defensePct": 26,
     "detailUrl": "https://eterinfo.kr/item/CLCO002800",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB038.gif"
+    "imageUrl": "images/CLCO002800_CB038.gif"
   },
   {
     "id": "CLCO002900",
@@ -357,7 +357,7 @@
     "atkPct": 17,
     "defensePct": 26,
     "detailUrl": "https://eterinfo.kr/item/CLCO002900",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB037.gif"
+    "imageUrl": "images/CLCO002900_CB037.gif"
   },
   {
     "id": "CLCO003000",
@@ -369,7 +369,7 @@
     "atkPct": 9,
     "defensePct": 19,
     "detailUrl": "https://eterinfo.kr/item/CLCO003000",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO003000_CB039.gif"
   },
   {
     "id": "CLCO003100",
@@ -381,7 +381,7 @@
     "atkPct": 9,
     "defensePct": 19,
     "detailUrl": "https://eterinfo.kr/item/CLCO003100",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO003100_CB040.gif"
   },
   {
     "id": "CLCO003200",
@@ -393,7 +393,7 @@
     "atkPct": 20,
     "defensePct": 28,
     "detailUrl": "https://eterinfo.kr/item/CLCO003200",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB038.gif"
+    "imageUrl": "images/CLCO003200_CB038.gif"
   },
   {
     "id": "CLCO003300",
@@ -405,7 +405,7 @@
     "atkPct": 20,
     "defensePct": 28,
     "detailUrl": "https://eterinfo.kr/item/CLCO003300",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB037.gif"
+    "imageUrl": "images/CLCO003300_CB037.gif"
   },
   {
     "id": "CLCO003400",
@@ -417,7 +417,7 @@
     "atkPct": 10,
     "defensePct": 20,
     "detailUrl": "https://eterinfo.kr/item/CLCO003400",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO003400_CB040.gif"
   },
   {
     "id": "CLCO003500",
@@ -429,7 +429,7 @@
     "atkPct": 10,
     "defensePct": 20,
     "detailUrl": "https://eterinfo.kr/item/CLCO003500",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO003500_CB039.gif"
   },
   {
     "id": "CLCO003600",
@@ -441,7 +441,7 @@
     "atkPct": 23,
     "defensePct": 30,
     "detailUrl": "https://eterinfo.kr/item/CLCO003600",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB038.gif"
+    "imageUrl": "images/CLCO003600_CB038.gif"
   },
   {
     "id": "CLCO003700",
@@ -453,7 +453,7 @@
     "atkPct": 23,
     "defensePct": 30,
     "detailUrl": "https://eterinfo.kr/item/CLCO003700",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB037.gif"
+    "imageUrl": "images/CLCO003700_CB037.gif"
   },
   {
     "id": "CLCO003800",
@@ -465,7 +465,7 @@
     "atkPct": 11,
     "defensePct": 21,
     "detailUrl": "https://eterinfo.kr/item/CLCO003800",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO003800_CB039.gif"
   },
   {
     "id": "CLCO003900",
@@ -477,7 +477,7 @@
     "atkPct": 11,
     "defensePct": 21,
     "detailUrl": "https://eterinfo.kr/item/CLCO003900",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO003900_CB040.gif"
   },
   {
     "id": "CLCO004000",
@@ -489,7 +489,7 @@
     "defensePct": 12,
     "crit": 1,
     "detailUrl": "https://eterinfo.kr/item/CLCO004000",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO004000_CB039.gif"
   },
   {
     "id": "CLCO004100",
@@ -501,7 +501,7 @@
     "defensePct": 12,
     "crit": 1,
     "detailUrl": "https://eterinfo.kr/item/CLCO004100",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO004100_CB040.gif"
   },
   {
     "id": "CLCO004200",
@@ -513,7 +513,7 @@
     "defensePct": 13,
     "crit": 3,
     "detailUrl": "https://eterinfo.kr/item/CLCO004200",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO004200_CB040.gif"
   },
   {
     "id": "CLCO004300",
@@ -525,7 +525,7 @@
     "defensePct": 13,
     "crit": 3,
     "detailUrl": "https://eterinfo.kr/item/CLCO004300",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO004300_CB039.gif"
   },
   {
     "id": "CLCO004400",
@@ -537,7 +537,7 @@
     "defensePct": 14,
     "crit": 5,
     "detailUrl": "https://eterinfo.kr/item/CLCO004400",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO004400_CB039.gif"
   },
   {
     "id": "CLCO004500",
@@ -549,7 +549,7 @@
     "defensePct": 14,
     "crit": 5,
     "detailUrl": "https://eterinfo.kr/item/CLCO004500",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO004500_CB040.gif"
   },
   {
     "id": "CLCO004600",
@@ -561,7 +561,7 @@
     "defensePct": 15,
     "crit": 7,
     "detailUrl": "https://eterinfo.kr/item/CLCO004600",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO004600_CB039.gif"
   },
   {
     "id": "CLCO004700",
@@ -573,7 +573,7 @@
     "defensePct": 15,
     "crit": 7,
     "detailUrl": "https://eterinfo.kr/item/CLCO004700",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO004700_CB040.gif"
   },
   {
     "id": "CLCO004800",
@@ -585,7 +585,7 @@
     "defensePct": 16,
     "crit": 9,
     "detailUrl": "https://eterinfo.kr/item/CLCO004800",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO004800_CB039.gif"
   },
   {
     "id": "CLCO004900",
@@ -597,7 +597,7 @@
     "defensePct": 16,
     "crit": 9,
     "detailUrl": "https://eterinfo.kr/item/CLCO004900",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO004900_CB040.gif"
   },
   {
     "id": "CLCO005000",
@@ -609,7 +609,7 @@
     "defensePct": 17,
     "crit": 11,
     "detailUrl": "https://eterinfo.kr/item/CLCO005000",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO005000_CB039.gif"
   },
   {
     "id": "CLCO005100",
@@ -621,7 +621,7 @@
     "defensePct": 17,
     "crit": 11,
     "detailUrl": "https://eterinfo.kr/item/CLCO005100",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO005100_CB040.gif"
   },
   {
     "id": "CLCO005200",
@@ -633,7 +633,7 @@
     "defensePct": 18,
     "crit": 13,
     "detailUrl": "https://eterinfo.kr/item/CLCO005200",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO005200_CB040.gif"
   },
   {
     "id": "CLCO005300",
@@ -645,7 +645,7 @@
     "defensePct": 18,
     "crit": 13,
     "detailUrl": "https://eterinfo.kr/item/CLCO005300",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO005300_CB039.gif"
   },
   {
     "id": "CLCO005400",
@@ -657,7 +657,7 @@
     "defensePct": 19,
     "crit": 15,
     "detailUrl": "https://eterinfo.kr/item/CLCO005400",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO005400_CB039.gif"
   },
   {
     "id": "CLCO005500",
@@ -669,7 +669,7 @@
     "defensePct": 19,
     "crit": 15,
     "detailUrl": "https://eterinfo.kr/item/CLCO005500",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO005500_CB040.gif"
   },
   {
     "id": "CLCO005600",
@@ -681,7 +681,7 @@
     "defensePct": 20,
     "crit": 17,
     "detailUrl": "https://eterinfo.kr/item/CLCO005600",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO005600_CB039.gif"
   },
   {
     "id": "CLCO005700",
@@ -693,7 +693,7 @@
     "defensePct": 20,
     "crit": 17,
     "detailUrl": "https://eterinfo.kr/item/CLCO005700",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO005700_CB040.gif"
   },
   {
     "id": "CLCO005800",
@@ -705,7 +705,7 @@
     "defensePct": 21,
     "crit": 19,
     "detailUrl": "https://eterinfo.kr/item/CLCO005800",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO005800_CB039.gif"
   },
   {
     "id": "CLCO005900",
@@ -717,7 +717,7 @@
     "defensePct": 21,
     "crit": 19,
     "detailUrl": "https://eterinfo.kr/item/CLCO005900",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO005900_CB040.gif"
   },
   {
     "id": "CLCO006000",
@@ -729,7 +729,7 @@
     "defensePct": 12,
     "hp": 200,
     "detailUrl": "https://eterinfo.kr/item/CLCO006000",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO006000_CB039.gif"
   },
   {
     "id": "CLCO006100",
@@ -741,7 +741,7 @@
     "defensePct": 12,
     "hp": 200,
     "detailUrl": "https://eterinfo.kr/item/CLCO006100",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO006100_CB040.gif"
   },
   {
     "id": "CLCO006200",
@@ -753,7 +753,7 @@
     "defensePct": 13,
     "hp": 300,
     "detailUrl": "https://eterinfo.kr/item/CLCO006200",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO006200_CB040.gif"
   },
   {
     "id": "CLCO006300",
@@ -765,7 +765,7 @@
     "defensePct": 13,
     "hp": 300,
     "detailUrl": "https://eterinfo.kr/item/CLCO006300",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO006300_CB039.gif"
   },
   {
     "id": "CLCO006400",
@@ -777,7 +777,7 @@
     "defensePct": 14,
     "hp": 400,
     "detailUrl": "https://eterinfo.kr/item/CLCO006400",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO006400_CB040.gif"
   },
   {
     "id": "CLCO006500",
@@ -789,7 +789,7 @@
     "defensePct": 14,
     "hp": 400,
     "detailUrl": "https://eterinfo.kr/item/CLCO006500",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO006500_CB039.gif"
   },
   {
     "id": "CLCO006600",
@@ -801,7 +801,7 @@
     "defensePct": 15,
     "hp": 500,
     "detailUrl": "https://eterinfo.kr/item/CLCO006600",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO006600_CB040.gif"
   },
   {
     "id": "CLCO006700",
@@ -813,7 +813,7 @@
     "defensePct": 15,
     "hp": 500,
     "detailUrl": "https://eterinfo.kr/item/CLCO006700",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO006700_CB039.gif"
   },
   {
     "id": "CLCO006800",
@@ -825,7 +825,7 @@
     "defensePct": 16,
     "hp": 600,
     "detailUrl": "https://eterinfo.kr/item/CLCO006800",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO006800_CB040.gif"
   },
   {
     "id": "CLCO006900",
@@ -837,7 +837,7 @@
     "defensePct": 16,
     "hp": 600,
     "detailUrl": "https://eterinfo.kr/item/CLCO006900",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO006900_CB039.gif"
   },
   {
     "id": "CLCO007000",
@@ -849,7 +849,7 @@
     "defensePct": 17,
     "hp": 700,
     "detailUrl": "https://eterinfo.kr/item/CLCO007000",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO007000_CB040.gif"
   },
   {
     "id": "CLCO007100",
@@ -861,7 +861,7 @@
     "defensePct": 17,
     "hp": 700,
     "detailUrl": "https://eterinfo.kr/item/CLCO007100",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO007100_CB039.gif"
   },
   {
     "id": "CLCO007200",
@@ -873,7 +873,7 @@
     "defensePct": 18,
     "hp": 800,
     "detailUrl": "https://eterinfo.kr/item/CLCO007200",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO007200_CB040.gif"
   },
   {
     "id": "CLCO007300",
@@ -885,7 +885,7 @@
     "defensePct": 18,
     "hp": 800,
     "detailUrl": "https://eterinfo.kr/item/CLCO007300",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO007300_CB039.gif"
   },
   {
     "id": "CLCO007400",
@@ -897,7 +897,7 @@
     "defensePct": 19,
     "hp": 900,
     "detailUrl": "https://eterinfo.kr/item/CLCO007400",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO007400_CB040.gif"
   },
   {
     "id": "CLCO007500",
@@ -909,7 +909,7 @@
     "defensePct": 19,
     "hp": 900,
     "detailUrl": "https://eterinfo.kr/item/CLCO007500",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO007500_CB039.gif"
   },
   {
     "id": "CLCO007600",
@@ -921,7 +921,7 @@
     "defensePct": 20,
     "hp": 1000,
     "detailUrl": "https://eterinfo.kr/item/CLCO007600",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO007600_CB039.gif"
   },
   {
     "id": "CLCO007700",
@@ -933,7 +933,7 @@
     "defensePct": 20,
     "hp": 1000,
     "detailUrl": "https://eterinfo.kr/item/CLCO007700",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO007700_CB040.gif"
   },
   {
     "id": "CLCO007800",
@@ -945,7 +945,7 @@
     "defensePct": 21,
     "hp": 1100,
     "detailUrl": "https://eterinfo.kr/item/CLCO007800",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB040.gif"
+    "imageUrl": "images/CLCO007800_CB040.gif"
   },
   {
     "id": "CLCO007900",
@@ -957,6 +957,6 @@
     "defensePct": 21,
     "hp": 1100,
     "detailUrl": "https://eterinfo.kr/item/CLCO007900",
-    "imageUrl": "https://eterinfo.kr/resource/img/CB039.gif"
+    "imageUrl": "images/CLCO007900_CB039.gif"
   }
 ]
