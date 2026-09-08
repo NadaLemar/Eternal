@@ -1,17 +1,21 @@
-// ⚠️ 이 파일을 Firebase 콘솔에서 발급받은 값으로 채워주세요.
-// README.md의 "거래 게시판(Firebase) 설정하기" 섹션을 참고하세요.
-//
-// Firebase 콘솔 > 프로젝트 설정 > 일반 > "내 앱" > SDK 설정 및 구성 에서
-// 아래와 동일한 형태의 객체를 복사해서 그대로 덮어쓰면 됩니다.
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-window.ETER_FIREBASE_CONFIG = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyC_Mn61pVpkaNsv4UG0rx5ZBo_sRZvPne4",
+  authDomain: "eternal-3feba.firebaseapp.com",
+  projectId: "eternal-3feba",
+  storageBucket: "eternal-3feba.firebasestorage.app",
+  messagingSenderId: "332978389442",
+  appId: "1:332978389442:web:a80658fa4d8fc1bb16165b",
+  measurementId: "G-PZTN77B0SG"
 };
 
-// 설정이 완료되었는지 자동으로 판별하기 위한 플래그입니다. 수정하지 마세요.
-window.ETER_FIREBASE_CONFIGURED = window.ETER_FIREBASE_CONFIG.apiKey !== "YOUR_API_KEY";
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
