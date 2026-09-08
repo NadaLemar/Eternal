@@ -1,0 +1,3506 @@
+[
+  {
+    "id": "c001",
+    "name": "[CL] 부스터 윙 (공격형)",
+    "baseName": "[CL] 부스터 윙",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c002",
+    "name": "[CL] 부스터 윙 (치명형)",
+    "baseName": "[CL] 부스터 윙",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c003",
+    "name": "[CL] 부스터 윙 (체력형)",
+    "baseName": "[CL] 부스터 윙",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c004",
+    "name": "[CL] 패러사이트 윙 (공격형)",
+    "baseName": "[CL] 패러사이트 윙",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c005",
+    "name": "[CL] 패러사이트 윙 (치명형)",
+    "baseName": "[CL] 패러사이트 윙",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c006",
+    "name": "[CL] 패러사이트 윙 (체력형)",
+    "baseName": "[CL] 패러사이트 윙",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c007",
+    "name": "[CL] 크레스트 윙 (공격형)",
+    "baseName": "[CL] 크레스트 윙",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c008",
+    "name": "[CL] 크레스트 윙 (치명형)",
+    "baseName": "[CL] 크레스트 윙",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c009",
+    "name": "[CL] 크레스트 윙 (체력형)",
+    "baseName": "[CL] 크레스트 윙",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c010",
+    "name": "[CL] 여자 천사날개 (공격형)",
+    "baseName": "[CL] 여자 천사날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c011",
+    "name": "[CL] 여자 천사날개 (치명형)",
+    "baseName": "[CL] 여자 천사날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c012",
+    "name": "[CL] 여자 천사날개 (체력형)",
+    "baseName": "[CL] 여자 천사날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c013",
+    "name": "[CL] 여성용 천사 황금날개 (공격형)",
+    "baseName": "[CL] 여성용 천사 황금날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c014",
+    "name": "[CL] 여성용 천사 황금날개 (치명형)",
+    "baseName": "[CL] 여성용 천사 황금날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c015",
+    "name": "[CL] 여성용 천사 황금날개 (체력형)",
+    "baseName": "[CL] 여성용 천사 황금날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c016",
+    "name": "[CL] Beelzebul Wing (공격형)",
+    "baseName": "[CL] Beelzebul Wing",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c017",
+    "name": "[CL] Beelzebul Wing (치명형)",
+    "baseName": "[CL] Beelzebul Wing",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c018",
+    "name": "[CL] Beelzebul Wing (체력형)",
+    "baseName": "[CL] Beelzebul Wing",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c019",
+    "name": "[CL] 갈색 타천사의 날개 (공격형)",
+    "baseName": "[CL] 갈색 타천사의 날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c020",
+    "name": "[CL] 갈색 타천사의 날개 (치명형)",
+    "baseName": "[CL] 갈색 타천사의 날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c021",
+    "name": "[CL] 갈색 타천사의 날개 (체력형)",
+    "baseName": "[CL] 갈색 타천사의 날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c022",
+    "name": "[CL] 황금 타천사의 날개 (공격형)",
+    "baseName": "[CL] 황금 타천사의 날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c023",
+    "name": "[CL] 황금 타천사의 날개 (치명형)",
+    "baseName": "[CL] 황금 타천사의 날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c024",
+    "name": "[CL] 황금 타천사의 날개 (체력형)",
+    "baseName": "[CL] 황금 타천사의 날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c025",
+    "name": "[CL] 분홍 타천사의 날개 (공격형)",
+    "baseName": "[CL] 분홍 타천사의 날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c026",
+    "name": "[CL] 분홍 타천사의 날개 (치명형)",
+    "baseName": "[CL] 분홍 타천사의 날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c027",
+    "name": "[CL] 분홍 타천사의 날개 (체력형)",
+    "baseName": "[CL] 분홍 타천사의 날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c028",
+    "name": "[CL] 파란 타천사의 날개 (공격형)",
+    "baseName": "[CL] 파란 타천사의 날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c029",
+    "name": "[CL] 파란 타천사의 날개 (치명형)",
+    "baseName": "[CL] 파란 타천사의 날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c030",
+    "name": "[CL] 파란 타천사의 날개 (체력형)",
+    "baseName": "[CL] 파란 타천사의 날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c031",
+    "name": "[CL] 빨간 타천사의 날개 (공격형)",
+    "baseName": "[CL] 빨간 타천사의 날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c032",
+    "name": "[CL] 빨간 타천사의 날개 (치명형)",
+    "baseName": "[CL] 빨간 타천사의 날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c033",
+    "name": "[CL] 빨간 타천사의 날개 (체력형)",
+    "baseName": "[CL] 빨간 타천사의 날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c034",
+    "name": "[CL] 보라 타천사의 날개 (공격형)",
+    "baseName": "[CL] 보라 타천사의 날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c035",
+    "name": "[CL] 보라 타천사의 날개 (치명형)",
+    "baseName": "[CL] 보라 타천사의 날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c036",
+    "name": "[CL] 보라 타천사의 날개 (체력형)",
+    "baseName": "[CL] 보라 타천사의 날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c037",
+    "name": "[CL] 초록 타천사의 날개 (공격형)",
+    "baseName": "[CL] 초록 타천사의 날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c038",
+    "name": "[CL] 초록 타천사의 날개 (치명형)",
+    "baseName": "[CL] 초록 타천사의 날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c039",
+    "name": "[CL] 초록 타천사의 날개 (체력형)",
+    "baseName": "[CL] 초록 타천사의 날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c040",
+    "name": "[CL] 검은 타천사의 날개 (공격형)",
+    "baseName": "[CL] 검은 타천사의 날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c041",
+    "name": "[CL] 검은 타천사의 날개 (치명형)",
+    "baseName": "[CL] 검은 타천사의 날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c042",
+    "name": "[CL] 검은 타천사의 날개 (체력형)",
+    "baseName": "[CL] 검은 타천사의 날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c043",
+    "name": "[CL] 하얀 타천사의 날개 (공격형)",
+    "baseName": "[CL] 하얀 타천사의 날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c044",
+    "name": "[CL] 하얀 타천사의 날개 (치명형)",
+    "baseName": "[CL] 하얀 타천사의 날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c045",
+    "name": "[CL] 하얀 타천사의 날개 (체력형)",
+    "baseName": "[CL] 하얀 타천사의 날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c046",
+    "name": "[CL] 영혼의 날개 (공격형)",
+    "baseName": "[CL] 영혼의 날개",
+    "variant": "공격형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "공격력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 2,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 4,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 5,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 6,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 7,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 8,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 9,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 10,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 11,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c047",
+    "name": "[CL] 영혼의 날개 (치명형)",
+    "baseName": "[CL] 영혼의 날개",
+    "variant": "치명형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "치명율",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 1,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 3,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 5,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 7,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 9,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 11,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 13,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 15,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 17,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 19,
+        "evasion": 19
+      }
+    ]
+  },
+  {
+    "id": "c048",
+    "name": "[CL] 영혼의 날개 (체력형)",
+    "baseName": "[CL] 영혼의 날개",
+    "variant": "체력형",
+    "category1": "CL",
+    "gender": "여성",
+    "category2": "날개의상",
+    "weight": 1,
+    "statLabel": "체력",
+    "levels": [
+      {
+        "stage": 0,
+        "defensePct": 12,
+        "statValue": 200,
+        "evasion": 10
+      },
+      {
+        "stage": 1,
+        "defensePct": 13,
+        "statValue": 300,
+        "evasion": 11
+      },
+      {
+        "stage": 2,
+        "defensePct": 14,
+        "statValue": 400,
+        "evasion": 12
+      },
+      {
+        "stage": 3,
+        "defensePct": 15,
+        "statValue": 500,
+        "evasion": 13
+      },
+      {
+        "stage": 4,
+        "defensePct": 16,
+        "statValue": 600,
+        "evasion": 14
+      },
+      {
+        "stage": 5,
+        "defensePct": 17,
+        "statValue": 700,
+        "evasion": 15
+      },
+      {
+        "stage": 6,
+        "defensePct": 18,
+        "statValue": 800,
+        "evasion": 16
+      },
+      {
+        "stage": 7,
+        "defensePct": 19,
+        "statValue": 900,
+        "evasion": 17
+      },
+      {
+        "stage": 8,
+        "defensePct": 20,
+        "statValue": 1000,
+        "evasion": 18
+      },
+      {
+        "stage": 9,
+        "defensePct": 21,
+        "statValue": 1100,
+        "evasion": 19
+      }
+    ]
+  }
+]

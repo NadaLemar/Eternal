@@ -1,0 +1,162 @@
+[
+  {
+    "target": "휴먼 방어구",
+    "prefix": "근성의",
+    "effect": "지구력 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "휴먼 방어구",
+    "prefix": "신속의",
+    "effect": "이동속도 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": "최대 150 언급"
+  },
+  {
+    "target": "휴먼 방어구",
+    "prefix": "생명의",
+    "effect": "생명력 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "휴먼 방어구",
+    "prefix": "민첩의",
+    "effect": "회피율 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "휴먼 방어구",
+    "prefix": "의지의",
+    "effect": "방어력 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": "고대/전설보다 방어 증가량이 높다고 자료에 기재"
+  },
+  {
+    "target": "휴먼 방어구",
+    "prefix": "고대의",
+    "effect": "공격력 + 방어력 증가",
+    "clOnly": false,
+    "valueStatus": "일부 세트 총합만 확인",
+    "note": "일반 풀세트 공격력 +20% 예시"
+  },
+  {
+    "target": "휴먼 방어구",
+    "prefix": "전설의",
+    "effect": "공격력 + 방어력 + 회피율 증가",
+    "clOnly": false,
+    "valueStatus": "일부 세트 총합만 확인",
+    "note": "고대와 공격/방어 수치 동일 언급"
+  },
+  {
+    "target": "휴먼 방어구",
+    "prefix": "영생의",
+    "effect": "생명력 + 방어력 증가",
+    "clOnly": true,
+    "valueStatus": "미확인",
+    "note": "생명의+의지의와 동일 언급"
+  },
+  {
+    "target": "휴먼 방어구",
+    "prefix": "용기의",
+    "effect": "치명타 + 방어력 증가",
+    "clOnly": true,
+    "valueStatus": "미확인",
+    "note": "방어력 상승은 고대/전설과 동일 언급"
+  },
+  {
+    "target": "휴먼 방어구",
+    "prefix": "초월의",
+    "effect": "공격력 + 치명타 증가, 방어력 0",
+    "clOnly": true,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "감염체 전신의상",
+    "prefix": "광채의",
+    "effect": "방어 + 회피 + 이동속도 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "감염체 전신의상",
+    "prefix": "화려한",
+    "effect": "방어 + 회피 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "감염체 전신의상",
+    "prefix": "신비한",
+    "effect": "방어 + 이동속도 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "감염체 전신의상",
+    "prefix": "빛나는",
+    "effect": "회피 + 이동속도 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "감염체 전신의상",
+    "prefix": "용기의",
+    "effect": "회피 + 치명타 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "감염체 전신의상",
+    "prefix": "고대의",
+    "effect": "회피 + 공격력 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "감염체 전신의상",
+    "prefix": "전설의",
+    "effect": "방어 + 회피 + 공격력 증가",
+    "clOnly": false,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "감염체 전신의상",
+    "prefix": "영웅의",
+    "effect": "방어 + 공격력 증가",
+    "clOnly": true,
+    "valueStatus": "미확인",
+    "note": "전설보다 공격력 상승량 높다고 자료에 기재"
+  },
+  {
+    "target": "감염체 전신의상",
+    "prefix": "영생의",
+    "effect": "방어 + 생명력 증가",
+    "clOnly": true,
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "target": "감염체 전신의상",
+    "prefix": "초월의",
+    "effect": "공격 + 치명타 증가, 방어력 0",
+    "clOnly": true,
+    "valueStatus": "미확인",
+    "note": ""
+  }
+]
