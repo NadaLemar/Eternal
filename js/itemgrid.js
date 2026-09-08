@@ -57,7 +57,7 @@ const EterItemGrid = (() => {
     ].filter(Boolean).join('');
 
     const img = (opts.showImage && item.imageUrl)
-      ? `<img src="${item.imageUrl}" alt="" loading="lazy" style="width:40px; height:40px; object-fit:contain; background:var(--panel-raised); border:1px solid var(--line); flex-shrink:0;" onerror="this.style.display='none'">`
+      ? `<img src="${item.imageUrl}" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:40px; height:40px; object-fit:contain; background:var(--panel-raised); border:1px solid var(--line); flex-shrink:0;" onerror="this.style.display='none'">`
       : '';
 
     return `

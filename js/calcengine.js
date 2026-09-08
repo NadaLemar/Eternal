@@ -91,11 +91,50 @@ const EterCalc = (() => {
     return { attackBonusPct: Math.round(attackBonusPct * 100) / 100, breakdown, confidence: 'confirmed' };
   }
 
+  // ---- 데미지 레인지 계산 (확정 배율. 캐릭터 스탯→인벤창 공격력 변환식은 미확인) ----
+  // 검증: [CL] 처형자의 검 (인벤창 공격력 52,604) 실측값과 오차 ±1 이내로 완전히 일치.
+  function calculateDamageRange({ inventoryAttack, sizeMultiplier = 1, ammoSkinMultiplier = 1, specialMultiplier = 1, skillMultiplier = 1 }) {
+    const normalMin = inventoryAttack * 0.88 * sizeMultiplier * ammoSkinMultiplier * specialMultiplier * skillMultiplier;
+    const normalMax = normalMin * 1.5;
+    const fireMin = normalMin * 1.5;
+    const fireMax = normalMax * 1.5;
+    const criticalMin = normalMin * 1.55;
+    const criticalMax = normalMax * 1.55;
+    const headshotMin = normalMin * 3.10;
+    const headshotMax = normalMax * 3.10;
+    const criticalFireMin = criticalMin * 1.5;
+    const criticalFireMax = criticalMax * 1.5;
+    const headshotFireMin = headshotMin * 1.5;
+    const headshotFireMax = headshotMax * 1.5;
+
+    const r = (v) => Math.round(v);
+    return {
+      normal: [r(normalMin), r(normalMax)],
+      fire: [r(fireMin), r(fireMax)],
+      critical: [r(criticalMin), r(criticalMax)],
+      headshot: [r(headshotMin), r(headshotMax)],
+      criticalFire: [r(criticalFireMin), r(criticalFireMax)],
+      headshotFire: [r(headshotFireMin), r(headshotFireMax)],
+      confidence: 'confirmed',
+      note: '기본 배율(0.88, 1.5, 1.55, 3.10)은 확정. 크기/탄종/특수/스킬 보정값은 아이템별로 다를 수 있으며 기본값 1로 계산됩니다.',
+    };
+  }
+
+  // ---- 캐릭터 스탯 → 인벤창 공격력 (공식 미확인, 임의 추정 금지) ----
+  function calculateCharacterAttack() {
+    return {
+      value: null,
+      confidence: 'unknown',
+      note: 'NEEDS_VERIFICATION — 무기 파괴력에 체력/기술/템공합/업적공/해방공/무기타입이 어떻게 반영되는지 정확한 공식이 아직 확인되지 않았습니다. 실제 게임 화면에 표시된 공격력 값을 직접 입력해서 사용하세요.',
+    };
+  }
+
   return {
     PART_TUNING_MULT, PART_TUNING_ORDER,
     ENHANCEMENT_STAGES, ENHANCEMENT_CUMULATIVE,
     GRADE_COEFF, MATERIAL_COEFF, PIECE_MULT,
     calculateWeaponEnhancement, calculateWeaponPartStat,
     calculateArmorPlusUp, weightedSteps,
+    calculateDamageRange, calculateCharacterAttack,
   };
 })();
