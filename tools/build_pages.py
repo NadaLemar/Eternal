@@ -91,10 +91,16 @@ weapons_body = """
     <div class="grid" id="w-grid">
       <div class="empty-state"><strong>불러오는 중...</strong></div>
     </div>
+
+    <div class="section-title" style="margin-top:44px;">
+      <h2>유니크 개조 정보</h2>
+      <span class="section-title__note">정확한 수치 미확인 — 효과 방향만 표시</span>
+    </div>
+    <div id="unique-list" class="cat-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 20px;"></div>
 """
 write_page('weapons.html', '무기 정보', '이터널시티 무기 등급별·타입별 스펙과 강화 정보.',
            'weapons.html', weapons_body,
-           '<script src="js/itemgrid.js"></script>\n<script src="js/weapons.js"></script>')
+           '<script src="js/itemgrid.js"></script>\n<script src="js/weapons.js"></script>\n<script src="js/weaponunique.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 코스튬 · 날개
@@ -402,241 +408,6 @@ write_page('achievements.html', '업적 · 도전과제', '이터널시티 업�
            'achievements.html', achievements_body, '<script src="js/achievements.js"></script>')
 
 # ---------------------------------------------------------------------------
-# 강화 시뮬레이터 (플러스업)
-# ---------------------------------------------------------------------------
-calculators_body = """
-    <div class="page-header">
-      <div class="page-header__eyebrow">TOOLS / ENHANCEMENT SIMULATOR</div>
-      <h1>강화 시뮬레이터</h1>
-      <p>아이템 종류별 플러스업 성공·실패·초기화 확률로 기대 비용을 계산하고, 실제 강화 과정을 직접 시뮬레이션해보세요.</p>
-    </div>
-
-    <div class="toolbar" style="border-bottom:none; padding-bottom:0; margin-bottom:18px;">
-      <div class="chip-group" id="pu-category"></div>
-    </div>
-
-    <div id="pu-empty" class="placeholder" style="display:none;">
-      <div class="placeholder__mark">DATA NOT YET LINKED</div>
-      <h2 id="pu-empty-label"></h2>
-      <p>이 종류의 강화 확률표는 아직 등록되지 않았습니다. eterinfo.kr 등에서 해당 종류의 확률표를 붙여넣어 주시면 반영해 드릴게요.</p>
-    </div>
-
-    <div id="pu-content">
-      <div class="section-title">
-        <h2>강화 확률표</h2>
-        <span class="section-title__note" id="pu-cost-note"></span>
-      </div>
-      <div style="overflow-x:auto; margin-bottom:36px; border:1px solid var(--line);">
-        <table style="width:100%; border-collapse:collapse; font-size:13px;">
-          <thead>
-            <tr style="background:var(--panel-raised); text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--muted);">
-              <th style="text-align:left; padding:9px 12px;">강화</th>
-              <th style="padding:9px 12px;">성공</th>
-              <th style="padding:9px 12px;">실패</th>
-              <th style="padding:9px 12px;">초기화</th>
-              <th style="padding:9px 12px;">누적 공격력 증가</th>
-              <th style="padding:9px 12px;">누적 증가 (CL)</th>
-            </tr>
-          </thead>
-          <tbody id="pu-table-body"></tbody>
-        </table>
-      </div>
-
-      <div class="cat-grid" style="grid-template-columns: 1fr 1fr; margin-bottom: 36px;">
-        <div class="cat-card" style="min-height:auto;">
-          <h3>기대값 계산기</h3>
-          <p>이론적으로 평균 몇 번 시도해야 목표 강화 단계에 도달하는지 계산합니다.</p>
-          <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:6px;">
-            <label style="font-size:12.5px; color:var(--muted);">현재 단계
-              <select id="pu-from" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
-            </label>
-            <label style="font-size:12.5px; color:var(--muted);">목표 단계
-              <select id="pu-to" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
-            </label>
-            <label style="font-size:12.5px; color:var(--muted);">재료 1회 비용
-              <input id="pu-cost-input" type="number" style="display:block; margin-top:4px; width:110px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-mono);">
-            </label>
-          </div>
-          <div style="margin-top:16px; border-top:1px solid var(--line); padding-top:14px;">
-            <div class="hero__stat" style="border:none; padding:0;">
-              <div class="hero__stat-num" id="pu-expected-attempts">–</div>
-              <div class="hero__stat-label">평균 예상 시도 횟수</div>
-            </div>
-            <div class="hero__stat" style="border:none; padding:12px 0 0;">
-              <div class="hero__stat-num" id="pu-expected-cost">–</div>
-              <div class="hero__stat-label">평균 예상 비용</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="cat-card" style="min-height:auto;">
-          <h3>실전 시뮬레이터</h3>
-          <p>버튼을 눌러 실제로 강화를 시도해보세요. 확률에 따라 성공·실패·초기화가 무작위로 결정됩니다.</p>
-          <div style="display:flex; align-items:baseline; gap:10px; margin-top:10px;">
-            <div class="hero__stat-num" id="pu-sim-level" style="font-size:40px;">+0</div>
-            <div class="card__meta">현재 강화 단계</div>
-          </div>
-          <dl class="card__stats" style="grid-template-columns: repeat(3, 1fr); margin-top:6px;">
-            <div class="stat-row" style="flex-direction:column; align-items:flex-start; gap:2px;"><dt>총 시도</dt><dd id="pu-sim-attempts">0</dd></div>
-            <div class="stat-row" style="flex-direction:column; align-items:flex-start; gap:2px;"><dt>총 비용</dt><dd id="pu-sim-cost">0</dd></div>
-            <div class="stat-row" style="flex-direction:column; align-items:flex-start; gap:2px;"><dt>초기화 횟수</dt><dd id="pu-sim-resets">0</dd></div>
-          </dl>
-          <div style="display:flex; gap:8px; margin-top:14px; flex-wrap:wrap;">
-            <button class="chip" id="pu-sim-attempt" style="background:var(--olive-dim); border-color:var(--olive); color:var(--paper); font-size:13px; padding:9px 16px;">강화 시도</button>
-            <button class="chip" id="pu-sim-auto" style="font-size:13px; padding:9px 16px;">목표까지 자동 시도</button>
-            <button class="chip" id="pu-sim-reset" style="font-size:13px; padding:9px 16px;">초기화</button>
-          </div>
-          <div id="pu-sim-log" style="margin-top:14px; max-height:180px; overflow-y:auto; font-family:var(--font-mono); font-size:11.5px; color:var(--muted); border-top:1px solid var(--line); padding-top:10px; display:flex; flex-direction:column-reverse; gap:3px;"></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section-title" style="margin-top:44px;">
-      <h2>아이템 등급 착용 제한</h2>
-      <span class="section-title__note">출처: 나무위키</span>
-    </div>
-    <div class="cat-grid" style="grid-template-columns: 1fr 1fr; margin-bottom: 36px;">
-      <div class="cat-card" style="min-height:auto;">
-        <h3>착용 레벨 계산기</h3>
-        <p>9등급 이하 아이템은 <code style="color:var(--amber);">(등급-2)×10</code> 레벨부터 페널티 없이 착용할 수 있고,
-        그보다 낮은 레벨로 착용하면 부족한 레벨 1당 성능이 10%씩 깎입니다. 10등급은 90레벨,
-        11등급은 101레벨 + 특정 퀘스트가 반드시 필요합니다(부분 착용 불가).</p>
-        <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:10px;">
-          <label style="font-size:12.5px; color:var(--muted);">아이템 등급
-            <select id="lv-grade" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);">
-              <option value="1">1등급</option><option value="2">2등급</option><option value="3">3등급</option>
-              <option value="4">4등급</option><option value="5">5등급</option><option value="6">6등급</option>
-              <option value="7">7등급</option><option value="8">8등급</option><option value="9">9등급</option>
-              <option value="10">10등급</option><option value="11">11등급</option>
-            </select>
-          </label>
-          <label style="font-size:12.5px; color:var(--muted);">내 캐릭터 레벨
-            <input id="lv-char" type="number" min="1" value="60" style="display:block; margin-top:4px; width:100px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-mono);">
-          </label>
-        </div>
-        <div style="margin-top:16px; border-top:1px solid var(--line); padding-top:14px;">
-          <div class="hero__stat" style="border:none; padding:0;">
-            <div class="hero__stat-num" id="lv-required">–</div>
-            <div class="hero__stat-label">권장 착용 레벨</div>
-          </div>
-          <div class="hero__stat" style="border:none; padding:12px 0 0;">
-            <div class="hero__stat-num" id="lv-penalty">–</div>
-            <div class="hero__stat-label">현재 레벨 기준 성능 적용률</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cat-card" style="min-height:auto;">
-        <h3>명인 업그레이드 승급 확률</h3>
-        <p>일반/CL 무기를 <b style="color:var(--paper);">명인 등급</b>으로 승급시키는 별도 확률 시스템입니다.
-        위의 플러스업(+1~+15)과는 다른 콘텐츠이며, 현재 알려진 값은 다음과 같습니다.</p>
-        <dl class="card__stats" style="grid-template-columns: 1fr; margin-top:10px;">
-          <div class="stat-row"><dt>8등급 이상 기본 성공률</dt><dd>0.5%</dd></div>
-          <div class="stat-row"><dt>특수가공 부품 사용 시</dt><dd>0.75% (1.5배)</dd></div>
-        </dl>
-        <div class="card__foot" style="margin-top:12px;">7등급 이하 성공률 및 실패 시 페널티(재료 소모/등급 유지 여부)는
-        아직 확인되지 않았습니다. 정보를 알고 계시면 알려주세요 — 바로 반영해 드릴게요.</div>
-      </div>
-    </div>
-
-    <div class="section-title" style="margin-top:44px;">
-      <h2>무기 강화 · 튜닝 계산기</h2>
-      <span class="section-title__note">몸체 튜닝 × 강화단계 누적배율 (확정 공식)</span>
-    </div>
-    <div class="cat-card" style="min-height:auto; margin-bottom:36px;">
-      <p>우리 DB에 등록된 무기를 골라 몸체 튜닝과 강화 단계를 선택하면, 확정된 배율 공식으로
-      최종 파괴력을 계산합니다. 총열/손잡이/조준경(치명·탄착률·명중률)은 영향을 주는 스탯은
-      확인됐지만 정확한 상한·반올림 규칙이 아직 미확인이라 이번 계산기에는 포함하지 않았습니다.</p>
-      <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-top:12px;">
-        <label style="font-size:12.5px; color:var(--muted); flex:1 1 260px;">무기 선택
-          <select id="wc-weapon" style="display:block; width:100%; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
-        </label>
-        <label style="font-size:12.5px; color:var(--muted);">몸체 튜닝
-          <select id="wc-body" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
-        </label>
-        <label style="font-size:12.5px; color:var(--muted);">강화 단계
-          <select id="wc-stage" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
-        </label>
-      </div>
-      <div style="margin-top:16px; border-top:1px solid var(--line); padding-top:14px;">
-        <div class="hero__stat" style="border:none; padding:0;">
-          <div class="hero__stat-num" id="wc-result">–</div>
-          <div class="hero__stat-label">계산된 파괴력 (기초 <span id="wc-base">–</span>)</div>
-        </div>
-      </div>
-      <div id="wc-breakdown" style="margin-top:12px; font-family:var(--font-mono); font-size:12px; color:var(--muted); display:flex; flex-direction:column; gap:3px;"></div>
-      <div class="card__foot" style="margin-top:10px;">오차 안내: 사이트와 완전히 동일한 정수 반올림 규칙은 미확정이라, 실제 값과 ±2 정도 차이가 날 수 있습니다.</div>
-    </div>
-
-    <div class="section-title">
-      <h2>방어구 플러스업 효과 계산기</h2>
-      <span class="section-title__note">등급 × 재질 × CL × 부위 × 플러스업 단계 (확정 공식)</span>
-    </div>
-    <div class="cat-card" style="min-height:auto;">
-      <p>강화(플러스업) <b style="color:var(--paper);">확률</b>은 위쪽 시뮬레이터에서, 플러스업을 완료했을 때
-      실제로 얻는 <b style="color:var(--paper);">공격력 증가율(%)</b>은 이 계산기에서 확인하세요. 별개의 두 시스템입니다.</p>
-      <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-top:12px;">
-        <label style="font-size:12.5px; color:var(--muted);">아이템 등급
-          <select id="ac-grade-calc" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);">
-            <option value="1">1등급</option><option value="2">2등급</option><option value="3">3등급</option>
-            <option value="4">4등급</option><option value="5">5등급</option><option value="6" selected>6등급</option>
-            <option value="7">7등급</option><option value="8">8등급</option><option value="9">9등급</option>
-            <option value="10">10등급</option><option value="11">11등급</option>
-          </select>
-        </label>
-        <label style="font-size:12.5px; color:var(--muted);">재질
-          <select id="ac-material" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);">
-            <option value="장인">장인 (1.11)</option>
-            <option value="명인">명인 (1.66)</option>
-            <option value="O.T" selected>O.T (2.5)</option>
-          </select>
-        </label>
-        <label style="font-size:12.5px; color:var(--muted);">CL 여부
-          <select id="ac-cl" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);">
-            <option value="0" selected>일반 (×1.0)</option>
-            <option value="1">CL (×1.1)</option>
-          </select>
-        </label>
-        <label style="font-size:12.5px; color:var(--muted);">부위
-          <select id="ac-piece" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);">
-            <option value="일반" selected>일반 (×1)</option>
-            <option value="원피스">원피스 (×2)</option>
-            <option value="전신의상">전신의상 (×6)</option>
-          </select>
-        </label>
-        <label style="font-size:12.5px; color:var(--muted);">플러스업 단계
-          <select id="ac-level" style="display:block; margin-top:4px; background:var(--panel); border:1px solid var(--line-bright); color:var(--paper); padding:7px 9px; font-family:var(--font-kr);"></select>
-        </label>
-      </div>
-      <div style="margin-top:16px; border-top:1px solid var(--line); padding-top:14px;">
-        <div class="hero__stat" style="border:none; padding:0;">
-          <div class="hero__stat-num" id="ac-result">–</div>
-          <div class="hero__stat-label">공격력 증가율</div>
-        </div>
-      </div>
-      <div id="ac-breakdown" style="margin-top:12px; font-family:var(--font-mono); font-size:12px; color:var(--muted); display:flex; flex-direction:column; gap:3px;"></div>
-    </div>
-
-    <div class="section-title" style="margin-top:44px;">
-      <h2>접두사 · 유니크 개조 (정성적 정보)</h2>
-      <span class="section-title__note">정확한 수치 미확인 — 효과 방향만 표시</span>
-    </div>
-    <div class="cat-grid" style="grid-template-columns: 1fr 1fr; margin-bottom: 20px;">
-      <div class="cat-card" style="min-height:auto;">
-        <h3>방어구 접두사</h3>
-        <div id="prefix-list" style="font-size:12.5px; color:var(--paper-dim); display:flex; flex-direction:column; gap:6px; margin-top:8px;"></div>
-      </div>
-      <div class="cat-card" style="min-height:auto;">
-        <h3>무기 유니크 개조</h3>
-        <div id="unique-list" style="font-size:12.5px; color:var(--paper-dim); display:flex; flex-direction:column; gap:6px; margin-top:8px;"></div>
-      </div>
-    </div>
-"""
-write_page('calculators.html', '강화 시뮬레이터', '이터널시티 아이템 종류별 플러스업 강화 확률/기대비용/시뮬레이터.',
-           'calculators.html', calculators_body,
-           '<script src="js/plusup.js"></script>\n<script src="js/itemlevel.js"></script>\n<script src="js/calcengine.js"></script>\n<script src="js/weaponcalc.js"></script>\n<script src="js/armorpluscalc.js"></script>\n<script src="js/refdata.js"></script>')
-
-# ---------------------------------------------------------------------------
 # 방어구
 # ---------------------------------------------------------------------------
 armors_body = """
@@ -661,10 +432,17 @@ armors_body = """
     <div class="grid" id="ar-grid">
       <div class="empty-state"><strong>불러오는 중...</strong></div>
     </div>
+
+    <div class="section-title" style="margin-top:44px;">
+      <h2>접두사 정보</h2>
+      <span class="section-title__note">정확한 수치 미확인 — 효과 방향만 표시</span>
+    </div>
+    <div class="chip-group" id="prefix-tabs" style="margin-bottom:16px;"></div>
+    <div id="prefix-list" class="cat-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 20px;"></div>
 """
 write_page('armors.html', '방어구', '이터널시티 방어구·의류·방패 부위별 전체 목록.',
            'armors.html', armors_body,
-           '<script src="js/itemgrid.js"></script>\n<script src="js/armors.js"></script>')
+           '<script src="js/itemgrid.js"></script>\n<script src="js/armors.js"></script>\n<script src="js/armorprefix.js"></script>')
 
 # ---------------------------------------------------------------------------
 # 악세서리
