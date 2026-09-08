@@ -10,6 +10,40 @@ document.addEventListener('DOMContentLoaded', async () => {
   setupNotice.style.display = 'none';
   appRoot.style.display = '';
 
+  // ---- 아이템 카탈로그 로드 (무기/방어구/악세서리/코스튬) → 이름 자동완성 + 카테고리 자동 매핑 ----
+  const [catWeapons, catArmors, catAccessories, catCostumes] = await Promise.all([
+    EterCommon.loadJSON('data/weapons.json'),
+    EterCommon.loadJSON('data/armors.json'),
+    EterCommon.loadJSON('data/accessories.json'),
+    EterCommon.loadJSON('data/costume_items.json'),
+  ]);
+  const nameToCategory = new Map();
+  catWeapons.forEach(it => nameToCategory.set(it.name, '무기'));
+  catArmors.forEach(it => nameToCategory.set(it.name, '방어구'));
+  catAccessories.forEach(it => nameToCategory.set(it.name, '악세서리'));
+  catCostumes.forEach(it => nameToCategory.set(it.name, '코스튬'));
+
+  const datalistEl = document.getElementById('tr-item-catalog');
+  if (datalistEl) {
+    const seen = new Set();
+    let optionsHtml = '';
+    nameToCategory.forEach((_, name) => {
+      if (seen.has(name)) return;
+      seen.add(name);
+      optionsHtml += `<option value="${EterCommon.escapeHtml(name)}">`;
+    });
+    datalistEl.innerHTML = optionsHtml;
+  }
+
+  const itemNameInput = document.getElementById('tr-itemname');
+  const formCategorySelect = document.querySelector('#tr-form select[name="category"]');
+  if (itemNameInput && formCategorySelect) {
+    itemNameInput.addEventListener('input', () => {
+      const match = nameToCategory.get(itemNameInput.value.trim());
+      if (match) formCategorySelect.value = match;
+    });
+  }
+
   // ---- Firebase 초기화 (compat SDK, 스크립트 태그로 로드됨) ----
   firebase.initializeApp(window.ETER_FIREBASE_CONFIG);
   const db = firebase.firestore();

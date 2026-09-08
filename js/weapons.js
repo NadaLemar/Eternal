@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     filters: [
       { id: 'w-cat1', field: 'category1' },
       { id: 'w-grade', field: 'grade', isGrade: true },
+      { id: 'w-range', field: 'rangeType' },
     ],
   });
 });

@@ -16,9 +16,14 @@ const EterItemGrid = (() => {
     loadRate: '탄착',
     accuracy: '명중',
     shotCount: '발수',
+    weight: '무게',
+    maxEnhancedPower: '최대강화 피해량',
+    holdCount: '보유개수',
+    dpsPerSecond: '초당 파괴력(추정)',
   };
   const STAT_ORDER = ['power', 'atkPct', 'defense', 'defensePct', 'hp', 'crit', 'evasion',
-    'stamina', 'speed', 'action', 'numb', 'accuracy', 'loadRate', 'shotCount'];
+    'stamina', 'speed', 'action', 'numb', 'accuracy', 'loadRate', 'shotCount',
+    'maxEnhancedPower', 'dpsPerSecond', 'weight', 'holdCount'];
 
   function statList(item) {
     const rows = STAT_ORDER
@@ -48,6 +53,7 @@ const EterItemGrid = (() => {
       item.illegal ? `<span class="badge badge--illegal">불법</span>` : '',
       item.grade != null ? `<span class="badge badge--grade">등급 ${item.grade}</span>` : '',
       item.type ? `<span class="badge">${EterCommon.escapeHtml(item.type)}</span>` : '',
+      item.rangeType ? `<span class="badge badge--olive">${EterCommon.escapeHtml(item.rangeType)}</span>` : '',
     ].filter(Boolean).join('');
 
     const img = (opts.showImage && item.imageUrl)
@@ -66,6 +72,9 @@ const EterItemGrid = (() => {
         <div class="card__badges">${badges}</div>
         ${statList(item)}
         ${item.features && item.features.length ? `<div class="card__foot">${item.features.map(EterCommon.escapeHtml).join(' · ')}</div>` : ''}
+        ${item.weaponSkill ? `<div class="card__foot">무기 스킬: ${EterCommon.escapeHtml(item.weaponSkill)}</div>` : ''}
+        ${item.tuningSlots && item.tuningSlots.length ? `<div class="card__foot">튜닝 슬롯: ${item.tuningSlots.map(EterCommon.escapeHtml).join(', ')}</div>` : ''}
+        ${item.materialOptions && item.materialOptions.length ? `<div class="card__foot">재질 옵션: ${item.materialOptions.map(EterCommon.escapeHtml).join(', ')}</div>` : ''}
         ${secondaryBlock(item)}
         ${item.detailUrl ? `<div class="card__foot"><a href="${item.detailUrl}" target="_blank" rel="noopener">원본 보기 ↗</a></div>` : ''}
       </article>

@@ -7,7 +7,28 @@
     "grade": 6,
     "type": "남성가발",
     "detailUrl": "https://eterinfo.kr/item/CLA010200",
-    "imageUrl": "https://eterinfo.kr/resource/img/353.gif"
+    "imageUrl": "https://eterinfo.kr/resource/img/353.gif",
+    "weight": 0,
+    "holdCount": 1,
+    "tuningSlots": [
+      "재질",
+      "코팅",
+      "두께",
+      "디자인"
+    ],
+    "materialOptions": [
+      "없음",
+      "전설의",
+      "고대의",
+      "의지의",
+      "민첩의",
+      "생명의",
+      "근성의",
+      "신속의",
+      "영생의",
+      "용기의",
+      "초월의"
+    ]
   },
   {
     "id": "CLA011400",

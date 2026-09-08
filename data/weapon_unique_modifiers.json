@@ -1,0 +1,51 @@
+[
+  {
+    "modifier": "파워형(Pow)",
+    "effect": "파워 증가, 무게 증가",
+    "appliesTo": "모든 무기",
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "modifier": "치명형(Crt)",
+    "effect": "치명타 증가, 명중률 감소",
+    "appliesTo": "도검/도끼/기관총/샷건/화염방사기/안탱·히트",
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "modifier": "경량형(Lgt)",
+    "effect": "무게 감소, 파워 소폭 감소",
+    "appliesTo": "장창/미늘창/권총/저격총/지원화기/돌격소총/중화기/화염방사기/연발샷건",
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "modifier": "저격형(Snp)",
+    "effect": "탄착률 증가, 파워 감소",
+    "appliesTo": "기관총/지원화기/안탱·히트",
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "modifier": "정밀형(Acr)",
+    "effect": "명중률 증가, 치명타 증가",
+    "appliesTo": "미늘창(경량)/권총/중화기",
+    "valueStatus": "미확인",
+    "note": ""
+  },
+  {
+    "modifier": "속도형(Rpd)",
+    "effect": "공격속도 증가",
+    "appliesTo": "둔기",
+    "valueStatus": "미확인",
+    "note": "근거리"
+  },
+  {
+    "modifier": "연사형(Rpd)",
+    "effect": "발사속도 증가",
+    "appliesTo": "돌격소총/저격총/샷건",
+    "valueStatus": "미확인",
+    "note": "원거리"
+  }
+]
